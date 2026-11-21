@@ -1,12 +1,12 @@
 {
   "package": "caofeng-ppt",
   "version": "3.17.0",
-  "built_at": "2026-11-21T18:50:36",
+  "built_at": "2026-11-21T19:04:20",
   "supersedes": "2.7.0（语料目录单点解析）→ 2.8.0（新增 G20 素材覆盖率闸）；最早是 1.0.0 WorkBuddy 版",
   "spec": "SPEC.md（29 道机器闸 / 反向自证跑 scripts/test_gates.py / 语料目录单点解析）",
   "totals": {
     "files": 71,
-    "bytes": 3983684
+    "bytes": 3985660
   },
   "agent_paths": {
     "workbuddy": "~/.workbuddy/skills/",
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5782,
-      "sha256": "1b8300bd28107efd3867cd788c00676347ae7b5bb7f4a0fcb447b9228ea6377a"
+      "bytes": 7758,
+      "sha256": "3d77da4f71284724867e4b76513f989c137977f1e31fff66901b8c25d5384ac9"
     },
     {
       "path": "SECURITY.md",
