@@ -1,0 +1,1384 @@
+{
+ "n_decks_with_theme": 171,
+ "theme_font_pairs": [
+  [
+   "|",
+   167
+  ],
+  [
+   "思源宋体 CN Heavy|思源宋体 CN Medium",
+   3
+  ],
+  [
+   "微软雅黑|微软雅黑",
+   1
+  ]
+ ],
+ "theme_accent_colors": [
+  [
+   "FFC000",
+   173
+  ],
+  [
+   "4472C4",
+   167
+  ],
+  [
+   "ED7D31",
+   167
+  ],
+  [
+   "A5A5A5",
+   167
+  ],
+  [
+   "5B9BD5",
+   167
+  ],
+  [
+   "70AD47",
+   167
+  ],
+  [
+   "009EFA",
+   3
+  ],
+  [
+   "FF3C8B",
+   3
+  ],
+  [
+   "448FE2",
+   3
+  ],
+  [
+   "81CAFE",
+   3
+  ],
+  [
+   "A02B93",
+   3
+  ],
+  [
+   "4EA72E",
+   3
+  ]
+ ],
+ "palette_families": {
+  "blue": {
+   "n_decks": 155,
+   "decks": [
+    "360°全方位产品介绍PPT模版.pptx",
+    "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+    "NO.102 PPT展翅高飞（含教程）.pptx",
+    "NO.103 PPT菱形介绍（含教程）.pptx",
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.106  PPT文字跟随滑动（含教程）.pptx",
+    "NO.107 PPT动态长图（含教程）.pptx",
+    "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+    "NO.110  PPT动态跑步效果（含教程）.pptx",
+    "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+    "NO.112 PPT旋转镜头（含教程）.pptx",
+    "NO.113 PPT热气球动态封面（含教程）.pptx",
+    "NO.114 PPT动态飞机文字排版（含教程）.pptx",
+    "NO.115 PPT卡片轮播（含教程）.pptx",
+    "NO.116 PPT数字滚动时间轴（含教程）.pptx",
+    "NO.117 PPT动态结尾（含教程）.pptx",
+    "NO.118 PPT电影级结尾（含教程）.pptx",
+    "NO.119 PPT图片墙.pptx",
+    "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+    "NO.121 PPT手机成果展示（含教程）.pptx",
+    "NO.122 PPT画出城市效果（含教程）.pptx",
+    "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+    "NO.124 PPT动态时间轴（含教程）.pptx",
+    "NO.125 PPT科技封面（含教程）.pptx",
+    "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+    "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+    "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+    "NO.129 PPT撕纸封面（含教程）.pptx",
+    "NO.130 PPT动态冲浪封面（含教程）.pptx",
+    "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+    "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+    "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+    "NO.134  PPT国风时间轴（含教程）.pptx",
+    "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+    "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+    "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+    "NO.138 PPT旋转风车（含教程）.pptx",
+    "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+    "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+    "NO.141 PPT动态舞狮封面.pptx",
+    "NO.142 PPT动态卷轴目录（含教程）.pptx",
+    "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+    "NO.144 PPT动态数字过渡页（含教程）.pptx",
+    "NO.145 PPT科技风动态展示（含教程）.pptx",
+    "NO.146 PPT科技风动态对比页（含教程）.pptx",
+    "NO.147 PPT科技风数据展示（含教程）.pptx",
+    "NO.148 PPT地图到实景的城市生长效果.pptx",
+    "NO.149 PPT唱片过渡页（含教程）.pptx",
+    "NO.150 PPT水墨风转场效果（含教程）.pptx",
+    "NO.151 PPT玻璃破碎图片展示.pptx",
+    "NO.152 PPT科技风步骤条.pptx",
+    "NO.153 PPT动态划船图文展示（含教程）.pptx",
+    "NO.154 PPT动态国风开场（含教程）.pptx",
+    "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+    "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+    "NO.157 PPT动态风车封面（含教程）.pptx",
+    "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+    "NO.159 折页图文动态展示（含教程）.pptx",
+    "NO.160 PPT城市动态画卷（含教程）.pptx",
+    "NO.161 PPT动态手绘封面（含教程）.pptx",
+    "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+    "NO.164 PPT3D微缩景观（含教程）.pptx",
+    "NO.165 PPT动态驾驶封面（含教程）.pptx",
+    "NO.166 PPT动态列车展示风景（含教程）.pptx",
+    "NO.167 PPT航运动态时间轴（含教程）.pptx",
+    "NO.168 PPT动态列车展示页（含教程）.pptx",
+    "NO.169 PPT科技风动态展示页（含教程）.pptx",
+    "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+    "NO.171 科技风动态扫描展示页（含教程）.pptx",
+    "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+    "NO.173 PPT动态工厂（含教程）.pptx",
+    "NO.174 PPT汽车动态展示（含教程）.pptx",
+    "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+    "NO.176  PPT海浪动态封面（含教程）.pptx",
+    "NO.67人物介绍.pptx",
+    "NO.68 PPT动态时间轴.pptx",
+    "NO.71 PPT水墨开场.pptx",
+    "NO.73 PPT飞机划过开场.pptx",
+    "NO.74 PPT创赛级国风模版.pptx",
+    "NO.76 PPT破碎开场效果.pptx",
+    "NO.77 PPT创意图标条形图.pptx",
+    "NO.78 PPT闪光划过开场.pptx",
+    "NO.79 PPT创意图标柱状图.pptx",
+    "NO.80 PPT闪光开场.pptx",
+    "NO.82 PPT旋转开场.pptx",
+    "NO.83 PPT图片循环轮播.pptx",
+    "NO.84 PPT涂鸦开场.pptx",
+    "NO.85 PPT玻璃质感立体柱状图.pptx",
+    "NO.86 PPT拼图开场.pptx",
+    "NO.87 PPT动态封面.pptx",
+    "NO.88 PPT图片钻出.pptx",
+    "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+    "NO.90 PPT动态菱形开场.pptx",
+    "NO.91 PPT动态封面-开场模版.pptx",
+    "NO.92 PPT打开扇子模版（含教程）.pptx",
+    "NO.93 PPT动态封面（含教程）.pptx",
+    "NO.94 PPT动态折纸效果.pptx",
+    "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+    "NO.96 PPT拉幕动画（含教程）.pptx",
+    "NO.97 PPT万物生长效果（含教程）.pptx",
+    "NO.98 PPT动态开花效果（含教程）.pptx",
+    "NO.99 PPT握手动画（含教程）.pptx",
+    "PPT3D动态人物介绍.pptx",
+    "PPT7×5神奇表格.pptx",
+    "PPT三重图片轮播效果.pptx",
+    "PPT产品参数对比模版.pptx",
+    "PPT创意动态封面.pptx",
+    "PPT动态图文展示时间轴里程碑模版.pptx",
+    "PPT动态圆环年中工作汇报模版.pptx",
+    "PPT动态折线面积图（含模版+教程）.pptx",
+    "PPT动态条形图.pptx",
+    "PPT动态柱状图.pptx",
+    "PPT动态笔刷开场模版.pptx",
+    "PPT动态表格.pptx",
+    "PPT动态轮盘（工作汇报模版）.pptx",
+    "PPT动画拉幕转场效果（内含模版+视频教程）.pptx",
+    "PPT动画音频效果.pptx",
+    "PPT可视化动态饼图.pptx",
+    "PPT商品一键换色模版.pptx",
+    "PPT图标素材.pptx",
+    "PPT多图排版.pptx",
+    "PPT撕纸开场效果.pptx",
+    "PPT数据可视化.pptx",
+    "PPT照片墙扩散轮播效果.pptx",
+    "PPT电影级字幕滚动结尾页.pptx",
+    "PPT科技风动态轮盘目录页.pptx",
+    "PPT科技风卡片模版.pptx",
+    "PPT科技风打字效果.pptx",
+    "PPT竞赛答题模版.pptx",
+    "PPT逻辑关系图模版.pptx",
+    "PPT随机抽奖模版.pptx",
+    "【PPT003】团队介绍.pptx",
+    "【PPT模版】党建红色主题中国风模版.pptx",
+    "【PPT模版】动态折线图.pptx",
+    "【PPT模版】动态时间轴.pptx",
+    "【PPT模版】图片轮播展示.pptx",
+    "【PPT模版】大小图片图片轮播展示.pptx",
+    "【PPT模版】年终工作汇报总结模版.pptx",
+    "【PPT模版】收入支出对比分析.pptx",
+    "【PPT模版】文字排版.pptx",
+    "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+    "【PPT模版】笔刷擦除模版.pptx",
+    "【PPT模版】高颜值表格.pptx",
+    "产品需求文档.pptx",
+    "创意动态时间轴.pptx",
+    "创意目录页.pptx",
+    "制作动态排名图（内含制作工具和视频教程）.pptx",
+    "动态占比可视化分析.pptx",
+    "地图缩放定位.pptx",
+    "打开卷轴动态效果.pptx",
+    "新旧对比.pptx",
+    "科技感动态过渡页.pptx",
+    "科技感图片轮播展示.pptx",
+    "科技风时间轴.pptx",
+    "转正升职竞聘述职PPT模版.pptx"
+   ],
+   "leads": [
+    [
+     "4472C4",
+     78
+    ],
+    [
+     "086DB5",
+     64
+    ],
+    [
+     "6B95F2",
+     3
+    ],
+    [
+     "009EFA",
+     3
+    ],
+    [
+     "11508C",
+     1
+    ],
+    [
+     "295BBC",
+     1
+    ],
+    [
+     "2F84C3",
+     1
+    ],
+    [
+     "016DFF",
+     1
+    ],
+    [
+     "5353FF",
+     1
+    ],
+    [
+     "225293",
+     1
+    ]
+   ],
+   "median_lead_uses": 21,
+   "dark_share_pct": 0.0,
+   "examples": [
+    {
+     "deck": "360°全方位产品介绍PPT模版.pptx",
+     "lead": "4472C4",
+     "lead_uses": 33,
+     "palette_used": [
+      "4472C4",
+      "FCCFBC"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+     "lead": "4472C4",
+     "lead_uses": 35,
+     "palette_used": [
+      "4472C4",
+      "6B95F2",
+      "D7B27C"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.102 PPT展翅高飞（含教程）.pptx",
+     "lead": "4472C4",
+     "lead_uses": 35,
+     "palette_used": [
+      "4472C4",
+      "6B95F2"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.103 PPT菱形介绍（含教程）.pptx",
+     "lead": "4472C4",
+     "lead_uses": 30,
+     "palette_used": [
+      "4472C4",
+      "FFC000",
+      "05552C"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.104 PPT火箭升空（含教程）.pptx",
+     "lead": "6B95F2",
+     "lead_uses": 12,
+     "palette_used": [
+      "6B95F2",
+      "4472C4"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.106  PPT文字跟随滑动（含教程）.pptx",
+     "lead": "6B95F2",
+     "lead_uses": 8,
+     "palette_used": [
+      "6B95F2",
+      "4472C4",
+      "26DBF7"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.107 PPT动态长图（含教程）.pptx",
+     "lead": "4472C4",
+     "lead_uses": 17,
+     "palette_used": [
+      "4472C4"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+     "lead": "6B95F2",
+     "lead_uses": 16,
+     "palette_used": [
+      "6B95F2",
+      "4472C4"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.110  PPT动态跑步效果（含教程）.pptx",
+     "lead": "086DB5",
+     "lead_uses": 6,
+     "palette_used": [
+      "086DB5"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+     "lead": "086DB5",
+     "lead_uses": 6,
+     "palette_used": [
+      "086DB5",
+      "114AB8",
+      "37A0F7"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.112 PPT旋转镜头（含教程）.pptx",
+     "lead": "4472C4",
+     "lead_uses": 17,
+     "palette_used": [
+      "4472C4",
+      "2C7894",
+      "023AB5"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.113 PPT热气球动态封面（含教程）.pptx",
+     "lead": "086DB5",
+     "lead_uses": 12,
+     "palette_used": [
+      "086DB5",
+      "E99C52"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    }
+   ]
+  },
+  "yellow/gold": {
+   "n_decks": 5,
+   "decks": [
+    "NO.101 PPT动态转盘（含教程）.pptx",
+    "PPT形状创意页面.pptx",
+    "【PPT模版】多图片切换展示.pptx",
+    "【PPT模版】随机抽签.pptx",
+    "【PPT模版】鼠标悬停开灯效果.pptx"
+   ],
+   "leads": [
+    [
+     "FFC000",
+     4
+    ],
+    [
+     "FCDC4A",
+     1
+    ]
+   ],
+   "median_lead_uses": 24,
+   "dark_share_pct": 0.0,
+   "examples": [
+    {
+     "deck": "NO.101 PPT动态转盘（含教程）.pptx",
+     "lead": "FFC000",
+     "lead_uses": 32,
+     "palette_used": [
+      "FFC000",
+      "4472C4",
+      "6B95F2",
+      "26DBF7"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "PPT形状创意页面.pptx",
+     "lead": "FFC000",
+     "lead_uses": 17,
+     "palette_used": [
+      "FFC000"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "【PPT模版】多图片切换展示.pptx",
+     "lead": "FFC000",
+     "lead_uses": 17,
+     "palette_used": [
+      "FFC000"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "【PPT模版】随机抽签.pptx",
+     "lead": "FCDC4A",
+     "lead_uses": 50,
+     "palette_used": [
+      "FCDC4A",
+      "4472C4",
+      "70AD47",
+      "7192C6"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "【PPT模版】鼠标悬停开灯效果.pptx",
+     "lead": "FFC000",
+     "lead_uses": 24,
+     "palette_used": [
+      "FFC000"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    }
+   ]
+  },
+  "red": {
+   "n_decks": 4,
+   "decks": [
+    "NO.162 PPT红色风格企业介绍.pptx",
+    "NO.70 PPT五一劳动节模版.pptx",
+    "NO.75 PPT国风文字飞出效果.pptx",
+    "多人动态介绍.pptx"
+   ],
+   "leads": [
+    [
+     "9F070E",
+     1
+    ],
+    [
+     "A13515",
+     1
+    ],
+    [
+     "FF0000",
+     1
+    ],
+    [
+     "DD8885",
+     1
+    ]
+   ],
+   "median_lead_uses": 34,
+   "dark_share_pct": 0.0,
+   "examples": [
+    {
+     "deck": "NO.162 PPT红色风格企业介绍.pptx",
+     "lead": "9F070E",
+     "lead_uses": 134,
+     "palette_used": [
+      "9F070E",
+      "A50E13",
+      "086DB5",
+      "C60008"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.70 PPT五一劳动节模版.pptx",
+     "lead": "A13515",
+     "lead_uses": 36,
+     "palette_used": [
+      "A13515",
+      "4472C4",
+      "FEE88F",
+      "E9B25E",
+      "A70C0B",
+      "035EBB"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "NO.75 PPT国风文字飞出效果.pptx",
+     "lead": "FF0000",
+     "lead_uses": 24,
+     "palette_used": [
+      "FF0000",
+      "4472C4",
+      "FFFF00",
+      "6B95F2",
+      "FFC000",
+      "26DBF7"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "多人动态介绍.pptx",
+     "lead": "DD8885",
+     "lead_uses": 32,
+     "palette_used": [
+      "DD8885",
+      "4472C4",
+      "B51F1E",
+      "F48773"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    }
+   ]
+  },
+  "cyan": {
+   "n_decks": 3,
+   "decks": [
+    "NO.72 PPT创赛级科技风模版.pptx",
+    "【PPT模版】三维地图.pptx",
+    "【PPT模版】数字滚动.pptx"
+   ],
+   "leads": [
+    [
+     "00FFFF",
+     1
+    ],
+    [
+     "66D9F7",
+     1
+    ],
+    [
+     "00D9ED",
+     1
+    ]
+   ],
+   "median_lead_uses": 48,
+   "dark_share_pct": 33.3,
+   "examples": [
+    {
+     "deck": "NO.72 PPT创赛级科技风模版.pptx",
+     "lead": "00FFFF",
+     "lead_uses": 48,
+     "palette_used": [
+      "00FFFF",
+      "086DB5",
+      "8DFFFF",
+      "6DBFEA",
+      "00CBFF"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "【PPT模版】三维地图.pptx",
+     "lead": "66D9F7",
+     "lead_uses": 80,
+     "palette_used": [
+      "66D9F7",
+      "4B8FF2",
+      "ABE3FB",
+      "13B8BD"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": 0.009
+    },
+    {
+     "deck": "【PPT模版】数字滚动.pptx",
+     "lead": "00D9ED",
+     "lead_uses": 28,
+     "palette_used": [
+      "00D9ED"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    }
+   ]
+  },
+  "orange/amber": {
+   "n_decks": 2,
+   "decks": [
+    "NO.109 PPT动态扇子目录（含教程）.pptx",
+    "PPT公司介绍模版——所获奖项和证书 - 副本.pptx"
+   ],
+   "leads": [
+    [
+     "913D1A",
+     1
+    ],
+    [
+     "724500",
+     1
+    ]
+   ],
+   "median_lead_uses": 6,
+   "dark_share_pct": 0.0,
+   "examples": [
+    {
+     "deck": "NO.109 PPT动态扇子目录（含教程）.pptx",
+     "lead": "913D1A",
+     "lead_uses": 9,
+     "palette_used": [
+      "913D1A"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    },
+    {
+     "deck": "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+     "lead": "724500",
+     "lead_uses": 4,
+     "palette_used": [
+      "724500"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    }
+   ]
+  },
+  "magenta": {
+   "n_decks": 1,
+   "decks": [
+    "NO.105 PPT花瓣旋转展示（含教程）.pptx"
+   ],
+   "leads": [
+    [
+     "ECA6BB",
+     1
+    ]
+   ],
+   "median_lead_uses": 9,
+   "dark_share_pct": 0.0,
+   "examples": [
+    {
+     "deck": "NO.105 PPT花瓣旋转展示（含教程）.pptx",
+     "lead": "ECA6BB",
+     "lead_uses": 9,
+     "palette_used": [
+      "ECA6BB",
+      "FFC000",
+      "BDDD52",
+      "5CACE9",
+      "E5EEA4"
+     ],
+     "theme_accent1": "4472C4",
+     "dk1": "000000",
+     "lt1": "FFFFFF",
+     "bg_lum": null
+    }
+   ]
+  }
+ },
+ "accent1_bands": {
+  "blue": 170
+ },
+ "srgb_vs_schemeclr": {
+  "srgbClr": 35327,
+  "schemeClr": 32355
+ },
+ "stock_office_theme_decks": 167,
+ "colour_role_counts": {
+  "fill": 26429,
+  "grad": 22668,
+  "text": 16700,
+  "line": 1329,
+  "effect": 596,
+  "duotone": 74,
+  "bg": 20,
+  "piccolor": 10,
+  "3d": 3
+ },
+ "colors_by_role": {
+  "text": {
+   "4472C4": 2672,
+   "FFFFFF": 1361,
+   "086DB5": 1120,
+   "4E6172": 416,
+   "2F2F2F": 322,
+   "000000": 170,
+   "6B95F2": 160,
+   "FFC000": 141,
+   "009EFA": 107,
+   "9F070E": 107,
+   "136EBF": 99,
+   "448FE2": 97,
+   "535454": 67,
+   "333333": 50,
+   "FCDC4A": 50,
+   "2972F5": 47,
+   "26DBF7": 44,
+   "404F5F": 43,
+   "5C3511": 37,
+   "A50E13": 36,
+   "A13515": 36,
+   "4C4D4C": 35,
+   "FF0000": 34,
+   "F0F0F0": 32,
+   "FFFEE2": 32,
+   "1BA4F5": 32,
+   "70AD47": 30,
+   "474847": 29,
+   "4B8FF2": 27,
+   "920404": 27
+  },
+  "fill": {
+   "000000": 1010,
+   "191A1B": 956,
+   "444444": 478,
+   "2F2F2F": 478,
+   "030303": 478,
+   "202020": 478,
+   "E4E6EA": 478,
+   "ADB5BF": 478,
+   "FFFFFF": 461,
+   "00FFFF": 170,
+   "009EFA": 117,
+   "003069": 84,
+   "03A2FF": 75,
+   "00D9ED": 28,
+   "016DFF": 27,
+   "FBEEC5": 21,
+   "295BBC": 16,
+   "DD8885": 16,
+   "B51F1E": 16,
+   "F84949": 15,
+   "F7E4CF": 14,
+   "A21901": 14,
+   "21C5DF": 14,
+   "81CAFE": 14,
+   "448FE2": 14,
+   "01A9FF": 14,
+   "CAE3FB": 13,
+   "11508C": 12,
+   "0F4381": 12,
+   "06284E": 12
+  },
+  "grad": {
+   "D1D1D3": 2868,
+   "4472C4": 1711,
+   "00FFFF": 1483,
+   "D9D9D9": 1434,
+   "FEFEFD": 1120,
+   "97D0FE": 1120,
+   "F2F2F2": 956,
+   "979797": 956,
+   "BFBFBF": 956,
+   "F3F8FE": 692,
+   "636363": 478,
+   "D4EAFE": 428,
+   "2548FE": 327,
+   "0388FE": 327,
+   "01F6FD": 327,
+   "009EFA": 321,
+   "FFFFFF": 296,
+   "016DFF": 269,
+   "F8E8B7": 192,
+   "F8F8F3": 176,
+   "81C6EA": 114,
+   "6B9EF9": 114,
+   "9B6537": 92,
+   "DCA95A": 86,
+   "12A1F5": 80,
+   "0058AF": 67,
+   "FF0000": 63,
+   "CBECFF": 59,
+   "1367BE": 48,
+   "58CBFF": 48
+  },
+  "line": {
+   "016DFF": 226,
+   "66D9F7": 96,
+   "FFFFFF": 55,
+   "F5DC46": 54,
+   "00FFFF": 39,
+   "009EFA": 29,
+   "9F070E": 27,
+   "DD8885": 16,
+   "11508C": 12,
+   "427EFD": 12,
+   "FA6062": 12,
+   "F7FBFE": 12,
+   "004099": 10,
+   "81CAFE": 8,
+   "28CBFE": 8,
+   "E2BA8D": 6,
+   "48C4F9": 6,
+   "8C8681": 6,
+   "C70F0C": 6,
+   "D30013": 6,
+   "0F9BE7": 4,
+   "49D385": 4,
+   "057FE7": 4,
+   "D1DFF0": 3,
+   "D4E5FA": 3,
+   "718DC1": 3,
+   "F0E5B6": 2,
+   "952E03": 2,
+   "0A8FE1": 2,
+   "06C3F5": 2
+  },
+  "effect": {
+   "E8E8E8": 44,
+   "70ADFE": 44,
+   "000000": 14,
+   "5FA0F9": 12,
+   "448FE2": 11,
+   "7192C6": 10,
+   "009EFA": 9,
+   "669AE9": 8,
+   "FFFFFF": 8,
+   "81CAFE": 7,
+   "A7110D": 6,
+   "AF0505": 5,
+   "317EEC": 5,
+   "0058AF": 5,
+   "B4001E": 4,
+   "004099": 4,
+   "3B7BE5": 4,
+   "057FE7": 4,
+   "EECF90": 3,
+   "F85611": 3,
+   "105EC1": 3,
+   "C00000": 2,
+   "4E84FD": 2,
+   "EAF1FB": 2,
+   "C5E4FD": 1,
+   "81B4FE": 1,
+   "B59EF7": 1,
+   "CCEBDC": 1,
+   "FCBA8A": 1,
+   "D30906": 1
+  },
+  "duotone": {
+   "0058AF": 27,
+   "5BA8F1": 23,
+   "016DFF": 22,
+   "00FFFF": 2
+  },
+  "3d": {
+   "FAE0A5": 3
+  },
+  "bg": {
+   "09192B": 5
+  },
+  "piccolor": {
+   "FFFFFF": 10
+  }
+ },
+ "scheme_clr_by_role": {
+  "fill|accent1": 14188,
+  "fill|lt1": 4203,
+  "text|bg1": 3987,
+  "text|tx1": 3595,
+  "grad|bg1": 1469,
+  "fill|bg1": 843,
+  "fill|tx1": 685,
+  "grad|tx1": 680,
+  "grad|bg2": 484,
+  "line|bg1": 459,
+  "grad|accent1": 354,
+  "text|lt1": 270,
+  "grad|accent2": 192,
+  "effect|bg1": 179,
+  "effect|accent1": 153,
+  "text|accent1": 149,
+  "line|tx1": 100,
+  "grad|accent4": 70,
+  "line|accent1": 49,
+  "fill|dk1": 48,
+  "text|bg2": 42,
+  "line|bg2": 24,
+  "effect|accent4": 21,
+  "text|accent2": 20,
+  "text|accent5": 20,
+  "fill|accent2": 15,
+  "bg|tx1": 11,
+  "effect|tx1": 10,
+  "effect|accent2": 7,
+  "line|accent4": 6,
+  "grad|accent6": 6,
+  "line|accent2": 6,
+  "bg|bg1": 3,
+  "text|dk1": 2,
+  "text|accent4": 1,
+  "bg|accent1": 1,
+  "grad|accent3": 1,
+  "fill|tx2": 1,
+  "grad|tx2": 1
+ },
+ "modifier_tokens": {
+  "grad|alpha": 3911,
+  "text|lumMod": 2758,
+  "grad|lumMod": 2093,
+  "grad|lumOff": 2048,
+  "text|alpha": 1886,
+  "text|lumOff": 964,
+  "fill|alpha": 743,
+  "effect|alpha": 125,
+  "line|alpha": 119,
+  "duotone|shade": 74,
+  "duotone|satMod": 74,
+  "grad|shade": 53,
+  "grad|satMod": 53,
+  "effect|lumMod": 52,
+  "text|tint": 30,
+  "line|shade": 28,
+  "fill|lumMod": 25,
+  "line|lumMod": 24,
+  "fill|lumOff": 14,
+  "piccolor|alpha": 5,
+  "fill|shade": 5,
+  "line|lumOff": 3,
+  "effect|satMod": 1
+ },
+ "modifier_value_bands": {
+  "lumMod": {
+   "1 <25%": 2753,
+   "2 25-50%": 58,
+   "3 50-75%": 2004,
+   "4 75-100%": 137
+  },
+  "lumOff": {
+   "1 <25%": 14,
+   "2 25-50%": 293,
+   "3 50-75%": 11,
+   "4 75-100%": 2711
+  },
+  "alpha": {
+   "1 <25%": 2839,
+   "2 25-50%": 2443,
+   "3 50-75%": 759,
+   "4 75-100%": 748
+  },
+  "shade": {
+   "2 25-50%": 121,
+   "3 50-75%": 33,
+   "4 75-100%": 6
+  },
+  "satMod": {
+   "5 100-150%": 80,
+   "6 >150%": 48
+  },
+  "tint": {
+   "1 <25%": 30
+  }
+ },
+ "prst_named_colors": {},
+ "gradient_stop_counts": {
+  "2": 6136,
+  "3": 3018,
+  "4": 59,
+  "5": 5,
+  "6": 482,
+  "8": 478
+ },
+ "gradient_top_pairs": [
+  [
+   "D1D1D3,D1D1D3,D1D1D3",
+   956
+  ],
+  [
+   "FEFEFD,F3F8FE,97D0FE",
+   692
+  ],
+  [
+   "F2F2F2,F2F2F2,636363",
+   478
+  ],
+  [
+   "D9D9D9,979797,D9D9D9",
+   478
+  ],
+  [
+   "FEFEFD,D4EAFE,97D0FE",
+   428
+  ],
+  [
+   "00FFFF,00FFFF",
+   423
+  ],
+  [
+   "2548FE,0388FE,01F6FD",
+   327
+  ],
+  [
+   "F8F8F3,F8E8B7",
+   176
+  ],
+  [
+   "00FFFF,016DFF",
+   175
+  ],
+  [
+   "009EFA,009EFA",
+   140
+  ],
+  [
+   "00FFFF,00FFFF,00FFFF",
+   120
+  ],
+  [
+   "DCA95A,9B6537",
+   86
+  ],
+  [
+   "81C6EA,12A1F5",
+   80
+  ],
+  [
+   "1367BE,58CBFF",
+   48
+  ],
+  [
+   "FF0000,C0504D",
+   47
+  ],
+  [
+   "FFFFFF,FFFFFF,FFFFFF",
+   42
+  ],
+  [
+   "B07724,592E01",
+   39
+  ],
+  [
+   "6B9EF9,6B9EF9,6B9EF9",
+   38
+  ],
+  [
+   "009BF5,81C6EA",
+   34
+  ],
+  [
+   "4588EC,549AFB",
+   34
+  ],
+  [
+   "CBECFF,009EFA",
+   34
+  ],
+  [
+   "E10802,A00904",
+   30
+  ],
+  [
+   "00FFFF,00FFFF,016DFF",
+   26
+  ],
+  [
+   "FFFFFF,FFFFFF",
+   24
+  ],
+  [
+   "016DFF,00FFFF",
+   24
+  ],
+  [
+   "FFFFFF,26DBF7,0998FF",
+   22
+  ],
+  [
+   "E4A64A,CE6900",
+   21
+  ],
+  [
+   "F2F9FF,CBECFF",
+   20
+  ],
+  [
+   "CBA47F,F8E8B7",
+   16
+  ],
+  [
+   "F2D694,F8AD2F",
+   16
+  ]
+ ],
+ "gradient_top_positions": [
+  [
+   "0,100",
+   2829
+  ],
+  [
+   "40,40",
+   1928
+  ],
+  [
+   "0,46,100",
+   956
+  ],
+  [
+   "0,50,100",
+   792
+  ],
+  [
+   "0,51,100",
+   759
+  ],
+  [
+   "100,0",
+   523
+  ],
+  [
+   "0,99,91",
+   478
+  ],
+  [
+   "97,2,5",
+   478
+  ],
+  [
+   "100,39,2",
+   120
+  ],
+  [
+   "0,99",
+   101
+  ],
+  [
+   "30,100",
+   94
+  ],
+  [
+   "0,78",
+   90
+  ],
+  [
+   "44,0,98",
+   74
+  ],
+  [
+   "8,100",
+   66
+  ],
+  [
+   "50,100",
+   62
+  ],
+  [
+   "25,100",
+   48
+  ],
+  [
+   "20,100",
+   45
+  ],
+  [
+   "75,0,100",
+   44
+  ],
+  [
+   "50,0,100",
+   37
+  ],
+  [
+   "0,100,55",
+   32
+  ]
+ ],
+ "gradient_angles": [
+  [
+   "5400000",
+   7111
+  ],
+  [
+   "0",
+   1353
+  ],
+  [
+   "2700000",
+   431
+  ],
+  [
+   "10800000",
+   93
+  ],
+  [
+   "16200000",
+   58
+  ],
+  [
+   "7200000",
+   30
+  ],
+  [
+   "3480000",
+   22
+  ],
+  [
+   "13500000",
+   20
+  ],
+  [
+   "8100000",
+   16
+  ],
+  [
+   "6600000",
+   12
+  ],
+  [
+   "1200000",
+   9
+  ],
+  [
+   "20640000",
+   4
+  ],
+  [
+   "18900000",
+   4
+  ],
+  [
+   "3600000",
+   1
+  ],
+  [
+   "18000000",
+   1
+  ]
+ ],
+ "theme_fmt_scheme_styles": [
+  [
+   "[[], [], []]",
+   171
+  ]
+ ],
+ "theme_fmt_grad_colors": [
+  [
+   "[]",
+   171
+  ]
+ ],
+ "srcRect_pages": 2417,
+ "srcRect_values": {
+  "21875": 104,
+  "20288": 70,
+  "48907": 70,
+  "16667": 36,
+  "23855": 35,
+  "53188": 35,
+  "49124": 34,
+  "2739": 34,
+  "90890": 34,
+  "23160": 28,
+  "5246": 26,
+  "35122": 26,
+  "10761": 25,
+  "57571": 25,
+  "22261": 25,
+  "58912": 25,
+  "10022": 25,
+  "20198": 25,
+  "47282": 25,
+  "46398": 24,
+  "41251": 24,
+  "30729": 18,
+  "13021": 18,
+  "17083": 18,
+  "26667": 18
+ },
+ "deck_bg_lum_median": 0.851,
+ "dark_decks": [
+  "【PPT模版】三维地图.pptx"
+ ],
+ "light_decks": [
+  "PPT多图排版.pptx",
+  "【PPT模版】文字排版.pptx",
+  "转正升职竞聘述职PPT模版.pptx"
+ ],
+ "errors": {}
+}

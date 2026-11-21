@@ -1,0 +1,1318 @@
+{
+ "source_dir": "<CORPUS_DIR>/PPT视频教程",
+ "n_videos": 24,
+ "videos_ok": 24,
+ "frames_total": 254,
+ "ocr_chars_total": 5534,
+ "asr_chars_total": 7816,
+ "asr_lines_total": 614,
+ "operation_lines": 150,
+ "prompt_lines": 25,
+ "toolchain": "cv2 HSV 直方图场景切帧（corr<0.86 或 ≥2s，≤18 帧/条）+ pytesseract chi_sim+eng + faster-whisper medium int8 CPU + vad_filter",
+ "measured_at": "2026-11-07T01:17",
+ "techniques": [
+  {
+   "name": "AI 生成提示词（文生图/图生视频）",
+   "hits": 22,
+   "videos": 7,
+   "evidence": [
+    {
+     "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4",
+     "video_id": "e1d7adde5f",
+     "kind": "asr",
+     "at": 0.0,
+     "quote": "像做这样的PPT有多简单今天一个视频教会你首先我们打开豆包新建工作任务输入指令安装HarnessAnything这个Skill"
+    },
+    {
+     "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4",
+     "video_id": "e1d7adde5f",
+     "kind": "asr",
+     "at": 12.7,
+     "quote": "上传PPT的内容然后把准备好的指令复制上去运行后豆包开始连接WPS开始制作PPT几分钟就制作好了"
+    },
+    {
+     "video": "fbf504486ad4132d1302f94963217d32.mp4",
+     "video_id": "bb7d007e3f",
+     "kind": "asr",
+     "at": 125.8,
+     "quote": "如果你而不会写运镜的提示词"
+    }
+   ],
+   "landed_in": "styles.py 九段式模板 + G2 语法闸 + G26 投放回执硬闸"
+  },
+  {
+   "name": "图表改造成信息图",
+   "hits": 17,
+   "videos": 2,
+   "evidence": [
+    {
+     "video": "06811c9946065c79cd78e7fb9da3c763.mp4",
+     "video_id": "66db1ebef9",
+     "kind": "asr",
+     "at": 0.0,
+     "quote": "非常规的柱状图如何做"
+    },
+    {
+     "video": "06811c9946065c79cd78e7fb9da3c763.mp4",
+     "video_id": "66db1ebef9",
+     "kind": "asr",
+     "at": 13.4,
+     "quote": "这是我们系统默认的常规的柱状图"
+    },
+    {
+     "video": "06811c9946065c79cd78e7fb9da3c763.mp4",
+     "video_id": "66db1ebef9",
+     "kind": "asr",
+     "at": 17.9,
+     "quote": "就可以变成右边的这种有设计感的图表"
+    }
+   ],
+   "landed_in": "data_layout.bar_group + G22 图形化率"
+  },
+  {
+   "name": "蒙版与布尔搜索",
+   "hits": 17,
+   "videos": 9,
+   "evidence": [
+    {
+     "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4",
+     "video_id": "8ef24890f5",
+     "kind": "asr",
+     "at": 11.2,
+     "quote": "至于底层全选它们合并形状拆分"
+    },
+    {
+     "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4",
+     "video_id": "64a461accd",
+     "kind": "asr",
+     "at": 13.7,
+     "quote": "选中两个圆合并形状相交"
+    },
+    {
+     "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4",
+     "video_id": "42232a3d14",
+     "kind": "asr",
+     "at": 16.1,
+     "quote": "在合并中选剪除"
+    }
+   ],
+   "landed_in": "手工类：技法卡标注\"由谁产出\"，装配不代做（G18 只核装得进去的）"
+  },
+  {
+   "name": "动画窗格与时长编排",
+   "hits": 15,
+   "videos": 8,
+   "evidence": [
+    {
+     "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4",
+     "video_id": "7501ee21fd",
+     "kind": "asr",
+     "at": 114.3,
+     "quote": "将持续时间和延迟也都改为一秒再选中第三个持续时间和延迟都改为一秒最后选中文字"
+    },
+    {
+     "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4",
+     "video_id": "7501ee21fd",
+     "kind": "asr",
+     "at": 126.6,
+     "quote": "持续时间改为两秒延迟同样改为两秒"
+    },
+    {
+     "video": "60828aa37e185baca07a5b58b91056c7.mp4",
+     "video_id": "c8f657e95f",
+     "kind": "asr",
+     "at": 30.6,
+     "quote": "打开效果选项动画文本改为按字母顺序持续时间一秒与上移动画同时插入箭头"
+    }
+   ],
+   "landed_in": "inject_entrance/inject_exit + G18 preset/delay 核对"
+  },
+  {
+   "name": "渐变/柔化边缘/阴影层次",
+   "hits": 12,
+   "videos": 8,
+   "evidence": [
+    {
+     "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4",
+     "video_id": "1e2c66eafa",
+     "kind": "asr",
+     "at": 0.0,
+     "quote": "怎么排版先给背景条一个浅蓝色然后梳理文字和数据绘制矩形形状并设置阴影用来承载数据"
+    },
+    {
+     "video": "e502b75e396aca08d935890f70cc9beb.mp4",
+     "video_id": "d8a042c28e",
+     "kind": "asr",
+     "at": 0.0,
+     "quote": "看文字该怎么排出高级感先绘制一个三角形旋转右键边际顶点拖动毛点把它拉成折纸形状键边填充颜色深浅交错无线条再给它添加一个阴影"
+    },
+    {
+     "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4",
+     "video_id": "36b8277b7c",
+     "kind": "asr",
+     "at": 16.4,
+     "quote": "再插入一个与图片一样大的矩形设置无线条渐变填充"
+    }
+   ],
+   "landed_in": "add_scrim（lumMod 压底）+ G8 spPr 子元素顺序"
+  },
+  {
+   "name": "平滑/Morph 切换",
+   "hits": 6,
+   "videos": 6,
+   "evidence": [
+    {
+     "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4",
+     "video_id": "7501ee21fd",
+     "kind": "asr",
+     "at": 104.9,
+     "quote": "尺寸改为1500平滑开始和结束都改为一秒"
+    },
+    {
+     "video": "c202d2463f6e68b8c5dd0108e2f031f6.mp4",
+     "video_id": "e8d6f62a4a",
+     "kind": "asr",
+     "at": 40.2,
+     "quote": "把平滑开始和结束都归零"
+    },
+    {
+     "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4",
+     "video_id": "36b8277b7c",
+     "kind": "asr",
+     "at": 67.3,
+     "quote": "第二页切换动画选平滑"
+    }
+   ],
+   "landed_in": "add_morph + G14（≥2 页、1500–2500ms、同名锚点）"
+  },
+  {
+   "name": "参考线/对齐/等距分布",
+   "hits": 6,
+   "videos": 4,
+   "evidence": [
+    {
+     "video": "c202d2463f6e68b8c5dd0108e2f031f6.mp4",
+     "video_id": "e8d6f62a4a",
+     "kind": "asr",
+     "at": 21.7,
+     "quote": "旋旋对齐"
+    },
+    {
+     "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4",
+     "video_id": "64a461accd",
+     "kind": "asr",
+     "at": 22.7,
+     "quote": "将形状底部中心对齐"
+    },
+    {
+     "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4",
+     "video_id": "64a461accd",
+     "kind": "asr",
+     "at": 30.7,
+     "quote": "之后将它们中心对齐"
+    }
+   ],
+   "landed_in": "LAYOUT_ZONE 实测原型 + G17 版式核对 + G8 溢出/重叠"
+  },
+  {
+   "name": "图标/图形素材库",
+   "hits": 5,
+   "videos": 3,
+   "evidence": [
+    {
+     "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4",
+     "video_id": "1e2c66eafa",
+     "kind": "asr",
+     "at": 17.7,
+     "quote": "在数据前面绘制圆形形状放置图标增强可视化右边绘制一个矩形设置箭辫并调节阴影"
+    },
+    {
+     "video": "06811c9946065c79cd78e7fb9da3c763.mp4",
+     "video_id": "66db1ebef9",
+     "kind": "asr",
+     "at": 26.4,
+     "quote": "用人物的图标融合到这个图表中"
+    },
+    {
+     "video": "06811c9946065c79cd78e7fb9da3c763.mp4",
+     "video_id": "66db1ebef9",
+     "kind": "asr",
+     "at": 56.5,
+     "quote": "找到两个代表人物的小图标"
+    }
+   ],
+   "landed_in": "未落地：第三方图标版权不可举证，G3 会拦"
+  },
+  {
+   "name": "形状填充图片/裁剪为形状",
+   "hits": 5,
+   "videos": 4,
+   "evidence": [
+    {
+     "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4",
+     "video_id": "36b8277b7c",
+     "kind": "asr",
+     "at": 12.2,
+     "quote": "图片或纹理填充选择图片填充为背景"
+    },
+    {
+     "video": "3056573afc7fdd4971c96244629c5f46.mp4",
+     "video_id": "b6bbc8f772",
+     "kind": "asr",
+     "at": 19.5,
+     "quote": "在形状填充中选纯黑色轮廓调整为无轮廓"
+    },
+    {
+     "video": "60828aa37e185baca07a5b58b91056c7.mp4",
+     "video_id": "c8f657e95f",
+     "kind": "asr",
+     "at": 23.9,
+     "quote": "接着设置文本格式简介版图片填充给文本框设置缩放动画"
+    }
+   ],
+   "landed_in": "add_picture_in_box + G3 宽高比 1.45–1.95"
+  },
+  {
+   "name": "视频作为页面背景",
+   "hits": 4,
+   "videos": 3,
+   "evidence": [
+    {
+     "video": "ce685aad2157829b4ad906550387c9dd.mp4",
+     "video_id": "a794733c72",
+     "kind": "asr",
+     "at": 29.6,
+     "quote": "完成后将标题视频和背景视频的播放都改成自动"
+    },
+    {
+     "video": "ae56a65bcbc3596c6a7436285fceda02.mp4",
+     "video_id": "0a439061ed",
+     "kind": "asr",
+     "at": 30.0,
+     "quote": "下载完成后将素材拖入到PPT"
+    },
+    {
+     "video": "ae56a65bcbc3596c6a7436285fceda02.mp4",
+     "video_id": "0a439061ed",
+     "kind": "asr",
+     "at": 37.0,
+     "quote": "设置演示时自动播放"
+    }
+   ],
+   "landed_in": "asset_kind=video_bg + G11/G15（真 mp4、首帧与 poster 同源、禁静帧冒充）"
+  },
+  {
+   "name": "表格美化（表头/底纹/单元格）",
+   "hits": 4,
+   "videos": 3,
+   "evidence": [
+    {
+     "video": "2db7c536eaf7ff343b58369cf96b16f8.mp4",
+     "video_id": "f07929659e",
+     "kind": "asr",
+     "at": 10.1,
+     "quote": "选中表格在表设计中找到底纹选择其他填通颜色"
+    },
+    {
+     "video": "ce685aad2157829b4ad906550387c9dd.mp4",
+     "video_id": "a794733c72",
+     "kind": "asr",
+     "at": 26.6,
+     "quote": "然后将其边框改为1.5磅白色"
+    },
+    {
+     "video": "2db7c536eaf7ff343b58369cf96b16f8.mp4",
+     "video_id": "f07929659e",
+     "kind": "asr",
+     "at": 28.7,
+     "quote": "在表设计中把边框调整为五框线最后放上文案如果想让领导看得更清楚一些"
+    }
+   ],
+   "landed_in": "add_table 重设计 + G25（表头色带 100%/数字右对齐/正文 ≥12pt/结论行）"
+  },
+  {
+   "name": "文字转形状/描边字",
+   "hits": 3,
+   "videos": 3,
+   "evidence": [
+    {
+     "video": "3056573afc7fdd4971c96244629c5f46.mp4",
+     "video_id": "b6bbc8f772",
+     "kind": "asr",
+     "at": 19.5,
+     "quote": "在形状填充中选纯黑色轮廓调整为无轮廓"
+    },
+    {
+     "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4",
+     "video_id": "64a461accd",
+     "kind": "asr",
+     "at": 48.7,
+     "quote": "矩形设置无轮廓黑色填充"
+    },
+    {
+     "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4",
+     "video_id": "7501ee21fd",
+     "kind": "asr",
+     "at": 64.9,
+     "quote": "轮廓去掉下面开始添加动画选中矩形"
+    }
+   ],
+   "landed_in": "不学：会把成品变成不可编辑图片（G1/G13 无法核溯源）"
+  },
+  {
+   "name": "取色器与配色方案",
+   "hits": 1,
+   "videos": 1,
+   "evidence": [
+    {
+     "video": "3056573afc7fdd4971c96244629c5f46.mp4",
+     "video_id": "b6bbc8f772",
+     "kind": "asr",
+     "at": 58.9,
+     "quote": "自由调整透明度然后处理右侧色块填充用取色器吸取图片里的颜色"
+    }
+   ],
+   "landed_in": "CT.PALETTES 实测色板 + G16 一册一色（含 theme accent1）"
+  },
+  {
+   "name": "时间轴/进度条版式",
+   "hits": 1,
+   "videos": 1,
+   "evidence": [
+    {
+     "video": "fbf504486ad4132d1302f94963217d32.mp4",
+     "video_id": "bb7d007e3f",
+     "kind": "asr",
+     "at": 17.9,
+     "quote": "你像这种动态的时间轴"
+    }
+   ],
+   "landed_in": "content_type=timeline → card_grid / 时间轴原型（G17 核对落位）"
+  }
+ ],
+ "operations": {
+  "0a439061ed": [
+   {
+    "t": 8.0,
+    "text": "首先我们要准备一张国风书法的图片",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   },
+   {
+    "t": 15.0,
+    "text": "将两张图片作为首尾针的参考图导入到AI工具里",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   },
+   {
+    "t": 26.0,
+    "text": "点击下载按钮将素材保存到本地",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   },
+   {
+    "t": 30.0,
+    "text": "下载完成后将素材拖入到PPT",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   },
+   {
+    "t": 34.0,
+    "text": "选择最后一针作为素材的封面",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   },
+   {
+    "t": 40.0,
+    "text": "最后在中部添加标题文字",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   },
+   {
+    "t": 47.0,
+    "text": "选择与上一动画同时开始",
+    "video": "ae56a65bcbc3596c6a7436285fceda02.mp4"
+   }
+  ],
+  "0f12141adc": [
+   {
+    "t": 31.0,
+    "text": "现在只需要复制我这套提示词",
+    "video": "989259a00828806cce1d0ba48659aa42.mp4"
+   },
+   {
+    "t": 42.9,
+    "text": "最后将提示词扔给生图模型",
+    "video": "989259a00828806cce1d0ba48659aa42.mp4"
+   },
+   {
+    "t": 49.4,
+    "text": "接下来 怎么让图片动起来",
+    "video": "989259a00828806cce1d0ba48659aa42.mp4"
+   },
+   {
+    "t": 67.8,
+    "text": "再自动推导出专业运进提示词",
+    "video": "989259a00828806cce1d0ba48659aa42.mp4"
+   },
+   {
+    "t": 70.3,
+    "text": "然后把提示词和画面交给视频工具",
+    "video": "989259a00828806cce1d0ba48659aa42.mp4"
+   },
+   {
+    "t": 81.5,
+    "text": "再利用视频工具的手尾针功能",
+    "video": "989259a00828806cce1d0ba48659aa42.mp4"
+   }
+  ],
+  "1e2c66eafa": [
+   {
+    "t": 0.0,
+    "text": "怎么排版 先给背景条一个浅蓝色 然后梳理文字和数据 绘制矩形形状并设置阴影 用来承载数据",
+    "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4"
+   },
+   {
+    "t": 8.8,
+    "text": "放大数据并设置颜色强调突出 分别给增长和下降数据设置不同颜色并绘制箭头",
+    "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4"
+   },
+   {
+    "t": 17.7,
+    "text": "在数据前面绘制圆形形状放置图标增强可视化 右边绘制一个矩形设置箭辫并调节阴影",
+    "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4"
+   },
+   {
+    "t": 32.7,
+    "text": "绘制立方体形状并设置箭辫 复制立方体形状粘贴为图片 然后将图片复制填充到柱状图中",
+    "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4"
+   },
+   {
+    "t": 40.5,
+    "text": "将柱状图间隙宽度适当缩小 就有了立方体效果的柱状图 再插入 Smart Art里找到箭头向上的流程图形",
+    "video": "1ea8b41585c5680889ba38ac70c8fea9.mp4"
+   }
+  ],
+  "36b8277b7c": [
+   {
+    "t": 7.9,
+    "text": "肯定让老板眼前一亮 鼠标右键设置背景格式",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 12.2,
+    "text": "图片或纹理填充 选择图片填充为背景",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 16.4,
+    "text": "再插入一个与图片一样大的矩形 设置无线条渐变填充",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 28.0,
+    "text": "左色光圈透明度48% 再插入圆角矩形",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 32.7,
+    "text": "按 CTRL 加 Shift 往右复制四个 再全选往下复制多三行",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 38.5,
+    "text": "全选形状格式合并 形状选择结合",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 42.0,
+    "text": "一道右侧 设置无线条 效果选项",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 46.4,
+    "text": "三维旋转 透视索 设置阴影 模糊38 透明度21",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 53.2,
+    "text": "填充方式 选换灯片背景填充 复制一页",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   },
+   {
+    "t": 61.0,
+    "text": "一道左侧 再将两个光圈的位置调转",
+    "video": "14a22a043d1bb69ceaa58bae20e5f9b0.mp4"
+   }
+  ],
+  "42232a3d14": [
+   {
+    "t": 0.1,
+    "text": "选择图片 填充插入提前准备好的图片",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   },
+   {
+    "t": 5.1,
+    "text": "再插入一个长矩形 竖放着圆形中间",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   },
+   {
+    "t": 9.1,
+    "text": "再复制一个长矩形 旋转90度",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   },
+   {
+    "t": 20.1,
+    "text": "再复制一个长矩形 旋转90度",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   },
+   {
+    "t": 36.1,
+    "text": "全选形状设置无线条幻灯片填充",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   },
+   {
+    "t": 52.1,
+    "text": "按 CTRL 加 d 多复制一",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   },
+   {
+    "t": 64.1,
+    "text": "然后随意旋转三个圆形的角度",
+    "video": "f9b4ddfe5872e098cc8eea27693a51eb.mp4"
+   }
+  ],
+  "4b85102eca": [
+   {
+    "t": 19.8,
+    "text": "然后每句话把它单独拆散",
+    "video": "4a67b28e1a92c0368bfab6d9b6cbe672.mp4"
+   }
+  ],
+  "4ff617284b": [
+   {
+    "t": 2.0,
+    "text": "首先,我们准备一张静态的图片",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   },
+   {
+    "t": 5.0,
+    "text": "把这张图片导入到任意的AI视频工具",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   },
+   {
+    "t": 25.0,
+    "text": "点击下载按钮,就可以把视频下载到本地",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   },
+   {
+    "t": 30.0,
+    "text": "下载之后,我们把视频导入到PPT",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   },
+   {
+    "t": 36.0,
+    "text": "然后设置视频在演示时自动循环播放",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   },
+   {
+    "t": 40.0,
+    "text": "最后添加标题文字和相关的内容",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   },
+   {
+    "t": 47.0,
+    "text": "设置与上一动画同时开始,延迟0.5秒",
+    "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4"
+   }
+  ],
+  "5356f96f1e": [
+   {
+    "t": 65.0,
+    "text": "只是复制提示词就可以使用 同样是让 AI 做 PPT",
+    "video": "6bb32d109bf33e59104d0e44a9289b7c.mp4"
+   }
+  ],
+  "64a461accd": [
+   {
+    "t": 2.2,
+    "text": "插入圆形 往右平行复制一个重叠",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 19.7,
+    "text": "再复制一个在旋转里水平翻转",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 24.7,
+    "text": "同时选中合并形状里选择结合",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 27.7,
+    "text": "再复制一对旋转里 选择垂直旋转",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 33.7,
+    "text": "选中另一半后 合并形状选择结合",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 45.7,
+    "text": "再选中花朵 合并形状选择剪除",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 48.7,
+    "text": "矩形设置 无轮廓黑色填充",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 56.7,
+    "text": "再添加动画选择放大与缩小",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 59.7,
+    "text": "最后再给它添加退出动画 选择淡化",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 62.7,
+    "text": "再点击插入选择视频此设备 双击视频导入",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 66.7,
+    "text": "将视频置于底层播放设置自动",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 73.7,
+    "text": "打开动画窗格 全选所有动画开始与上一动画同时",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 78.7,
+    "text": "双击第二个 强调动画放大尺寸自定义设置1500",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   },
+   {
+    "t": 83.7,
+    "text": "平滑开始和结束各设置一秒",
+    "video": "53455d9c3ecc59ed40a5b4fadcb7fe05.mp4"
+   }
+  ],
+  "66db1ebef9": [
+   {
+    "t": 34.6,
+    "text": "首先还是常规的这种柱状图",
+    "video": "06811c9946065c79cd78e7fb9da3c763.mp4"
+   },
+   {
+    "t": 38.7,
+    "text": "然后给这个柱形设置渐变",
+    "video": "06811c9946065c79cd78e7fb9da3c763.mp4"
+   },
+   {
+    "t": 49.4,
+    "text": "键盘按Ctrl加V粘贴",
+    "video": "06811c9946065c79cd78e7fb9da3c763.mp4"
+   },
+   {
+    "t": 66.1,
+    "text": "键盘按Ctrl加V粘贴",
+    "video": "06811c9946065c79cd78e7fb9da3c763.mp4"
+   }
+  ],
+  "7501ee21fd": [
+   {
+    "t": 19.6,
+    "text": "复制一份 全部选中 合并形状选择香蕉",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 24.7,
+    "text": "旋转大概思路五度 然后复制一份",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 28.6,
+    "text": "水平翻转 全部选中 合并形状选择结合 复制一份 旋转选择垂直翻转",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 40.5,
+    "text": "继续合并形状结合 然后旋转一下",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 45.5,
+    "text": "缩小 放在画面中央 接着插入一个矩形",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 53.7,
+    "text": "将它等比例放大 按住看脚不动 先点矩形 再点花瓣",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 59.1,
+    "text": "合并形状选择减除 更改矩形颜色为黑色",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 69.3,
+    "text": "在动画里面选择陀螺旋 接着点击添加动画",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 75.3,
+    "text": "放大与缩小 继续添加 在退出里面选择淡化",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 80.8,
+    "text": "准备好的视频放进来 右键至于底层",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 85.7,
+    "text": "点击播放 选择自动 接着将文字放上 点击动画 选择淡化",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 95.7,
+    "text": "接着点击动画窗格 全选所有动画 开始选择与上一动画同时",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   },
+   {
+    "t": 114.3,
+    "text": "将持续时间和延迟也都改为一秒 再选中第三个 持续时间和延迟都改为一秒 最后选中文字",
+    "video": "fdfc8cde59ee790bbc26c99adb42e0d5.mp4"
+   }
+  ],
+  "8ef24890f5": [
+   {
+    "t": 3.0,
+    "text": "首先 插入三角形 向左旋转90度",
+    "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4"
+   },
+   {
+    "t": 16.4,
+    "text": "再用任意多边形工具在形状边缘",
+    "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4"
+   },
+   {
+    "t": 32.2,
+    "text": "再设置 键边填充 添加三个光圈",
+    "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4"
+   },
+   {
+    "t": 47.7,
+    "text": "复制一份 把顶层图片虚化 半径五十左右",
+    "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4"
+   },
+   {
+    "t": 54.1,
+    "text": "剩下的图片右键 至于底层",
+    "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4"
+   },
+   {
+    "t": 56.7,
+    "text": "设置背景格式 图片火纹笔填充 减贴板",
+    "video": "9fb3a97cd11dc8e643a730cc1b5e1d3e.mp4"
+   }
+  ],
+  "a794733c72": [
+   {
+    "t": 6.6,
+    "text": "首先制作一下需要的标题文字",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   },
+   {
+    "t": 14.6,
+    "text": "完成后将文字复制到准备好的视频上",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   },
+   {
+    "t": 19.6,
+    "text": "在形状格式中选择相交功能",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   },
+   {
+    "t": 21.6,
+    "text": "最后会得到这样一个效果的标题",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   },
+   {
+    "t": 23.6,
+    "text": "再将效果字体放到原先的视频上",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   },
+   {
+    "t": 26.6,
+    "text": "然后将其边框改为1.5磅白色",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   },
+   {
+    "t": 36.6,
+    "text": "同时再加入一点修饰内容就完成了",
+    "video": "ce685aad2157829b4ad906550387c9dd.mp4"
+   }
+  ],
+  "b6bbc8f772": [
+   {
+    "t": 5.2,
+    "text": "换个主题也能举一反三 首先插入你喜欢的图片 直接拉满全屏",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 13.6,
+    "text": "然后在插入的形状中选择举形 插入 让举形完全覆盖图片",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 23.9,
+    "text": "打开形状的设置窗格 将黑色举形颜色调整为半透明",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 28.9,
+    "text": "插入文本框 设置数字1 重点 不通字体灵活调整 这里把字号拉到800",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 36.8,
+    "text": "给一设置鞋体加粗 颜色选啥都行 把数字调整到对应的位置 稍微溢出画面 效果到位",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 58.9,
+    "text": "自由调整透明度 然后处理右侧色块填充 用取色器吸取图片里的颜色",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 65.5,
+    "text": "再使用渐变填充 点开渐变光圈 微调左侧的光圈的亮度和透明度",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 79.7,
+    "text": "接下来 根据内容加上文案 把文案和右侧形状案ctrl加g组合起来",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 86.3,
+    "text": "最后加上动画 右侧的动画选择飞入 在效果选项中点击自右侧",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 93.9,
+    "text": "左侧的数字1也选择飞入 效果选项自左侧",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   },
+   {
+    "t": 98.1,
+    "text": "打开动画窗格 把两个动画都设置为与上一动画同时 这样炫酷的动画内业就做好了 一起学起来吧",
+    "video": "3056573afc7fdd4971c96244629c5f46.mp4"
+   }
+  ],
+  "bb7d007e3f": [
+   {
+    "t": 59.7,
+    "text": "再加上生好的底图做尾帧",
+    "video": "fbf504486ad4132d1302f94963217d32.mp4"
+   },
+   {
+    "t": 142.1,
+    "text": "粘贴刚才生成好的提示词",
+    "video": "fbf504486ad4132d1302f94963217d32.mp4"
+   }
+  ],
+  "c8f657e95f": [
+   {
+    "t": 8.4,
+    "text": "首先 在文本框输入一排横杠 文本效果中点击转换 选择弯曲中的正方形",
+    "video": "60828aa37e185baca07a5b58b91056c7.mp4"
+   },
+   {
+    "t": 23.9,
+    "text": "接着 设置文本格式 简介版图片填充 给文本框设置缩放动画",
+    "video": "60828aa37e185baca07a5b58b91056c7.mp4"
+   },
+   {
+    "t": 30.6,
+    "text": "打开效果选项 动画文本改为按字母顺序 持续时间一秒 与上移动画同时插入箭头",
+    "video": "60828aa37e185baca07a5b58b91056c7.mp4"
+   },
+   {
+    "t": 53.8,
+    "text": "最后 复制这页幻灯片 删除文字 更改文字图片填充 插入文字素材",
+    "video": "60828aa37e185baca07a5b58b91056c7.mp4"
+   }
+  ],
+  "d4ccf154a1": [
+   {
+    "t": 15.0,
+    "text": "在右侧复制多个圆角矩形",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 21.0,
+    "text": "然后再插入一个全屏矩形",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 24.0,
+    "text": "复制所有的圆角矩形作为备用",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 27.0,
+    "text": "先选中全屏矩形,再选中所有圆角矩形",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 36.0,
+    "text": "再把刚刚复制的圆角矩形粘贴回来",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 40.0,
+    "text": "选中所有形状,右键设置形状格式",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 44.0,
+    "text": "设置无线条,填充颜色,选择黑色",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 48.0,
+    "text": "镂空形状设置成半透明",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 51.0,
+    "text": "复制一个镂空形状放在上方,透明度为不透明",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 58.0,
+    "text": "如果是视频素材,就设置自动播放,勾选循环",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 70.0,
+    "text": "设置与上一动画同时开始",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 76.0,
+    "text": "再给下方的镂空形状增加一个淡化消失的动画",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 80.0,
+    "text": "设置与上一动画同时开始,延迟3秒",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   },
+   {
+    "t": 84.0,
+    "text": "最后在下方添加标题和内容",
+    "video": "3791e30078690510e3903ddeca7b615e.mp4"
+   }
+  ],
+  "d8a042c28e": [
+   {
+    "t": 0.0,
+    "text": "看文字 该怎么排出高级感 先绘制一个三角形 旋转 右键边际顶点 拖动毛点 把它拉成折纸形状 键边填充 颜色深浅交错 无线条 再给它添加一个阴影",
+    "video": "e502b75e396aca08d935890f70cc9beb.mp4"
+   },
+   {
+    "t": 17.0,
+    "text": "透明度 20 模糊十棒 复制一份 排列 旋转 垂直翻转 放置上方 调整它的位置和大小 插入任意多边形 沿边绘制",
+    "video": "e502b75e396aca08d935890f70cc9beb.mp4"
+   },
+   {
+    "t": 31.0,
+    "text": "闭合 填充颜色 无线条 加入文案 如果再有一次出手的机会 它会给图片添加放大动画 与上一动画同时 持续十秒 搞定",
+    "video": "e502b75e396aca08d935890f70cc9beb.mp4"
+   }
+  ],
+  "e1d7adde5f": [
+   {
+    "t": 0.0,
+    "text": "像做这样的 PPT 有多简单 今天一个视频教会你 首先我们打开豆包 新建工作任务 输入指令 安装 Harness Anything 这个 Skill",
+    "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4"
+   },
+   {
+    "t": 7.6,
+    "text": "点击运行 成功以后在技能栏找到并且使用 然后再调用创意设计这个技能",
+    "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4"
+   },
+   {
+    "t": 12.7,
+    "text": "上传 PPT 的内容 然后把准备好的指令复制上去 运行后豆包开始连接 WPS 开始制作 PPT 几分钟就制作好了",
+    "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4"
+   }
+  ],
+  "e8d6f62a4a": [
+   {
+    "t": 2.7,
+    "text": "旋旋图片 高度设置 6cm",
+    "video": "c202d2463f6e68b8c5dd0108e2f031f6.mp4"
+   },
+   {
+    "t": 26.6,
+    "text": "按住 CTRL 复制一个分身",
+    "video": "c202d2463f6e68b8c5dd0108e2f031f6.mp4"
+   },
+   {
+    "t": 29.2,
+    "text": "如果再给它一次出手的机会",
+    "video": "c202d2463f6e68b8c5dd0108e2f031f6.mp4"
+   }
+  ],
+  "eae66df9ef": [
+   {
+    "t": 14.4,
+    "text": "透明度改为30 旋旋右键剪切",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 19.4,
+    "text": "图片或纹理填充 选择剪贴板",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 23.2,
+    "text": "再插入个长矩形 颜色为黑色",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 32.4,
+    "text": "先选矩形再选E字 合并形状 选择拆分",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 41.4,
+    "text": "选中左边 选择换灯片背景填充",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 45.4,
+    "text": "右边部分再复制一个 选择换灯片背景填充",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 51.4,
+    "text": "与右边重叠对齐 再放上原来的背景",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 69.4,
+    "text": "复制这一页 右边部分向右移",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   },
+   {
+    "t": 76.4,
+    "text": "切换选择平滑 看最终效果",
+    "video": "63c441c2f39e25a361f74fb91a739094.mp4"
+   }
+  ],
+  "ee4c50442b": [
+   {
+    "t": 20.1,
+    "text": "接着插入圆角矩形和数字文本",
+    "video": "7cd85682179657fd97dc4404b3d49d4b.mp4"
+   },
+   {
+    "t": 27.2,
+    "text": "合并形状里选择剪除效果",
+    "video": "7cd85682179657fd97dc4404b3d49d4b.mp4"
+   },
+   {
+    "t": 69.7,
+    "text": "设置为幻灯片背景填充",
+    "video": "7cd85682179657fd97dc4404b3d49d4b.mp4"
+   },
+   {
+    "t": 78.6,
+    "text": "这次我们选择轨道切换",
+    "video": "7cd85682179657fd97dc4404b3d49d4b.mp4"
+   }
+  ],
+  "f07929659e": [
+   {
+    "t": 10.1,
+    "text": "选中表格 在表设计中找到底纹 选择其他填通颜色",
+    "video": "2db7c536eaf7ff343b58369cf96b16f8.mp4"
+   },
+   {
+    "t": 14.9,
+    "text": "颜色就选一个符合体制内的深红色 然后鼠标右键设置形状格式",
+    "video": "2db7c536eaf7ff343b58369cf96b16f8.mp4"
+   },
+   {
+    "t": 20.5,
+    "text": "把第二个颜色透明度调整为3% 第三格5% 第四格10% 往后依次增加10% 接着",
+    "video": "2db7c536eaf7ff343b58369cf96b16f8.mp4"
+   },
+   {
+    "t": 28.7,
+    "text": "在表设计中把边框调整为五框线 最后放上文案 如果想让领导看得更清楚一些",
+    "video": "2db7c536eaf7ff343b58369cf96b16f8.mp4"
+   }
+  ]
+ },
+ "prompts": [
+  {
+   "video": "ae56a65bcbc3596c6a7436285fceda02.mp4",
+   "video_id": "0a439061ed",
+   "frame": "口播",
+   "text": "[  20.0-  23.0] 复制这段提示词过去"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  25.5-  28.0] 所有的案例提示词和智能体都打包整理好了"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  31.0-  33.5] 现在只需要复制我这套提示词"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  36.2-  38.8] 就能生成对应的 PPT 画面提示词"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  42.9-  45.2] 最后将提示词扔给生图模型"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  60.9-  62.2] 哪怕不用提示词"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  64.2-  66.1] 第二种 用我这套提示词"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  67.8-  70.3] 再自动推导出专业运进提示词"
+  },
+  {
+   "video": "989259a00828806cce1d0ba48659aa42.mp4",
+   "video_id": "0f12141adc",
+   "frame": "口播",
+   "text": "[  70.3-  73.1] 然后把提示词和画面交给视频工具"
+  },
+  {
+   "video": "c5c741f053515d8ff6b823c0da7d7cf7.mp4",
+   "video_id": "4ff617284b",
+   "frame": "口播",
+   "text": "[   9.0-  11.0] 输入这段提示词"
+  },
+  {
+   "video": "6bb32d109bf33e59104d0e44a9289b7c.mp4",
+   "video_id": "5356f96f1e",
+   "frame": "口播",
+   "text": "[   5.0-  11.8] 差别就在页和页之间的转场 这期讲三种 PPT 转场 每一种都配好了 AI 提示词 第一种 窗格翻转"
+  },
+  {
+   "video": "6bb32d109bf33e59104d0e44a9289b7c.mp4",
+   "video_id": "5356f96f1e",
+   "frame": "口播",
+   "text": "[  65.0-  68.3] 只是复制提示词就可以使用 同样是让 AI 做 PPT"
+  },
+  {
+   "video": "16af0d434831d15191adb70114c8b325.mp4",
+   "video_id": "70de7aac2d",
+   "frame": "口播",
+   "text": "[   4.3-   9.3] 保存这段提示词 给到任意AI得到视频 将视频置于 PPT 中放大"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[  59.7-  62.6] 再加上生好的底图做尾帧"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[  69.7-  73.3] 输入提示词就能精准地得到我们想要的动画效果"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[  82.4-  84.8] 不然又要去写一大堆的提示词"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[  87.3-  91.0] 你只需要在手帧和尾帧都上传这张图"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[ 119.2- 121.4] 第三个叫双图运镜"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[ 125.8- 128.2] 如果你而不会写运镜的提示词"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[ 134.4- 136.1] 增进运镜的变化"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[ 136.1- 138.3] 超专业的提示词又有了"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[ 140.3- 142.1] 另一张图放尾帧"
+  },
+  {
+   "video": "fbf504486ad4132d1302f94963217d32.mp4",
+   "video_id": "bb7d007e3f",
+   "frame": "口播",
+   "text": "[ 142.1- 144.4] 粘贴刚才生成好的提示词"
+  },
+  {
+   "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4",
+   "video_id": "e1d7adde5f",
+   "frame": "口播",
+   "text": "[   0.0-   7.1] 像做这样的 PPT 有多简单 今天一个视频教会你 首先我们打开豆包 新建工作任务 输入指令 安装 Harness Anything 这个 Skill"
+  },
+  {
+   "video": "4f66a6ef92c9604d36bd542f8eab6771.mp4",
+   "video_id": "e1d7adde5f",
+   "frame": "口播",
+   "text": "[  12.7-  20.0] 上传 PPT 的内容 然后把准备好的指令复制上去 运行后豆包开始连接 WPS 开始制作 PPT 几分钟就制作好了"
+  }
+ ]
+}

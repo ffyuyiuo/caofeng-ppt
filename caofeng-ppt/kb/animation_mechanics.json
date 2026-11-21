@@ -1,0 +1,3532 @@
+{
+ "pages_with_timing": 2224,
+ "combo_signatures": {
+  "mediacall:1:0": {
+   "n": 1092,
+   "decks": 165,
+   "pages": 1074,
+   "signature": {
+    "cmd:playFrom": 1092
+   },
+   "nodeTypes": {
+    "afterEffect": 577,
+    "clickEffect": 432,
+    "withEffect": 83
+   },
+   "dur_ms": {
+    "min": 441,
+    "max": 303648,
+    "median": 61742,
+    "distinct": 232,
+    "top": [
+     [
+      62021,
+      28
+     ],
+     [
+      65342,
+      27
+     ],
+     [
+      18878,
+      22
+     ],
+     [
+      37501,
+      22
+     ],
+     [
+      58143,
+      22
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 1100,
+    "median": 400,
+    "distinct": 6,
+    "top": [
+     [
+      0,
+      1085
+     ],
+     [
+      300,
+      2
+     ],
+     [
+      200,
+      2
+     ],
+     [
+      750,
+      1
+     ],
+     [
+      1100,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1092,
+   "decks_sample": [
+    "360°全方位产品介绍PPT模版.pptx",
+    "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+    "NO.101 PPT动态转盘（含教程）.pptx",
+    "NO.102 PPT展翅高飞（含教程）.pptx",
+    "NO.103 PPT菱形介绍（含教程）.pptx",
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.105 PPT花瓣旋转展示（含教程）.pptx",
+    "NO.106  PPT文字跟随滑动（含教程）.pptx"
+   ]
+  },
+  "mediacall:2:0": {
+   "n": 1036,
+   "decks": 165,
+   "pages": 1033,
+   "signature": {
+    "cmd:togglePause": 1036
+   },
+   "nodeTypes": {
+    "clickEffect": 1023,
+    "withEffect": 10,
+    "afterEffect": 3
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      1036
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4000,
+    "median": 800,
+    "distinct": 3,
+    "top": [
+     [
+      0,
+      1034
+     ],
+     [
+      4000,
+      1
+     ],
+     [
+      800,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1036,
+   "decks_sample": [
+    "360°全方位产品介绍PPT模版.pptx",
+    "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+    "NO.101 PPT动态转盘（含教程）.pptx",
+    "NO.102 PPT展翅高飞（含教程）.pptx",
+    "NO.103 PPT菱形介绍（含教程）.pptx",
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.105 PPT花瓣旋转展示（含教程）.pptx",
+    "NO.106  PPT文字跟随滑动（含教程）.pptx"
+   ]
+  },
+  "entr:10:0": {
+   "n": 209,
+   "decks": 46,
+   "pages": 66,
+   "signature": {
+    "set:style.visibility": 209,
+    "effect:fade": 209
+   },
+   "nodeTypes": {
+    "withEffect": 115,
+    "afterEffect": 79,
+    "clickEffect": 15
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      209
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 9750,
+    "median": 2800,
+    "distinct": 26,
+    "top": [
+     [
+      0,
+      132
+     ],
+     [
+      500,
+      14
+     ],
+     [
+      1000,
+      9
+     ],
+     [
+      1500,
+      9
+     ],
+     [
+      400,
+      7
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 209,
+   "decks_sample": [
+    "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+    "NO.124 PPT动态时间轴（含教程）.pptx",
+    "NO.134  PPT国风时间轴（含教程）.pptx",
+    "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+    "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+    "NO.145 PPT科技风动态展示（含教程）.pptx",
+    "NO.148 PPT地图到实景的城市生长效果.pptx",
+    "NO.150 PPT水墨风转场效果（含教程）.pptx"
+   ]
+  },
+  "entr:22:8": {
+   "n": 109,
+   "decks": 34,
+   "pages": 50,
+   "signature": {
+    "set:style.visibility": 109,
+    "effect:wipe(left)": 109
+   },
+   "nodeTypes": {
+    "withEffect": 55,
+    "afterEffect": 50,
+    "clickEffect": 4
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      109
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 8000,
+    "median": 2500,
+    "distinct": 20,
+    "top": [
+     [
+      0,
+      67
+     ],
+     [
+      2000,
+      8
+     ],
+     [
+      2500,
+      4
+     ],
+     [
+      500,
+      4
+     ],
+     [
+      1300,
+      4
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 109,
+   "decks_sample": [
+    "NO.110  PPT动态跑步效果（含教程）.pptx",
+    "NO.113 PPT热气球动态封面（含教程）.pptx",
+    "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+    "NO.124 PPT动态时间轴（含教程）.pptx",
+    "NO.125 PPT科技封面（含教程）.pptx",
+    "NO.134  PPT国风时间轴（含教程）.pptx",
+    "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+    "NO.145 PPT科技风动态展示（含教程）.pptx"
+   ]
+  },
+  "entr:53:16": {
+   "n": 74,
+   "decks": 28,
+   "pages": 43,
+   "signature": {
+    "set:style.visibility": 74,
+    "anim:ppt_w": 74,
+    "anim:ppt_h": 74,
+    "effect:fade": 74
+   },
+   "nodeTypes": {
+    "withEffect": 52,
+    "afterEffect": 22
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      74
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 7500,
+    "median": 2500,
+    "distinct": 10,
+    "top": [
+     [
+      0,
+      29
+     ],
+     [
+      1000,
+      13
+     ],
+     [
+      500,
+      12
+     ],
+     [
+      2000,
+      5
+     ],
+     [
+      7500,
+      4
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 74,
+   "decks_sample": [
+    "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+    "NO.102 PPT展翅高飞（含教程）.pptx",
+    "NO.103 PPT菱形介绍（含教程）.pptx",
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.117 PPT动态结尾（含教程）.pptx",
+    "NO.119 PPT图片墙.pptx",
+    "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+    "NO.125 PPT科技封面（含教程）.pptx"
+   ]
+  },
+  "entr:22:4": {
+   "n": 66,
+   "decks": 12,
+   "pages": 23,
+   "signature": {
+    "set:style.visibility": 66,
+    "effect:wipe(down)": 66
+   },
+   "nodeTypes": {
+    "withEffect": 33,
+    "afterEffect": 33
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      66
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4250,
+    "median": 2000,
+    "distinct": 10,
+    "top": [
+     [
+      0,
+      54
+     ],
+     [
+      4250,
+      3
+     ],
+     [
+      3750,
+      2
+     ],
+     [
+      800,
+      1
+     ],
+     [
+      1300,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 66,
+   "decks_sample": [
+    "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+    "NO.134  PPT国风时间轴（含教程）.pptx",
+    "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+    "NO.70 PPT五一劳动节模版.pptx",
+    "NO.79 PPT创意图标柱状图.pptx",
+    "NO.85 PPT玻璃质感立体柱状图.pptx",
+    "PPT动态柱状图.pptx",
+    "PPT形状创意页面.pptx"
+   ]
+  },
+  "exit:10:0": {
+   "n": 61,
+   "decks": 12,
+   "pages": 17,
+   "signature": {
+    "effect:fade": 61,
+    "set:style.visibility": 61
+   },
+   "nodeTypes": {
+    "withEffect": 55,
+    "afterEffect": 6
+   },
+   "dur_ms": {
+    "min": 200,
+    "max": 2000,
+    "median": 1000,
+    "distinct": 4,
+    "top": [
+     [
+      500,
+      47
+     ],
+     [
+      2000,
+      12
+     ],
+     [
+      1000,
+      1
+     ],
+     [
+      200,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 9750,
+    "median": 2000,
+    "distinct": 11,
+    "top": [
+     [
+      0,
+      16
+     ],
+     [
+      1000,
+      11
+     ],
+     [
+      500,
+      10
+     ],
+     [
+      1500,
+      6
+     ],
+     [
+      2000,
+      6
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 61,
+   "decks_sample": [
+    "NO.113 PPT热气球动态封面（含教程）.pptx",
+    "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+    "NO.151 PPT玻璃破碎图片展示.pptx",
+    "NO.176  PPT海浪动态封面（含教程）.pptx",
+    "PPT形状创意页面.pptx",
+    "PPT科技风动态轮盘目录页.pptx",
+    "PPT科技风打字效果.pptx",
+    "【PPT模版】动态折线图.pptx"
+   ]
+  },
+  "entr:23:528": {
+   "n": 60,
+   "decks": 2,
+   "pages": 3,
+   "signature": {
+    "set:style.visibility": 60,
+    "anim:ppt_w": 60,
+    "anim:ppt_h": 60,
+    "anim:ppt_x": 60,
+    "anim:ppt_y": 60
+   },
+   "nodeTypes": {
+    "withEffect": 60
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      60
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 5100,
+    "median": 1700,
+    "distinct": 35,
+    "top": [
+     [
+      1500,
+      4
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      500,
+      3
+     ],
+     [
+      900,
+      3
+     ],
+     [
+      1800,
+      3
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 60,
+   "decks_sample": [
+    "NO.75 PPT国风文字飞出效果.pptx",
+    "PPT照片墙扩散轮播效果.pptx"
+   ]
+  },
+  "entr:1:0": {
+   "n": 41,
+   "decks": 12,
+   "pages": 23,
+   "signature": {
+    "set:style.visibility": 41
+   },
+   "nodeTypes": {
+    "afterEffect": 20,
+    "withEffect": 19,
+    "clickEffect": 2
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      41
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4750,
+    "median": 1000,
+    "distinct": 5,
+    "top": [
+     [
+      0,
+      28
+     ],
+     [
+      1000,
+      6
+     ],
+     [
+      500,
+      5
+     ],
+     [
+      4750,
+      1
+     ],
+     [
+      1400,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 41,
+   "decks_sample": [
+    "NO.109 PPT动态扇子目录（含教程）.pptx",
+    "NO.119 PPT图片墙.pptx",
+    "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+    "PPT3D动态人物介绍.pptx",
+    "PPT产品参数对比模版.pptx",
+    "PPT动画音频效果.pptx",
+    "PPT形状创意页面.pptx",
+    "PPT科技风打字效果.pptx"
+   ]
+  },
+  "entr:2:8": {
+   "n": 40,
+   "decks": 17,
+   "pages": 22,
+   "signature": {
+    "set:style.visibility": 40,
+    "anim:ppt_x": 40,
+    "anim:ppt_y": 40
+   },
+   "nodeTypes": {
+    "withEffect": 33,
+    "afterEffect": 7
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      40
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 8500,
+    "median": 3000,
+    "distinct": 10,
+    "top": [
+     [
+      0,
+      23
+     ],
+     [
+      2000,
+      4
+     ],
+     [
+      1000,
+      3
+     ],
+     [
+      2500,
+      2
+     ],
+     [
+      4000,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 40,
+   "decks_sample": [
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.106  PPT文字跟随滑动（含教程）.pptx",
+    "NO.119 PPT图片墙.pptx",
+    "NO.121 PPT手机成果展示（含教程）.pptx",
+    "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+    "NO.167 PPT航运动态时间轴（含教程）.pptx",
+    "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+    "NO.67人物介绍.pptx"
+   ]
+  },
+  "entr:22:1": {
+   "n": 35,
+   "decks": 9,
+   "pages": 12,
+   "signature": {
+    "set:style.visibility": 35,
+    "effect:wipe(up)": 35
+   },
+   "nodeTypes": {
+    "withEffect": 27,
+    "afterEffect": 8
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      35
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4500,
+    "median": 1500,
+    "distinct": 13,
+    "top": [
+     [
+      0,
+      14
+     ],
+     [
+      400,
+      3
+     ],
+     [
+      1000,
+      3
+     ],
+     [
+      3500,
+      2
+     ],
+     [
+      4000,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 35,
+   "decks_sample": [
+    "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+    "NO.134  PPT国风时间轴（含教程）.pptx",
+    "NO.142 PPT动态卷轴目录（含教程）.pptx",
+    "NO.70 PPT五一劳动节模版.pptx",
+    "NO.74 PPT创赛级国风模版.pptx",
+    "PPT形状创意页面.pptx",
+    "【PPT模版】文字排版.pptx",
+    "【PPT模版】笔刷擦除模版.pptx"
+   ]
+  },
+  "entr:2:2": {
+   "n": 32,
+   "decks": 15,
+   "pages": 22,
+   "signature": {
+    "set:style.visibility": 32,
+    "anim:ppt_x": 32,
+    "anim:ppt_y": 32
+   },
+   "nodeTypes": {
+    "withEffect": 28,
+    "afterEffect": 4
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      32
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 7000,
+    "median": 3000,
+    "distinct": 10,
+    "top": [
+     [
+      0,
+      10
+     ],
+     [
+      500,
+      8
+     ],
+     [
+      1000,
+      3
+     ],
+     [
+      2500,
+      2
+     ],
+     [
+      1500,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 32,
+   "decks_sample": [
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.119 PPT图片墙.pptx",
+    "NO.121 PPT手机成果展示（含教程）.pptx",
+    "NO.144 PPT动态数字过渡页（含教程）.pptx",
+    "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+    "NO.167 PPT航运动态时间轴（含教程）.pptx",
+    "NO.67人物介绍.pptx",
+    "NO.74 PPT创赛级国风模版.pptx"
+   ]
+  },
+  "entr:42:0": {
+   "n": 32,
+   "decks": 20,
+   "pages": 22,
+   "signature": {
+    "set:style.visibility": 32,
+    "effect:fade": 32,
+    "anim:ppt_x": 32,
+    "anim:ppt_y": 32
+   },
+   "nodeTypes": {
+    "withEffect": 22,
+    "afterEffect": 10
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      32
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4500,
+    "median": 2500,
+    "distinct": 11,
+    "top": [
+     [
+      0,
+      13
+     ],
+     [
+      500,
+      6
+     ],
+     [
+      3000,
+      3
+     ],
+     [
+      2000,
+      2
+     ],
+     [
+      1000,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 32,
+   "decks_sample": [
+    "NO.113 PPT热气球动态封面（含教程）.pptx",
+    "NO.122 PPT画出城市效果（含教程）.pptx",
+    "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+    "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+    "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+    "NO.165 PPT动态驾驶封面（含教程）.pptx",
+    "NO.166 PPT动态列车展示风景（含教程）.pptx",
+    "NO.173 PPT动态工厂（含教程）.pptx"
+   ]
+  },
+  "entr:22:2": {
+   "n": 32,
+   "decks": 10,
+   "pages": 15,
+   "signature": {
+    "set:style.visibility": 32,
+    "effect:wipe(right)": 32
+   },
+   "nodeTypes": {
+    "withEffect": 19,
+    "afterEffect": 13
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      32
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 3900,
+    "median": 2000,
+    "distinct": 10,
+    "top": [
+     [
+      0,
+      13
+     ],
+     [
+      500,
+      6
+     ],
+     [
+      1300,
+      5
+     ],
+     [
+      2000,
+      2
+     ],
+     [
+      1250,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 32,
+   "decks_sample": [
+    "NO.174 PPT汽车动态展示（含教程）.pptx",
+    "NO.68 PPT动态时间轴.pptx",
+    "NO.70 PPT五一劳动节模版.pptx",
+    "NO.87 PPT动态封面.pptx",
+    "NO.93 PPT动态封面（含教程）.pptx",
+    "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+    "NO.97 PPT万物生长效果（含教程）.pptx",
+    "PPT可视化动态饼图.pptx"
+   ]
+  },
+  "exit:1:0": {
+   "n": 27,
+   "decks": 11,
+   "pages": 27,
+   "signature": {
+    "set:style.visibility": 27
+   },
+   "nodeTypes": {
+    "withEffect": 26,
+    "afterEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      27
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 10000,
+    "median": 4000,
+    "distinct": 12,
+    "top": [
+     [
+      7000,
+      6
+     ],
+     [
+      5000,
+      6
+     ],
+     [
+      2100,
+      3
+     ],
+     [
+      6000,
+      2
+     ],
+     [
+      3000,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 27,
+   "decks_sample": [
+    "NO.71 PPT水墨开场.pptx",
+    "NO.73 PPT飞机划过开场.pptx",
+    "NO.76 PPT破碎开场效果.pptx",
+    "NO.78 PPT闪光划过开场.pptx",
+    "NO.80 PPT闪光开场.pptx",
+    "NO.82 PPT旋转开场.pptx",
+    "NO.84 PPT涂鸦开场.pptx",
+    "NO.86 PPT拼图开场.pptx"
+   ]
+  },
+  "entr:2:1": {
+   "n": 25,
+   "decks": 12,
+   "pages": 13,
+   "signature": {
+    "set:style.visibility": 25,
+    "anim:ppt_x": 25,
+    "anim:ppt_y": 25
+   },
+   "nodeTypes": {
+    "afterEffect": 13,
+    "withEffect": 12
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      25
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 5000,
+    "median": 1800,
+    "distinct": 8,
+    "top": [
+     [
+      0,
+      13
+     ],
+     [
+      1000,
+      5
+     ],
+     [
+      500,
+      2
+     ],
+     [
+      700,
+      1
+     ],
+     [
+      1800,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 25,
+   "decks_sample": [
+    "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+    "NO.102 PPT展翅高飞（含教程）.pptx",
+    "NO.104 PPT火箭升空（含教程）.pptx",
+    "NO.72 PPT创赛级科技风模版.pptx",
+    "NO.87 PPT动态封面.pptx",
+    "NO.91 PPT动态封面-开场模版.pptx",
+    "NO.98 PPT动态开花效果（含教程）.pptx",
+    "NO.99 PPT握手动画（含教程）.pptx"
+   ]
+  },
+  "emph:6:0": {
+   "n": 21,
+   "decks": 10,
+   "pages": 15,
+   "signature": {
+    "scale:?,?": 21
+   },
+   "nodeTypes": {
+    "withEffect": 21
+   },
+   "dur_ms": {
+    "min": 500,
+    "max": 10000,
+    "median": 2750,
+    "distinct": 7,
+    "top": [
+     [
+      1000,
+      9
+     ],
+     [
+      2000,
+      6
+     ],
+     [
+      3500,
+      2
+     ],
+     [
+      5000,
+      1
+     ],
+     [
+      2750,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 9750,
+    "median": 2000,
+    "distinct": 8,
+    "top": [
+     [
+      0,
+      11
+     ],
+     [
+      500,
+      4
+     ],
+     [
+      1000,
+      1
+     ],
+     [
+      2000,
+      1
+     ],
+     [
+      6000,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 21,
+   "decks_sample": [
+    "NO.103 PPT菱形介绍（含教程）.pptx",
+    "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+    "NO.144 PPT动态数字过渡页（含教程）.pptx",
+    "NO.151 PPT玻璃破碎图片展示.pptx",
+    "NO.71 PPT水墨开场.pptx",
+    "NO.94 PPT动态折纸效果.pptx",
+    "PPT3D动态人物介绍.pptx",
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "path:63:0": {
+   "n": 20,
+   "decks": 14,
+   "pages": 18,
+   "signature": {
+    "motion": 20,
+    "motion-rAng": 19,
+    "motion-pts:AA": 19
+   },
+   "nodeTypes": {
+    "withEffect": 12,
+    "afterEffect": 8
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 15000,
+    "median": 5000,
+    "distinct": 6,
+    "top": [
+     [
+      2000,
+      7
+     ],
+     [
+      1000,
+      5
+     ],
+     [
+      5000,
+      4
+     ],
+     [
+      15000,
+      2
+     ],
+     [
+      8000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 500,
+    "median": 500,
+    "distinct": 2,
+    "top": [
+     [
+      0,
+      19
+     ],
+     [
+      500,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 20,
+   "decks_sample": [
+    "NO.153 PPT动态划船图文展示（含教程）.pptx",
+    "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+    "NO.159 折页图文动态展示（含教程）.pptx",
+    "NO.68 PPT动态时间轴.pptx",
+    "NO.73 PPT飞机划过开场.pptx",
+    "NO.94 PPT动态折纸效果.pptx",
+    "PPT三重图片轮播效果.pptx",
+    "PPT产品参数对比模版.pptx"
+   ]
+  },
+  "entr:2:4": {
+   "n": 19,
+   "decks": 10,
+   "pages": 11,
+   "signature": {
+    "set:style.visibility": 19,
+    "anim:ppt_x": 19,
+    "anim:ppt_y": 19
+   },
+   "nodeTypes": {
+    "withEffect": 11,
+    "afterEffect": 8
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      19
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4500,
+    "median": 2300,
+    "distinct": 6,
+    "top": [
+     [
+      0,
+      13
+     ],
+     [
+      1000,
+      2
+     ],
+     [
+      1200,
+      1
+     ],
+     [
+      2300,
+      1
+     ],
+     [
+      3500,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 19,
+   "decks_sample": [
+    "NO.118 PPT电影级结尾（含教程）.pptx",
+    "NO.74 PPT创赛级国风模版.pptx",
+    "NO.91 PPT动态封面-开场模版.pptx",
+    "PPT3D动态人物介绍.pptx",
+    "PPT动态折线面积图（含模版+教程）.pptx",
+    "PPT动态条形图.pptx",
+    "PPT动态柱状图.pptx",
+    "PPT电影级字幕滚动结尾页.pptx"
+   ]
+  },
+  "entr:16:37": {
+   "n": 19,
+   "decks": 12,
+   "pages": 16,
+   "signature": {
+    "set:style.visibility": 19,
+    "effect:barn(outVertical)": 19
+   },
+   "nodeTypes": {
+    "withEffect": 11,
+    "afterEffect": 8
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      19
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 3500,
+    "median": 3000,
+    "distinct": 5,
+    "top": [
+     [
+      0,
+      14
+     ],
+     [
+      3500,
+      2
+     ],
+     [
+      1500,
+      1
+     ],
+     [
+      3000,
+      1
+     ],
+     [
+      3200,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 19,
+   "decks_sample": [
+    "NO.125 PPT科技封面（含教程）.pptx",
+    "NO.134  PPT国风时间轴（含教程）.pptx",
+    "NO.147 PPT科技风数据展示（含教程）.pptx",
+    "NO.174 PPT汽车动态展示（含教程）.pptx",
+    "NO.72 PPT创赛级科技风模版.pptx",
+    "NO.74 PPT创赛级国风模版.pptx",
+    "PPT动态条形图.pptx",
+    "PPT动态柱状图.pptx"
+   ]
+  },
+  "path:35:0": {
+   "n": 14,
+   "decks": 8,
+   "pages": 12,
+   "signature": {
+    "motion": 14,
+    "motion-rAng": 14,
+    "motion-pts:AA": 14
+   },
+   "nodeTypes": {
+    "withEffect": 14
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 15000,
+    "median": 5000,
+    "distinct": 5,
+    "top": [
+     [
+      15000,
+      6
+     ],
+     [
+      5000,
+      3
+     ],
+     [
+      2000,
+      3
+     ],
+     [
+      10000,
+      1
+     ],
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 500,
+    "median": 500,
+    "distinct": 2,
+    "top": [
+     [
+      0,
+      13
+     ],
+     [
+      500,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 14,
+   "decks_sample": [
+    "NO.107 PPT动态长图（含教程）.pptx",
+    "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+    "NO.166 PPT动态列车展示风景（含教程）.pptx",
+    "NO.83 PPT图片循环轮播.pptx",
+    "PPT三重图片轮播效果.pptx",
+    "PPT产品参数对比模版.pptx",
+    "【PPT模版】文字排版.pptx",
+    "打开卷轴动态效果.pptx"
+   ]
+  },
+  "path:64:0": {
+   "n": 14,
+   "decks": 6,
+   "pages": 6,
+   "signature": {
+    "motion": 14,
+    "motion-rAng": 13,
+    "motion-pts:AA": 13
+   },
+   "nodeTypes": {
+    "withEffect": 14
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 15000,
+    "median": 10000,
+    "distinct": 4,
+    "top": [
+     [
+      2000,
+      6
+     ],
+     [
+      1000,
+      5
+     ],
+     [
+      10000,
+      2
+     ],
+     [
+      15000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      14
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 14,
+   "decks_sample": [
+    "NO.121 PPT手机成果展示（含教程）.pptx",
+    "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+    "NO.88 PPT图片钻出.pptx",
+    "PPT动态表格.pptx",
+    "地图缩放定位.pptx",
+    "科技风时间轴.pptx"
+   ]
+  },
+  "entr:14:10": {
+   "n": 14,
+   "decks": 6,
+   "pages": 6,
+   "signature": {
+    "set:style.visibility": 14,
+    "effect:randombar(horizontal)": 14
+   },
+   "nodeTypes": {
+    "withEffect": 10,
+    "afterEffect": 4
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      14
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 2500,
+    "median": 2500,
+    "distinct": 2,
+    "top": [
+     [
+      0,
+      11
+     ],
+     [
+      2500,
+      3
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 14,
+   "decks_sample": [
+    "NO.87 PPT动态封面.pptx",
+    "NO.91 PPT动态封面-开场模版.pptx",
+    "NO.99 PPT握手动画（含教程）.pptx",
+    "PPT产品参数对比模版.pptx",
+    "PPT动画音频效果.pptx",
+    "产品需求文档.pptx"
+   ]
+  },
+  "emph:8:0": {
+   "n": 12,
+   "decks": 4,
+   "pages": 5,
+   "signature": {},
+   "nodeTypes": {
+    "withEffect": 12
+   },
+   "dur_ms": {
+    "min": 250,
+    "max": 2750,
+    "median": 700,
+    "distinct": 7,
+    "top": [
+     [
+      500,
+      4
+     ],
+     [
+      1000,
+      2
+     ],
+     [
+      250,
+      2
+     ],
+     [
+      2000,
+      1
+     ],
+     [
+      2750,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 9750,
+    "median": 2000,
+    "distinct": 11,
+    "top": [
+     [
+      250,
+      2
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      9750,
+      1
+     ],
+     [
+      800,
+      1
+     ],
+     [
+      2000,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 12,
+   "decks_sample": [
+    "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+    "NO.151 PPT玻璃破碎图片展示.pptx",
+    "NO.68 PPT动态时间轴.pptx",
+    "产品需求文档.pptx"
+   ]
+  },
+  "exit:22:8": {
+   "n": 12,
+   "decks": 2,
+   "pages": 2,
+   "signature": {
+    "effect:wipe(left)": 12,
+    "set:style.visibility": 12
+   },
+   "nodeTypes": {
+    "withEffect": 12
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 2000,
+    "median": 2000,
+    "distinct": 2,
+    "top": [
+     [
+      2000,
+      11
+     ],
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      12
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 12,
+   "decks_sample": [
+    "PPT动画音频效果.pptx",
+    "PPT商品一键换色模版.pptx"
+   ]
+  },
+  "path:0:0": {
+   "n": 11,
+   "decks": 9,
+   "pages": 11,
+   "signature": {
+    "motion": 11,
+    "motion-rAng": 8,
+    "motion-pts:AAAA": 4,
+    "motion-pts:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": 2,
+    "motion-pts:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": 1,
+    "motion-pts:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA": 1,
+    "motion-pts:AAAAAAAAAAAAAAAAAAAAAAA": 1,
+    "motion-pts:AA": 1
+   },
+   "nodeTypes": {
+    "withEffect": 6,
+    "afterEffect": 5
+   },
+   "dur_ms": {
+    "min": 3000,
+    "max": 6500,
+    "median": 5500,
+    "distinct": 4,
+    "top": [
+     [
+      5000,
+      6
+     ],
+     [
+      6500,
+      3
+     ],
+     [
+      3000,
+      1
+     ],
+     [
+      5500,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      11
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 11,
+   "decks_sample": [
+    "NO.124 PPT动态时间轴（含教程）.pptx",
+    "NO.68 PPT动态时间轴.pptx",
+    "PPT动态圆环年中工作汇报模版.pptx",
+    "PPT动态轮盘（工作汇报模版）.pptx",
+    "【PPT模版】动态折线图.pptx",
+    "【PPT模版】动态时间轴.pptx",
+    "【PPT模版】年终工作汇报总结模版.pptx",
+    "创意动态时间轴.pptx"
+   ]
+  },
+  "path:42:0": {
+   "n": 10,
+   "decks": 4,
+   "pages": 5,
+   "signature": {
+    "motion": 10,
+    "motion-rAng": 10,
+    "motion-pts:AA": 10
+   },
+   "nodeTypes": {
+    "withEffect": 10
+   },
+   "dur_ms": {
+    "min": 500,
+    "max": 2000,
+    "median": 1000,
+    "distinct": 3,
+    "top": [
+     [
+      500,
+      5
+     ],
+     [
+      1000,
+      4
+     ],
+     [
+      2000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 1500,
+    "median": 1000,
+    "distinct": 4,
+    "top": [
+     [
+      0,
+      4
+     ],
+     [
+      1500,
+      4
+     ],
+     [
+      500,
+      1
+     ],
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 10,
+   "decks_sample": [
+    "NO.142 PPT动态卷轴目录（含教程）.pptx",
+    "NO.88 PPT图片钻出.pptx",
+    "PPT形状创意页面.pptx",
+    "产品需求文档.pptx"
+   ]
+  },
+  "entr:47:0": {
+   "n": 9,
+   "decks": 4,
+   "pages": 4,
+   "signature": {
+    "set:style.visibility": 9,
+    "effect:fade": 9,
+    "anim:ppt_x": 9,
+    "anim:ppt_y": 9
+   },
+   "nodeTypes": {
+    "afterEffect": 5,
+    "withEffect": 4
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      9
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4000,
+    "median": 3500,
+    "distinct": 4,
+    "top": [
+     [
+      0,
+      6
+     ],
+     [
+      4000,
+      1
+     ],
+     [
+      1800,
+      1
+     ],
+     [
+      3500,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 9,
+   "decks_sample": [
+    "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+    "NO.85 PPT玻璃质感立体柱状图.pptx",
+    "NO.88 PPT图片钻出.pptx",
+    "创意动态时间轴.pptx"
+   ]
+  },
+  "entr:21:1": {
+   "n": 7,
+   "decks": 5,
+   "pages": 5,
+   "signature": {
+    "set:style.visibility": 7,
+    "effect:wheel(1)": 7
+   },
+   "nodeTypes": {
+    "afterEffect": 7
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      7
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      7
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 7,
+   "decks_sample": [
+    "PPT动态圆环年中工作汇报模版.pptx",
+    "PPT动态轮盘（工作汇报模版）.pptx",
+    "PPT可视化动态饼图.pptx",
+    "【PPT模版】年终工作汇报总结模版.pptx",
+    "转正升职竞聘述职PPT模版.pptx"
+   ]
+  },
+  "entr:26:0": {
+   "n": 7,
+   "decks": 4,
+   "pages": 4,
+   "signature": {
+    "scale:?,?": 56,
+    "anim:ppt_y": 28,
+    "set:style.visibility": 7,
+    "effect:wipe(down)": 7,
+    "anim:ppt_x": 7
+   },
+   "nodeTypes": {
+    "withEffect": 4,
+    "clickEffect": 3
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      7
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      7
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 7,
+   "decks_sample": [
+    "PPT动画音频效果.pptx",
+    "【PPT003】团队介绍.pptx",
+    "【PPT模版】三维地图.pptx",
+    "【PPT模版】鼠标悬停开灯效果.pptx"
+   ]
+  },
+  "entr:23:32": {
+   "n": 4,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 4,
+    "anim:ppt_w": 4,
+    "anim:ppt_h": 4
+   },
+   "nodeTypes": {
+    "withEffect": 4
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      4
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 500,
+    "max": 2000,
+    "median": 1500,
+    "distinct": 4,
+    "top": [
+     [
+      500,
+      1
+     ],
+     [
+      1000,
+      1
+     ],
+     [
+      1500,
+      1
+     ],
+     [
+      2000,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 4,
+   "decks_sample": [
+    "NO.104 PPT火箭升空（含教程）.pptx"
+   ]
+  },
+  "entr:12:2": {
+   "n": 4,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 4,
+    "anim:ppt_x": 4,
+    "effect:wipe(left)": 4
+   },
+   "nodeTypes": {
+    "afterEffect": 4
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      4
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      4
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 4,
+   "decks_sample": [
+    "产品需求文档.pptx"
+   ]
+  },
+  "emph:3:2": {
+   "n": 3,
+   "decks": 1,
+   "pages": 3,
+   "signature": {},
+   "nodeTypes": {
+    "withEffect": 3
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 1000,
+    "median": 1000,
+    "distinct": 1,
+    "top": [
+     [
+      1000,
+      3
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 3,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "entr:16:21": {
+   "n": 2,
+   "decks": 2,
+   "pages": 2,
+   "signature": {
+    "set:style.visibility": 2,
+    "effect:barn(inVertical)": 2
+   },
+   "nodeTypes": {
+    "withEffect": 2
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 4000,
+    "median": 4000,
+    "distinct": 2,
+    "top": [
+     [
+      4000,
+      1
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 2,
+   "decks_sample": [
+    "NO.147 PPT科技风数据展示（含教程）.pptx",
+    "NO.74 PPT创赛级国风模版.pptx"
+   ]
+  },
+  "entr:2:6": {
+   "n": 2,
+   "decks": 1,
+   "pages": 2,
+   "signature": {
+    "set:style.visibility": 2,
+    "anim:ppt_x": 2,
+    "anim:ppt_y": 2
+   },
+   "nodeTypes": {
+    "withEffect": 2
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 2,
+   "decks_sample": [
+    "NO.67人物介绍.pptx"
+   ]
+  },
+  "entr:2:9": {
+   "n": 2,
+   "decks": 1,
+   "pages": 2,
+   "signature": {
+    "set:style.visibility": 2,
+    "anim:ppt_x": 2,
+    "anim:ppt_y": 2
+   },
+   "nodeTypes": {
+    "withEffect": 2
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 2,
+   "decks_sample": [
+    "NO.67人物介绍.pptx"
+   ]
+  },
+  "emph:35:0": {
+   "n": 2,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "anim:style.visibility": 2
+   },
+   "nodeTypes": {
+    "withEffect": 1,
+    "afterEffect": 1
+   },
+   "dur_ms": {
+    "min": 100,
+    "max": 100,
+    "median": 100,
+    "distinct": 1,
+    "top": [
+     [
+      100,
+      2
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 500,
+    "median": 500,
+    "distinct": 2,
+    "top": [
+     [
+      500,
+      1
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 2,
+   "decks_sample": [
+    "PPT产品参数对比模版.pptx"
+   ]
+  },
+  "entr:49:0": {
+   "n": 2,
+   "decks": 2,
+   "pages": 2,
+   "signature": {
+    "set:style.visibility": 2,
+    "anim:ppt_w": 2,
+    "anim:ppt_h": 2,
+    "anim:style.rotation": 2,
+    "effect:fade": 2
+   },
+   "nodeTypes": {
+    "withEffect": 1,
+    "afterEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      2
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 2,
+   "decks_sample": [
+    "PPT动画音频效果.pptx",
+    "产品需求文档.pptx"
+   ]
+  },
+  "exit:2:2": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "anim:ppt_x": 1,
+    "anim:ppt_y": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 1000,
+    "median": 1000,
+    "distinct": 1,
+    "top": [
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "emph:34:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "motion": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 500,
+    "max": 500,
+    "median": 500,
+    "distinct": 1,
+    "top": [
+     [
+      500,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:42:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "effect:fade": 1,
+    "anim:ppt_x": 1,
+    "anim:ppt_y": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 1000,
+    "median": 1000,
+    "distinct": 1,
+    "top": [
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:16:37": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "effect:barn(outVertical)": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 1000,
+    "median": 1000,
+    "distinct": 1,
+    "top": [
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:14:10": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "effect:randombar(horizontal)": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 500,
+    "max": 500,
+    "median": 500,
+    "distinct": 1,
+    "top": [
+     [
+      500,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:26:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "scale:?,?": 8,
+    "anim:ppt_y": 5,
+    "anim:ppt_x": 2,
+    "effect:wipe(down)": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 180,
+    "max": 180,
+    "median": 180,
+    "distinct": 1,
+    "top": [
+     [
+      180,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "entr:31:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 1,
+    "anim:ppt_w": 1,
+    "anim:ppt_h": 1,
+    "anim:style.rotation": 1,
+    "effect:fade": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "entr:45:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 1,
+    "effect:fade": 1,
+    "anim:ppt_w": 1,
+    "anim:ppt_h": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:45:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "effect:fade": 1,
+    "anim:ppt_w": 1,
+    "anim:ppt_h": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 2000,
+    "max": 2000,
+    "median": 2000,
+    "distinct": 1,
+    "top": [
+     [
+      2000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "path:50:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "motion": 1,
+    "motion-rAng": 1,
+    "motion-pts:AAAA": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 1000,
+    "median": 1000,
+    "distinct": 1,
+    "top": [
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:38:0": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "anim:style.rotation": 1,
+    "anim:ppt_y": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1000,
+    "max": 1000,
+    "median": 1000,
+    "distinct": 1,
+    "top": [
+     [
+      1000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "entr:6:32": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 1,
+    "effect:circle(out)": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "entr:21:8": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 1,
+    "effect:wheel(8)": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT动画音频效果.pptx"
+   ]
+  },
+  "exit:22:4": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "effect:wipe(down)": 1,
+    "set:style.visibility": 1
+   },
+   "nodeTypes": {
+    "withEffect": 1
+   },
+   "dur_ms": {
+    "min": 2000,
+    "max": 2000,
+    "median": 2000,
+    "distinct": 1,
+    "top": [
+     [
+      2000,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "distinct": 1,
+    "top": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT商品一键换色模版.pptx"
+   ]
+  },
+  "entr:16:42": {
+   "n": 1,
+   "decks": 1,
+   "pages": 1,
+   "signature": {
+    "set:style.visibility": 1,
+    "effect:barn(outHorizontal)": 1
+   },
+   "nodeTypes": {
+    "afterEffect": 1
+   },
+   "dur_ms": {
+    "min": 1,
+    "max": 1,
+    "median": 1,
+    "distinct": 1,
+    "top": [
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "delay_ms": {
+    "min": 500,
+    "max": 500,
+    "median": 500,
+    "distinct": 1,
+    "top": [
+     [
+      500,
+      1
+     ]
+    ]
+   },
+   "triggered": 0,
+   "targeted": 1,
+   "decks_sample": [
+    "PPT科技风打字效果.pptx"
+   ]
+  }
+ },
+ "nodeType_total": {
+  "clickEffect": 1479,
+  "tmRoot": 1222,
+  "mainSeq": 1221,
+  "interactiveSeq": 1053,
+  "afterEffect": 898,
+  "withEffect": 819
+ },
+ "nodeType_in_video_interactive_pages": {
+  "?": 8133,
+  "clickEffect": 1474,
+  "interactiveSeq": 1053,
+  "tmRoot": 1035,
+  "mainSeq": 1034,
+  "afterEffect": 604,
+  "withEffect": 313
+ },
+ "trigger_events": {
+  "onClick": 1053,
+  "onBegin": 785
+ },
+ "trigger_with_target_spid": 1053,
+ "cmd_type_and_call": {
+  "call|playFrom": 1092,
+  "call|togglePause": 1036
+ },
+ "cmd_strings": {
+  "playFrom(0.0)": 1092,
+  "togglePause": 1036
+ },
+ "media_node_attrs": {},
+ "animEffect_filters": {
+  "fade": 391,
+  "wipe(left)": 125,
+  "wipe(down)": 75,
+  "wipe(up)": 35,
+  "wipe(right)": 32,
+  "barn(outVertical)": 20,
+  "randombar(horizontal)": 15,
+  "wheel(1)": 7,
+  "barn(inVertical)": 2,
+  "circle(out)": 1,
+  "wheel(8)": 1,
+  "barn(outHorizontal)": 1
+ },
+ "cmd_subtypes": {},
+ "attr_values": {
+  "set|style.visibility": {
+   "visible": 851,
+   "hidden": 108
+  },
+  "anim|ppt_x": {
+   "#ppt_x": 317,
+   "0-#ppt_w/2": 42,
+   "1+#ppt_w/2": 34,
+   "#ppt_x-0.25": 7,
+   "ppt_x": 6,
+   "#ppt_x+#ppt_w*1.125000": 4
+  },
+  "anim|ppt_y": {
+   "#ppt_y": 293,
+   "#ppt_y+.1": 32,
+   "0-#ppt_h/2": 27,
+   "1+#ppt_h/2": 21,
+   "#ppt_y-.1": 9,
+   "ppt_y": 9
+  },
+  "anim|ppt_w": {
+   "#ppt_w": 141,
+   "4*#ppt_w": 4,
+   "ppt_w": 1,
+   "0.92*ppt_w": 1,
+   "0.71*ppt_w": 1
+  },
+  "anim|ppt_h": {
+   "#ppt_h": 143,
+   "4*#ppt_h": 4,
+   "ppt_h": 2
+  },
+  "anim|style.visibility": {
+   "hidden": 2,
+   "visible": 2
+  }
+ },
+ "motion_path_samples": [
+  "M -2.5E-6 0 L -0.38932 0 ",
+  "M -2.5E-6 0 L -0.38932 0 ",
+  "M -2.5E-6 0 L -0.38932 0 ",
+  "M 2.70833E-6 4.44444E-6 L 2.70833E-6 -1.58172 ",
+  "M 0 -0.00069 L 0.03086 -0.01921 L 0.03451 -0.01088 L 0.05547 -0.0324 L 0.05547 -0.0324 L 0.05977 -0.02569 L 0.07487 -0.02569 L 0.07813 -0.0324 L 0.09063 -0.02754 L 0.09805 -0.03148 L 0.10794 -0.02014 L 0.11641 -0.02199 L 0.11797 -0.01458 L 0.12526 -0.02754 L 0.14622 -0.03426 L 0.14987 -0.04814 L 0.16875 -0.05926 L 0.18451 -0.04814 L 0.20234 -0.04907 L 0.21758 -0.06018 L 0.22656 -0.0537 L 0.24323 -0.06875 L 0.24909 -0.06875 L 0.28372 -0.13125 L 0.29049 -0.13217 L 0.29987 -0.15254 L 0.32031 -0.16389 L 0.32201 -0.17037 L 0.32721 -0.16852 L 0.33086 -0.18148 L 0.34818 -0.19166 L 0.34557 -0.20115 L 0.36654 -0.21319 L 0.37487 -0.22801 L 0.38906 -0.20856 L 0.39063 -0.19838 L 0.40846 -0.18981 L 0.42005 -0.21041 L 0.43997 -0.21227 L 0.46198 -0.18796 L 0.4819 -0.1368 L 0.50391 -0.12639 L 0.51966 -0.08449 L 0.57318 -0.02662 L 0.58464 -0.03032 L 0.59414 -0.04537 L 0.61667 -0.03426 L 0.63138 -0.00625 L 0.65078 -0.00625 L 0.66966 -0.01828 L 0.68333 -0.01551 L 0.69635 -0.02199 L 0.70326 -0.00162 L 0.70638 -0.00902 L 0.73893 0.02361 L 0.74154 0.01898 L 0.75573 0.03287 L 0.77461 0.01528 L 0.78763 0.02547 L 0.78867 0.03195 L 0.79922 0.02824 L 0.83646 0.0544 L 0.8474 0.05718 L 0.86211 0.07593 L 0.87734 0.07408 L 0.88841 0.08334 L 0.8931 0.09352 L 0.91198 0.07963 L 0.92135 0.08611 L 0.93138 0.07315 L 0.95339 0.07778 L 0.96289 0.07593 L 0.97956 0.10023 L 1.00013 0.09167 ",
+  "M -3.125E-6 -2.22222E-6 L 0.00052 -1.66597 ",
+  "M 3.125E-6 3.7037E-6 L 3.125E-6 0.47083 ",
+  "M -2.5E-6 3.7037E-6 L -2.5E-6 0.47083 ",
+  "M 1.66667E-6 3.7037E-6 L 1.66667E-6 0.47083 ",
+  "M -4.375E-6 3.7037E-6 L -4.375E-6 0.47083 ",
+  "M 1.66667E-6 0 L 0.53021 0 ",
+  "M 0 0 L 0.25 0 E"
+ ],
+ "interactive_seq_pages": 1042,
+ "interactive_seq_decks": [
+  "360°全方位产品介绍PPT模版.pptx",
+  "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+  "NO.101 PPT动态转盘（含教程）.pptx",
+  "NO.102 PPT展翅高飞（含教程）.pptx",
+  "NO.103 PPT菱形介绍（含教程）.pptx",
+  "NO.104 PPT火箭升空（含教程）.pptx",
+  "NO.105 PPT花瓣旋转展示（含教程）.pptx",
+  "NO.106  PPT文字跟随滑动（含教程）.pptx",
+  "NO.107 PPT动态长图（含教程）.pptx",
+  "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+  "NO.109 PPT动态扇子目录（含教程）.pptx",
+  "NO.110  PPT动态跑步效果（含教程）.pptx",
+  "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+  "NO.112 PPT旋转镜头（含教程）.pptx",
+  "NO.113 PPT热气球动态封面（含教程）.pptx",
+  "NO.114 PPT动态飞机文字排版（含教程）.pptx",
+  "NO.115 PPT卡片轮播（含教程）.pptx",
+  "NO.116 PPT数字滚动时间轴（含教程）.pptx",
+  "NO.117 PPT动态结尾（含教程）.pptx",
+  "NO.118 PPT电影级结尾（含教程）.pptx",
+  "NO.119 PPT图片墙.pptx",
+  "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+  "NO.121 PPT手机成果展示（含教程）.pptx",
+  "NO.122 PPT画出城市效果（含教程）.pptx",
+  "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+  "NO.124 PPT动态时间轴（含教程）.pptx",
+  "NO.125 PPT科技封面（含教程）.pptx",
+  "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+  "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+  "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+  "NO.129 PPT撕纸封面（含教程）.pptx",
+  "NO.130 PPT动态冲浪封面（含教程）.pptx",
+  "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+  "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+  "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+  "NO.134  PPT国风时间轴（含教程）.pptx",
+  "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+  "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+  "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+  "NO.138 PPT旋转风车（含教程）.pptx",
+  "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+  "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+  "NO.141 PPT动态舞狮封面.pptx",
+  "NO.142 PPT动态卷轴目录（含教程）.pptx",
+  "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+  "NO.144 PPT动态数字过渡页（含教程）.pptx",
+  "NO.145 PPT科技风动态展示（含教程）.pptx",
+  "NO.146 PPT科技风动态对比页（含教程）.pptx",
+  "NO.147 PPT科技风数据展示（含教程）.pptx",
+  "NO.148 PPT地图到实景的城市生长效果.pptx",
+  "NO.149 PPT唱片过渡页（含教程）.pptx",
+  "NO.150 PPT水墨风转场效果（含教程）.pptx",
+  "NO.151 PPT玻璃破碎图片展示.pptx",
+  "NO.152 PPT科技风步骤条.pptx",
+  "NO.153 PPT动态划船图文展示（含教程）.pptx",
+  "NO.154 PPT动态国风开场（含教程）.pptx",
+  "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+  "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+  "NO.157 PPT动态风车封面（含教程）.pptx",
+  "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+  "NO.159 折页图文动态展示（含教程）.pptx",
+  "NO.160 PPT城市动态画卷（含教程）.pptx",
+  "NO.161 PPT动态手绘封面（含教程）.pptx",
+  "NO.162 PPT红色风格企业介绍.pptx",
+  "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+  "NO.164 PPT3D微缩景观（含教程）.pptx",
+  "NO.165 PPT动态驾驶封面（含教程）.pptx",
+  "NO.166 PPT动态列车展示风景（含教程）.pptx",
+  "NO.167 PPT航运动态时间轴（含教程）.pptx",
+  "NO.168 PPT动态列车展示页（含教程）.pptx",
+  "NO.169 PPT科技风动态展示页（含教程）.pptx",
+  "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+  "NO.171 科技风动态扫描展示页（含教程）.pptx",
+  "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+  "NO.173 PPT动态工厂（含教程）.pptx",
+  "NO.174 PPT汽车动态展示（含教程）.pptx",
+  "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+  "NO.176  PPT海浪动态封面（含教程）.pptx",
+  "NO.67人物介绍.pptx",
+  "NO.68 PPT动态时间轴.pptx",
+  "NO.70 PPT五一劳动节模版.pptx",
+  "NO.71 PPT水墨开场.pptx",
+  "NO.72 PPT创赛级科技风模版.pptx",
+  "NO.73 PPT飞机划过开场.pptx",
+  "NO.74 PPT创赛级国风模版.pptx",
+  "NO.75 PPT国风文字飞出效果.pptx",
+  "NO.76 PPT破碎开场效果.pptx",
+  "NO.77 PPT创意图标条形图.pptx",
+  "NO.78 PPT闪光划过开场.pptx",
+  "NO.79 PPT创意图标柱状图.pptx",
+  "NO.80 PPT闪光开场.pptx",
+  "NO.82 PPT旋转开场.pptx",
+  "NO.83 PPT图片循环轮播.pptx",
+  "NO.84 PPT涂鸦开场.pptx",
+  "NO.85 PPT玻璃质感立体柱状图.pptx",
+  "NO.86 PPT拼图开场.pptx",
+  "NO.87 PPT动态封面.pptx",
+  "NO.88 PPT图片钻出.pptx",
+  "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+  "NO.90 PPT动态菱形开场.pptx",
+  "NO.91 PPT动态封面-开场模版.pptx",
+  "NO.92 PPT打开扇子模版（含教程）.pptx",
+  "NO.93 PPT动态封面（含教程）.pptx",
+  "NO.94 PPT动态折纸效果.pptx",
+  "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+  "NO.96 PPT拉幕动画（含教程）.pptx",
+  "NO.97 PPT万物生长效果（含教程）.pptx",
+  "NO.98 PPT动态开花效果（含教程）.pptx",
+  "NO.99 PPT握手动画（含教程）.pptx",
+  "PPT3D动态人物介绍.pptx",
+  "PPT7×5神奇表格.pptx",
+  "PPT三重图片轮播效果.pptx",
+  "PPT产品参数对比模版.pptx",
+  "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+  "PPT创意动态封面.pptx",
+  "PPT动态图文展示时间轴里程碑模版.pptx",
+  "PPT动态圆环年中工作汇报模版.pptx",
+  "PPT动态折线面积图（含模版+教程）.pptx",
+  "PPT动态条形图.pptx",
+  "PPT动态柱状图.pptx",
+  "PPT动态笔刷开场模版.pptx",
+  "PPT动态表格.pptx",
+  "PPT动态轮盘（工作汇报模版）.pptx",
+  "PPT动画拉幕转场效果（内含模版+视频教程）.pptx",
+  "PPT动画音频效果.pptx",
+  "PPT可视化动态饼图.pptx",
+  "PPT商品一键换色模版.pptx",
+  "PPT图标素材.pptx",
+  "PPT多图排版.pptx",
+  "PPT形状创意页面.pptx",
+  "PPT撕纸开场效果.pptx",
+  "PPT数据可视化.pptx",
+  "PPT照片墙扩散轮播效果.pptx",
+  "PPT电影级字幕滚动结尾页.pptx",
+  "PPT科技风动态轮盘目录页.pptx",
+  "PPT科技风卡片模版.pptx",
+  "PPT科技风打字效果.pptx",
+  "PPT竞赛答题模版.pptx",
+  "PPT逻辑关系图模版.pptx",
+  "PPT随机抽奖模版.pptx",
+  "【PPT模版】党建红色主题中国风模版.pptx",
+  "【PPT模版】动态折线图.pptx",
+  "【PPT模版】动态时间轴.pptx",
+  "【PPT模版】图片轮播展示.pptx",
+  "【PPT模版】大小图片图片轮播展示.pptx",
+  "【PPT模版】年终工作汇报总结模版.pptx",
+  "【PPT模版】收入支出对比分析.pptx",
+  "【PPT模版】文字排版.pptx",
+  "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+  "【PPT模版】笔刷擦除模版.pptx",
+  "【PPT模版】随机抽签.pptx",
+  "三维旋转图片轮播.pptx",
+  "产品需求文档.pptx",
+  "创意动态时间轴.pptx",
+  "创意目录页.pptx",
+  "制作动态排名图（内含制作工具和视频教程）.pptx",
+  "动态占比可视化分析.pptx",
+  "地图缩放定位.pptx",
+  "多人动态介绍.pptx",
+  "打开卷轴动态效果.pptx",
+  "新旧对比.pptx",
+  "科技感动态过渡页.pptx",
+  "科技感图片轮播展示.pptx",
+  "科技风时间轴.pptx",
+  "转正升职竞聘述职PPT模版.pptx"
+ ],
+ "graphicframe_build_pages": 21,
+ "graphicframe_animated": 0,
+ "graphicframe_examples": [
+  {
+   "deck": "NO.68 PPT动态时间轴.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "NO.68 PPT动态时间轴.pptx",
+   "page": 2,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "NO.68 PPT动态时间轴.pptx",
+   "page": 3,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "NO.68 PPT动态时间轴.pptx",
+   "page": 4,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "NO.77 PPT创意图标条形图.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "NO.77 PPT创意图标条形图.pptx",
+   "page": 2,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "NO.79 PPT创意图标柱状图.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "PPT动态圆环年中工作汇报模版.pptx",
+   "page": 10,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "PPT动态折线面积图（含模版+教程）.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "PPT动态条形图.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "PPT动态柱状图.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "PPT动态表格.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "PPT动态轮盘（工作汇报模版）.pptx",
+   "page": 10,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "【PPT模版】动态折线图.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "【PPT模版】年终工作汇报总结模版.pptx",
+   "page": 11,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "【PPT模版】收入支出对比分析.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "创意动态时间轴.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "地图缩放定位.pptx",
+   "page": 1,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "转正升职竞聘述职PPT模版.pptx",
+   "page": 13,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    },
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  },
+  {
+   "deck": "转正升职竞聘述职PPT模版.pptx",
+   "page": 18,
+   "frames": [
+    {
+     "id": null,
+     "uri": "",
+     "animated": false
+    }
+   ]
+  }
+ ],
+ "per_deck_anim_nodes": {
+  "PPT竞赛答题模版.pptx": 80,
+  "转正升职竞聘述职PPT模版.pptx": 64,
+  "PPT动画音频效果.pptx": 63,
+  "【PPT模版】年终工作汇报总结模版.pptx": 59,
+  "地图缩放定位.pptx": 56,
+  "NO.75 PPT国风文字飞出效果.pptx": 54,
+  "NO.176  PPT海浪动态封面（含教程）.pptx": 52,
+  "创意动态时间轴.pptx": 52,
+  "产品需求文档.pptx": 50,
+  "NO.68 PPT动态时间轴.pptx": 48,
+  "创意目录页.pptx": 40,
+  "NO.74 PPT创赛级国风模版.pptx": 36,
+  "PPT商品一键换色模版.pptx": 34,
+  "NO.155 PPT动态破浪时间轴（含教程）.pptx": 32,
+  "NO.85 PPT玻璃质感立体柱状图.pptx": 32,
+  "PPT照片墙扩散轮播效果.pptx": 32,
+  "PPT科技风动态轮盘目录页.pptx": 32,
+  "PPT可视化动态饼图.pptx": 31,
+  "NO.77 PPT创意图标条形图.pptx": 30,
+  "PPT动态条形图.pptx": 30,
+  "【PPT模版】动态折线图.pptx": 30,
+  "PPT动态笔刷开场模版.pptx": 29,
+  "PPT3D动态人物介绍.pptx": 28,
+  "PPT产品参数对比模版.pptx": 28,
+  "NO.95 PPT帆船动态开场页面（含教程）.pptx": 27,
+  "PPT动态柱状图.pptx": 27,
+  "PPT动态表格.pptx": 27,
+  "PPT形状创意页面.pptx": 27,
+  "科技风时间轴.pptx": 27,
+  "NO.120 PPT动态笔刷时间轴（含教程）.pptx": 26,
+  "NO.79 PPT创意图标柱状图.pptx": 26,
+  "PPT动态折线面积图（含模版+教程）.pptx": 26,
+  "NO.119 PPT图片墙.pptx": 25,
+  "NO.151 PPT玻璃破碎图片展示.pptx": 25,
+  "NO.170 PPT科技风动态点亮展示页（含教程）.pptx": 25,
+  "NO.87 PPT动态封面.pptx": 25,
+  "PPT动态圆环年中工作汇报模版.pptx": 25,
+  "PPT动态轮盘（工作汇报模版）.pptx": 25,
+  "NO.171 科技风动态扫描展示页（含教程）.pptx": 24,
+  "NO.70 PPT五一劳动节模版.pptx": 24,
+  "NO.72 PPT创赛级科技风模版.pptx": 24,
+  "NO.93 PPT动态封面（含教程）.pptx": 24,
+  "NO.97 PPT万物生长效果（含教程）.pptx": 24,
+  "【PPT模版】文字排版.pptx": 24,
+  "PPT创意动态封面.pptx": 23,
+  "【PPT模版】笔刷擦除模版.pptx": 23,
+  "NO.145 PPT科技风动态展示（含教程）.pptx": 22,
+  "NO.91 PPT动态封面-开场模版.pptx": 22,
+  "PPT科技风打字效果.pptx": 22,
+  "【PPT模版】科技感动态光效（含模版+教程）.pptx": 22,
+  "新旧对比.pptx": 22,
+  "NO.174 PPT汽车动态展示（含教程）.pptx": 21,
+  "NO.98 PPT动态开花效果（含教程）.pptx": 21,
+  "NO.134  PPT国风时间轴（含教程）.pptx": 20,
+  "NO.142 PPT动态卷轴目录（含教程）.pptx": 20,
+  "NO.144 PPT动态数字过渡页（含教程）.pptx": 20,
+  "NO.167 PPT航运动态时间轴（含教程）.pptx": 20,
+  "PPT三重图片轮播效果.pptx": 20,
+  "NO.147 PPT科技风数据展示（含教程）.pptx": 19,
+  "NO.172 PPT科技风动态箭头封面（含教程）.pptx": 19
+ }
+}

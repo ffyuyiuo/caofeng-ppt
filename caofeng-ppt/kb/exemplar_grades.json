@@ -1,0 +1,8783 @@
+{
+ "n_pages": 2224,
+ "n_good": 835,
+ "n_bad": 1389,
+ "bad_share_pct": 62.5,
+ "reasons": {
+  "empty_page": 560,
+  "ad:share_channel": 496,
+  "text_on_bright_bg": 346,
+  "dense_text_wall": 70,
+  "no_type_hierarchy": 20,
+  "product_number_hero": 16,
+  "ad:more_templates": 7,
+  "ad:closing_cliche": 1,
+  "ad:shop_ad": 1
+ },
+ "rules": {
+  "ad_patterns": [
+   "提取码|验证码|下载链接|网盘|百度云|加群|客服|微信号|公众号|二维码",
+   "更多(精品|优质|热门)?(模板|模版|素材|资源)|免费(领取|下载|模板|素材)|模板(大全|合集)",
+   "(淘宝|店铺|网店|商务|定制).{0,8}(PPT|ppt|设计|制作)",
+   "(教程|课程).{0,10}(推荐|相关|配套|点击查看)|相关推荐",
+   "侵权|必究|版权归(所有)?|免责声明",
+   "^(THANKS|谢谢观看|感谢聆听)\\s*$"
+  ],
+  "dense_chars_min": 300,
+  "tiny_pt_max": 14,
+  "text_zone_lum_max": 0.55,
+  "product_number_hero": "^(NO\\.?\\s?\\d+|第?\\s*\\d+\\s*套)\\b"
+ },
+ "archetype_share_all": {
+  "pure-visual": {
+   "pages": 744,
+   "pct": 33.5
+  },
+  "full-bleed": {
+   "pages": 608,
+   "pct": 27.3
+  },
+  "split-centre-image": {
+   "pages": 504,
+   "pct": 22.7
+  },
+  "text-block": {
+   "pages": 114,
+   "pct": 5.1
+  },
+  "icon-accent": {
+   "pages": 58,
+   "pct": 2.6
+  },
+  "photo-wall": {
+   "pages": 51,
+   "pct": 2.3
+  },
+  "split-left-image": {
+   "pages": 50,
+   "pct": 2.2
+  },
+  "bg-blip-text-only": {
+   "pages": 43,
+   "pct": 1.9
+  },
+  "pic-inset": {
+   "pages": 21,
+   "pct": 0.9
+  },
+  "card-grid": {
+   "pages": 8,
+   "pct": 0.4
+  },
+  "timeline-on-line": {
+   "pages": 7,
+   "pct": 0.3
+  },
+  "centred-statement": {
+   "pages": 6,
+   "pct": 0.3
+  },
+  "split-right-image": {
+   "pages": 5,
+   "pct": 0.2
+  },
+  "stack-top-image": {
+   "pages": 3,
+   "pct": 0.1
+  },
+  "text-from-layout-placeholder": {
+   "pages": 1,
+   "pct": 0.0
+  },
+  "stack-bottom-image": {
+   "pages": 1,
+   "pct": 0.0
+  }
+ },
+ "archetype_share_good": {
+  "full-bleed": {
+   "pages": 487,
+   "pct": 58.3
+  },
+  "pure-visual": {
+   "pages": 184,
+   "pct": 22.0
+  },
+  "split-centre-image": {
+   "pages": 49,
+   "pct": 5.9
+  },
+  "bg-blip-text-only": {
+   "pages": 26,
+   "pct": 3.1
+  },
+  "photo-wall": {
+   "pages": 24,
+   "pct": 2.9
+  },
+  "text-block": {
+   "pages": 19,
+   "pct": 2.3
+  },
+  "icon-accent": {
+   "pages": 13,
+   "pct": 1.6
+  },
+  "pic-inset": {
+   "pages": 11,
+   "pct": 1.3
+  },
+  "centred-statement": {
+   "pages": 6,
+   "pct": 0.7
+  },
+  "split-left-image": {
+   "pages": 5,
+   "pct": 0.6
+  },
+  "timeline-on-line": {
+   "pages": 5,
+   "pct": 0.6
+  },
+  "card-grid": {
+   "pages": 4,
+   "pct": 0.5
+  },
+  "split-right-image": {
+   "pages": 1,
+   "pct": 0.1
+  },
+  "stack-bottom-image": {
+   "pages": 1,
+   "pct": 0.1
+  }
+ },
+ "good_pages": {
+  "chars_median": 19,
+  "max_pt_median": 66,
+  "anim_pages": 668,
+  "media_pages": 660
+ },
+ "bad_pages": {
+  "chars_median": 41,
+  "max_pt_median": 28
+ },
+ "junk_decks": [
+  {
+   "deck": "产品需求文档.pptx",
+   "bad": 41,
+   "pages": 42
+  },
+  {
+   "deck": "PPT动画音频效果.pptx",
+   "bad": 38,
+   "pages": 39
+  },
+  {
+   "deck": "转正升职竞聘述职PPT模版.pptx",
+   "bad": 27,
+   "pages": 32
+  },
+  {
+   "deck": "【PPT模版】年终工作汇报总结模版.pptx",
+   "bad": 26,
+   "pages": 29
+  },
+  {
+   "deck": "【PPT模版】文字排版.pptx",
+   "bad": 26,
+   "pages": 29
+  },
+  {
+   "deck": "PPT图标素材.pptx",
+   "bad": 18,
+   "pages": 18
+  },
+  {
+   "deck": "【PPT模版】党建红色主题中国风模版.pptx",
+   "bad": 17,
+   "pages": 22
+  },
+  {
+   "deck": "PPT多图排版.pptx",
+   "bad": 16,
+   "pages": 16
+  },
+  {
+   "deck": "PPT随机抽奖模版.pptx",
+   "bad": 16,
+   "pages": 20
+  },
+  {
+   "deck": "PPT动态表格.pptx",
+   "bad": 15,
+   "pages": 16
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "bad": 14,
+   "pages": 17
+  },
+  {
+   "deck": "NO.74 PPT创赛级国风模版.pptx",
+   "bad": 14,
+   "pages": 20
+  },
+  {
+   "deck": "NO.77 PPT创意图标条形图.pptx",
+   "bad": 14,
+   "pages": 14
+  },
+  {
+   "deck": "NO.79 PPT创意图标柱状图.pptx",
+   "bad": 14,
+   "pages": 14
+  },
+  {
+   "deck": "NO.85 PPT玻璃质感立体柱状图.pptx",
+   "bad": 14,
+   "pages": 14
+  },
+  {
+   "deck": "PPT可视化动态饼图.pptx",
+   "bad": 14,
+   "pages": 15
+  },
+  {
+   "deck": "【PPT模版】随机抽签.pptx",
+   "bad": 14,
+   "pages": 18
+  },
+  {
+   "deck": "PPT动态圆环年中工作汇报模版.pptx",
+   "bad": 13,
+   "pages": 22
+  },
+  {
+   "deck": "PPT动态轮盘（工作汇报模版）.pptx",
+   "bad": 13,
+   "pages": 22
+  },
+  {
+   "deck": "NO.102 PPT展翅高飞（含教程）.pptx",
+   "bad": 12,
+   "pages": 15
+  },
+  {
+   "deck": "PPT动态折线面积图（含模版+教程）.pptx",
+   "bad": 12,
+   "pages": 13
+  },
+  {
+   "deck": "【PPT模版】动态折线图.pptx",
+   "bad": 12,
+   "pages": 13
+  },
+  {
+   "deck": "NO.101 PPT动态转盘（含教程）.pptx",
+   "bad": 11,
+   "pages": 13
+  },
+  {
+   "deck": "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   "bad": 11,
+   "pages": 11
+  },
+  {
+   "deck": "PPT动态条形图.pptx",
+   "bad": 11,
+   "pages": 12
+  },
+  {
+   "deck": "【PPT模版】图片轮播展示.pptx",
+   "bad": 11,
+   "pages": 11
+  },
+  {
+   "deck": "NO.103 PPT菱形介绍（含教程）.pptx",
+   "bad": 10,
+   "pages": 11
+  },
+  {
+   "deck": "NO.162 PPT红色风格企业介绍.pptx",
+   "bad": 10,
+   "pages": 16
+  },
+  {
+   "deck": "NO.68 PPT动态时间轴.pptx",
+   "bad": 10,
+   "pages": 13
+  },
+  {
+   "deck": "PPT7×5神奇表格.pptx",
+   "bad": 10,
+   "pages": 14
+  },
+  {
+   "deck": "【PPT模版】笔刷擦除模版.pptx",
+   "bad": 10,
+   "pages": 11
+  },
+  {
+   "deck": "NO.112 PPT旋转镜头（含教程）.pptx",
+   "bad": 9,
+   "pages": 11
+  },
+  {
+   "deck": "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   "bad": 9,
+   "pages": 15
+  },
+  {
+   "deck": "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   "bad": 9,
+   "pages": 16
+  },
+  {
+   "deck": "NO.82 PPT旋转开场.pptx",
+   "bad": 9,
+   "pages": 10
+  },
+  {
+   "deck": "NO.83 PPT图片循环轮播.pptx",
+   "bad": 9,
+   "pages": 10
+  },
+  {
+   "deck": "NO.84 PPT涂鸦开场.pptx",
+   "bad": 9,
+   "pages": 10
+  },
+  {
+   "deck": "NO.86 PPT拼图开场.pptx",
+   "bad": 9,
+   "pages": 13
+  },
+  {
+   "deck": "NO.90 PPT动态菱形开场.pptx",
+   "bad": 9,
+   "pages": 13
+  },
+  {
+   "deck": "NO.92 PPT打开扇子模版（含教程）.pptx",
+   "bad": 9,
+   "pages": 11
+  }
+ ],
+ "n_junk_decks": 117,
+ "n_good_decks": 54,
+ "colour_family_all": {
+  "blue": 155,
+  "yellow/gold": 5,
+  "red": 4,
+  "cyan": 3,
+  "orange/amber": 2,
+  "magenta": 1
+ },
+ "colour_family_good_decks": {
+  "blue": 45,
+  "yellow/gold": 3,
+  "red": 2,
+  "cyan": 3,
+  "orange/amber": 0,
+  "magenta": 1
+ },
+ "ad_text_samples": [
+  {
+   "deck": "360°全方位产品介绍PPT模版.pptx",
+   "page": 13,
+   "text": "制作动态排名图 P P T P P T 第三方作者 [外部下载链接已移除] 下载地址： "
+  },
+  {
+   "deck": "360°全方位产品介绍PPT模版.pptx",
+   "page": 15,
+   "text": "新旧对比 模版 P P T P P T 第三方作者 [外部下载链接已移除] 下载地址： "
+  },
+  {
+   "deck": "360°全方位产品介绍PPT模版.pptx",
+   "page": 16,
+   "text": "多段文字 排版 P P T P P T 第三方作者 [外部下载链接已移除] 下载地址： "
+  },
+  {
+   "deck": "360°全方位产品介绍PPT模版.pptx",
+   "page": 17,
+   "text": "用 AI 制作 动态封面 P P T P P T 第三方作者 [外部下载链接已移除]"
+  },
+  {
+   "deck": "360°全方位产品介绍PPT模版.pptx",
+   "page": 18,
+   "text": "图片动态轮播模版 P P T P P T 第三方作者 [外部下载链接已移除]"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 5,
+   "text": "视频教程 / 介绍 模版下载 [外部下载链接已移除] [提取码已移除] https://v"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 6,
+   "text": "视频教程 / 介绍 模版下载 [外部下载链接已移除] [提取码已移除] https://v"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 7,
+   "text": "创意动态 封面模版 P P T P P T 第三方作者 [外部下载链接已移除] 下载地址"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 8,
+   "text": "视频教程 / 介绍 模版下载 [外部下载链接已移除] [提取码已移除] https://v"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 9,
+   "text": "视频教程 / 介绍 模版下载 [外部下载链接已移除] [提取码已移除] https://v"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 10,
+   "text": "视频教程 / 介绍 模版下载 [外部下载链接已移除] [提取码已移除] https://v"
+  },
+  {
+   "deck": "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   "page": 12,
+   "text": "数据分析 可视化模版 P P T P P T 第三方作者 [外部下载链接已移除] 下载地"
+  }
+ ],
+ "page_index": [
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   15,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   16,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "360°全方位产品介绍PPT模版.pptx",
+   18,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   5,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   8,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   10,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   16,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.100 PPT千锤百炼动态封面（含教程）.pptx",
+   17,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   2,
+   "photo-wall",
+   "dense_text_wall"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   3,
+   "photo-wall",
+   "dense_text_wall"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   4,
+   "photo-wall",
+   "dense_text_wall"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   5,
+   "photo-wall",
+   "dense_text_wall"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   6,
+   "photo-wall",
+   "dense_text_wall"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   12,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.101 PPT动态转盘（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   5,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.102 PPT展翅高飞（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.103 PPT菱形介绍（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   5,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.104 PPT火箭升空（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.105 PPT花瓣旋转展示（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.105 PPT花瓣旋转展示（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.106  PPT文字跟随滑动（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.106  PPT文字跟随滑动（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.106  PPT文字跟随滑动（含教程）.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.106  PPT文字跟随滑动（含教程）.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.106  PPT文字跟随滑动（含教程）.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.106  PPT文字跟随滑动（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.107 PPT动态长图（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.107 PPT动态长图（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.107 PPT动态长图（含教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.107 PPT动态长图（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.107 PPT动态长图（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.107 PPT动态长图（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   8,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.108 PPT动态封面——攀登高峰（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.109 PPT动态扇子目录（含教程）.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.109 PPT动态扇子目录（含教程）.pptx",
+   2,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.109 PPT动态扇子目录（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.109 PPT动态扇子目录（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.109 PPT动态扇子目录（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.110  PPT动态跑步效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.110  PPT动态跑步效果（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.110  PPT动态跑步效果（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+   2,
+   "stack-top-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.111  PPT游轮出现动态介绍页（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   2,
+   "card-grid",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   4,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.112 PPT旋转镜头（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.113 PPT热气球动态封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.113 PPT热气球动态封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.113 PPT热气球动态封面（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.114 PPT动态飞机文字排版（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.114 PPT动态飞机文字排版（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.114 PPT动态飞机文字排版（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.114 PPT动态飞机文字排版（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.115 PPT卡片轮播（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.115 PPT卡片轮播（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.115 PPT卡片轮播（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.115 PPT卡片轮播（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.115 PPT卡片轮播（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.115 PPT卡片轮播（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.116 PPT数字滚动时间轴（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.116 PPT数字滚动时间轴（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.116 PPT数字滚动时间轴（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.117 PPT动态结尾（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.117 PPT动态结尾（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.117 PPT动态结尾（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.118 PPT电影级结尾（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.118 PPT电影级结尾（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.118 PPT电影级结尾（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.118 PPT电影级结尾（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.119 PPT图片墙.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.119 PPT图片墙.pptx",
+   2,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.119 PPT图片墙.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.119 PPT图片墙.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.119 PPT图片墙.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.119 PPT图片墙.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+   1,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+   2,
+   "full-bleed",
+   "product_number_hero,dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.120 PPT动态笔刷时间轴（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.121 PPT手机成果展示（含教程）.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.121 PPT手机成果展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.121 PPT手机成果展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.121 PPT手机成果展示（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.122 PPT画出城市效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.122 PPT画出城市效果（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.122 PPT画出城市效果（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.122 PPT画出城市效果（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.122 PPT画出城市效果（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.123 PPT360度产品展示介绍（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.124 PPT动态时间轴（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.124 PPT动态时间轴（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.124 PPT动态时间轴（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.124 PPT动态时间轴（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.125 PPT科技封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.125 PPT科技封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.125 PPT科技封面（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.125 PPT科技封面（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.126 PPT工作汇报动态封面（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.127 PPT拼贴风图文排版（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.128  PPT攀登高峰动态结尾页（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.129 PPT撕纸封面（含教程）.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.129 PPT撕纸封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.129 PPT撕纸封面（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.129 PPT撕纸封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.129 PPT撕纸封面（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.130 PPT动态冲浪封面（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.130 PPT动态冲浪封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.130 PPT动态冲浪封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.130 PPT动态冲浪封面（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.130 PPT动态冲浪封面（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.130 PPT动态冲浪封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.131 PPT动态飞机卡片排版（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.132 PPT冲上云霄动态封面（含视频教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.133 PPT滑翔伞动态封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.134  PPT国风时间轴（含教程）.pptx",
+   1,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.134  PPT国风时间轴（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.134  PPT国风时间轴（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.134  PPT国风时间轴（含教程）.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.134  PPT国风时间轴（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.135 PPT列车行驶动态结束页（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.136 PPT花瓣旋转动态开场效果（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.137 PPT火箭升空动态封面（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.138 PPT旋转风车（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.138 PPT旋转风车（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.138 PPT旋转风车（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.138 PPT旋转风车（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.139 PPT点亮城市动态时间轴（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.140 PPT胶片风图片轮播展示（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.141 PPT动态舞狮封面.pptx",
+   2,
+   "full-bleed",
+   "product_number_hero"
+  ],
+  [
+   "NO.141 PPT动态舞狮封面.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.141 PPT动态舞狮封面.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.141 PPT动态舞狮封面.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.141 PPT动态舞狮封面.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.142 PPT动态卷轴目录（含教程）.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.142 PPT动态卷轴目录（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.142 PPT动态卷轴目录（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.142 PPT动态卷轴目录（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.142 PPT动态卷轴目录（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.143 PPT科技感粒子生成封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.144 PPT动态数字过渡页（含教程）.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.144 PPT动态数字过渡页（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.144 PPT动态数字过渡页（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.144 PPT动态数字过渡页（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.144 PPT动态数字过渡页（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   1,
+   "full-bleed",
+   "ad:share_channel"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.145 PPT科技风动态展示（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.146 PPT科技风动态对比页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.146 PPT科技风动态对比页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.146 PPT科技风动态对比页（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.146 PPT科技风动态对比页（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.146 PPT科技风动态对比页（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.146 PPT科技风动态对比页（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.147 PPT科技风数据展示（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.148 PPT地图到实景的城市生长效果.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.149 PPT唱片过渡页（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.150 PPT水墨风转场效果（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.151 PPT玻璃破碎图片展示.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.151 PPT玻璃破碎图片展示.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.151 PPT玻璃破碎图片展示.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.151 PPT玻璃破碎图片展示.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.152 PPT科技风步骤条.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.152 PPT科技风步骤条.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.152 PPT科技风步骤条.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.152 PPT科技风步骤条.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.152 PPT科技风步骤条.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.152 PPT科技风步骤条.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.153 PPT动态划船图文展示（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.153 PPT动态划船图文展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.153 PPT动态划船图文展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.153 PPT动态划船图文展示（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.153 PPT动态划船图文展示（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.154 PPT动态国风开场（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.154 PPT动态国风开场（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.154 PPT动态国风开场（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.154 PPT动态国风开场（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.154 PPT动态国风开场（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.154 PPT动态国风开场（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.155 PPT动态破浪时间轴（含教程）.pptx",
+   16,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.156  PPT动态飞行图文展示（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.157 PPT动态风车封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.157 PPT动态风车封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.157 PPT动态风车封面（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.157 PPT动态风车封面（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.157 PPT动态风车封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.157 PPT动态风车封面（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.158  PPT穿越时空开场效果（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.159 折页图文动态展示（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.159 折页图文动态展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.159 折页图文动态展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.159 折页图文动态展示（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.159 折页图文动态展示（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.160 PPT城市动态画卷（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.161 PPT动态手绘封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.161 PPT动态手绘封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.161 PPT动态手绘封面（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.161 PPT动态手绘封面（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.161 PPT动态手绘封面（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.161 PPT动态手绘封面（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   1,
+   "full-bleed",
+   "product_number_hero,text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   3,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   4,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   5,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   6,
+   "full-bleed",
+   "ad:closing_cliche,text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   7,
+   "full-bleed",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.162 PPT红色风格企业介绍.pptx",
+   16,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.163 PPT动态驾驶结束页（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   1,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   2,
+   "full-bleed",
+   "no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   3,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.164 PPT3D微缩景观（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.165 PPT动态驾驶封面（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.166 PPT动态列车展示风景（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.166 PPT动态列车展示风景（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.166 PPT动态列车展示风景（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.166 PPT动态列车展示风景（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.167 PPT航运动态时间轴（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   6,
+   "text-block",
+   "ad:shop_ad,dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.168 PPT动态列车展示页（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.169 PPT科技风动态展示页（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+   4,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.170 PPT科技风动态点亮展示页（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.171 科技风动态扫描展示页（含教程）.pptx",
+   1,
+   "full-bleed",
+   "product_number_hero"
+  ],
+  [
+   "NO.171 科技风动态扫描展示页（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.171 科技风动态扫描展示页（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.171 科技风动态扫描展示页（含教程）.pptx",
+   5,
+   "split-centre-image",
+   "dense_text_wall,no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.171 科技风动态扫描展示页（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   1,
+   "full-bleed",
+   "product_number_hero"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.172 PPT科技风动态箭头封面（含教程）.pptx",
+   16,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   1,
+   "full-bleed",
+   "product_number_hero,text_on_bright_bg"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,no_type_hierarchy,text_on_bright_bg"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.173 PPT动态工厂（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.174 PPT汽车动态展示（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.175 PPT穿越云海开场效果（含教程）.pptx",
+   15,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.176  PPT海浪动态封面（含教程）.pptx",
+   1,
+   "full-bleed",
+   "product_number_hero"
+  ],
+  [
+   "NO.176  PPT海浪动态封面（含教程）.pptx",
+   2,
+   "full-bleed",
+   "product_number_hero"
+  ],
+  [
+   "NO.176  PPT海浪动态封面（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.176  PPT海浪动态封面（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.176  PPT海浪动态封面（含教程）.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.176  PPT海浪动态封面（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.67人物介绍.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.67人物介绍.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.67人物介绍.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.67人物介绍.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.67人物介绍.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.67人物介绍.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   2,
+   "full-bleed",
+   "dense_text_wall"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   4,
+   "full-bleed",
+   "dense_text_wall"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.68 PPT动态时间轴.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   2,
+   "full-bleed",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   6,
+   "full-bleed",
+   "dense_text_wall"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   14,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   16,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   18,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   19,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   20,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   21,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.70 PPT五一劳动节模版.pptx",
+   22,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.71 PPT水墨开场.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.72 PPT创赛级科技风模版.pptx",
+   4,
+   "full-bleed",
+   "dense_text_wall"
+  ],
+  [
+   "NO.72 PPT创赛级科技风模版.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.72 PPT创赛级科技风模版.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.72 PPT创赛级科技风模版.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   4,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.73 PPT飞机划过开场.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   3,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   4,
+   "full-bleed",
+   "dense_text_wall"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   5,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   6,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   7,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   8,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   9,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   10,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   11,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   12,
+   "full-bleed",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   19,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.74 PPT创赛级国风模版.pptx",
+   20,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   6,
+   "photo-wall",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   7,
+   "photo-wall",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.75 PPT国风文字飞出效果.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.76 PPT破碎开场效果.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.77 PPT创意图标条形图.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   4,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   8,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.78 PPT闪光划过开场.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   3,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.79 PPT创意图标柱状图.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   5,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.80 PPT闪光开场.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   4,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   5,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.82 PPT旋转开场.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   2,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.83 PPT图片循环轮播.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   4,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   5,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   6,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.84 PPT涂鸦开场.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.85 PPT玻璃质感立体柱状图.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   8,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   12,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.86 PPT拼图开场.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.87 PPT动态封面.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.87 PPT动态封面.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.87 PPT动态封面.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.87 PPT动态封面.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.87 PPT动态封面.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.87 PPT动态封面.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.88 PPT图片钻出.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.88 PPT图片钻出.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.88 PPT图片钻出.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.88 PPT图片钻出.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.88 PPT图片钻出.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.88 PPT图片钻出.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   2,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   3,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   4,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   5,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.89 PPT蓝色透明玻璃质感图标.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   7,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   8,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   9,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   12,
+   "split-left-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "NO.90 PPT动态菱形开场.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.91 PPT动态封面-开场模版.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.91 PPT动态封面-开场模版.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.91 PPT动态封面-开场模版.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.91 PPT动态封面-开场模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.91 PPT动态封面-开场模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.91 PPT动态封面-开场模版.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   2,
+   "split-left-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.92 PPT打开扇子模版（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel,product_number_hero"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.93 PPT动态封面（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.94 PPT动态折纸效果.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   1,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.95 PPT帆船动态开场页面（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.96 PPT拉幕动画（含教程）.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   3,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.97 PPT万物生长效果（含教程）.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "NO.98 PPT动态开花效果（含教程）.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.99 PPT握手动画（含教程）.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "NO.99 PPT握手动画（含教程）.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT3D动态人物介绍.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT7×5神奇表格.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT三重图片轮播效果.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT产品参数对比模版.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT公司介绍模版——所获奖项和证书 - 副本.pptx",
+   7,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT创意动态封面.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态图文展示时间轴里程碑模版.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   5,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   6,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   7,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   8,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   10,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   16,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   18,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   19,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   20,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   21,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态圆环年中工作汇报模版.pptx",
+   22,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   1,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态折线面积图（含模版+教程）.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   1,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态条形图.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   1,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态柱状图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   3,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   6,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   19,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   21,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   22,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   23,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   24,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   25,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   26,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态笔刷开场模版.pptx",
+   27,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态表格.pptx",
+   1,
+   "text-from-layout-placeholder",
+   "dense_text_wall,no_type_hierarchy"
+  ],
+  [
+   "PPT动态表格.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态表格.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态表格.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   15,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态表格.pptx",
+   16,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   5,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   6,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   7,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   8,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   10,
+   "text-block",
+   "dense_text_wall"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   16,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   18,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   19,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   20,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   21,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动态轮盘（工作汇报模版）.pptx",
+   22,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动画拉幕转场效果（内含模版+视频教程）.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动画拉幕转场效果（内含模版+视频教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动画拉幕转场效果（内含模版+视频教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动画拉幕转场效果（内含模版+视频教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   2,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   3,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   4,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   5,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   6,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   7,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   8,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   9,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   10,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   11,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   12,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   13,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   14,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   15,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   16,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   17,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   18,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   19,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   20,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   21,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   22,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   23,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   24,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   25,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   26,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   27,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   28,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   29,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   30,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   31,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   32,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   34,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   35,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   36,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   37,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   38,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT动画音频效果.pptx",
+   39,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   1,
+   "full-bleed",
+   "no_type_hierarchy"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT可视化动态饼图.pptx",
+   15,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT商品一键换色模版.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT图标素材.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   15,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   16,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT图标素材.pptx",
+   18,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT多图排版.pptx",
+   1,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   2,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   3,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   4,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   5,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   6,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   7,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   8,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   9,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   10,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT多图排版.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT多图排版.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT多图排版.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT多图排版.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT多图排版.pptx",
+   15,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT多图排版.pptx",
+   16,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT形状创意页面.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT形状创意页面.pptx",
+   14,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT形状创意页面.pptx",
+   17,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT形状创意页面.pptx",
+   18,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT形状创意页面.pptx",
+   24,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT撕纸开场效果.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT数据可视化.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT数据可视化.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT数据可视化.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT数据可视化.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT数据可视化.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT数据可视化.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT照片墙扩散轮播效果.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT电影级字幕滚动结尾页.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT电影级字幕滚动结尾页.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT电影级字幕滚动结尾页.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT电影级字幕滚动结尾页.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT电影级字幕滚动结尾页.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风动态轮盘目录页.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风卡片模版.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT科技风卡片模版.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风卡片模版.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风卡片模版.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风卡片模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风卡片模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT科技风打字效果.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT竞赛答题模版.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT竞赛答题模版.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT竞赛答题模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT竞赛答题模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT竞赛答题模版.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT竞赛答题模版.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT逻辑关系图模版.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   3,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   5,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   6,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   7,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   8,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   9,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   10,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   11,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   19,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "PPT随机抽奖模版.pptx",
+   20,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   1,
+   "pic-inset",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   2,
+   "split-right-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   3,
+   "split-right-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   4,
+   "split-right-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   6,
+   "full-bleed",
+   "ad:share_channel,no_type_hierarchy"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   7,
+   "text-block",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT003】团队介绍.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】三维地图.pptx",
+   7,
+   "full-bleed",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】三维地图.pptx",
+   8,
+   "text-block",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT模版】三维地图.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】三维地图.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   2,
+   "icon-accent",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   4,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   5,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   6,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   7,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   8,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   9,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   10,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   11,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   12,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   13,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   14,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   15,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   17,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   20,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   21,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】党建红色主题中国风模版.pptx",
+   22,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态折线图.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   1,
+   "card-grid",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】动态时间轴.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   1,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   2,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   3,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   4,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   5,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】图片轮播展示.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】多图片切换展示.pptx",
+   8,
+   "full-bleed",
+   "ad:share_channel,no_type_hierarchy"
+  ],
+  [
+   "【PPT模版】多图片切换展示.pptx",
+   9,
+   "text-block",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT模版】多图片切换展示.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】多图片切换展示.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   1,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   2,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   3,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   4,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   5,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】大小图片图片轮播展示.pptx",
+   14,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   1,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   2,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   3,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   4,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   5,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   6,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   7,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   9,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   10,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   12,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   13,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   15,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   16,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   17,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   18,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   19,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   20,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   21,
+   "bg-blip-text-only",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   22,
+   "bg-blip-text-only",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   23,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   24,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   25,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   26,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   27,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   28,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】年终工作汇报总结模版.pptx",
+   29,
+   "photo-wall",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   1,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   2,
+   "photo-wall",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   3,
+   "pic-inset",
+   "ad:share_channel,no_type_hierarchy"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】收入支出对比分析.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】数字滚动.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】数字滚动.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】数字滚动.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】数字滚动.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   2,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   3,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   4,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   5,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   6,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   7,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   8,
+   "card-grid",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   9,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   10,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   11,
+   "card-grid",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   12,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   13,
+   "timeline-on-line",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   14,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   15,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   16,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   17,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   18,
+   "timeline-on-line",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   19,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   20,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   21,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   22,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   23,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   26,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   27,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   28,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】文字排版.pptx",
+   29,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】科技感动态光效（含模版+教程）.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   1,
+   "icon-accent",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】笔刷擦除模版.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   1,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   3,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   5,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   6,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   7,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   8,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   9,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   10,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   11,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   17,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】随机抽签.pptx",
+   18,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   2,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   4,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   5,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   6,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   7,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   10,
+   "full-bleed",
+   "ad:share_channel,no_type_hierarchy"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   11,
+   "text-block",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   12,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】高颜值表格.pptx",
+   13,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】鼠标悬停开灯效果.pptx",
+   7,
+   "full-bleed",
+   "ad:share_channel,no_type_hierarchy"
+  ],
+  [
+   "【PPT模版】鼠标悬停开灯效果.pptx",
+   8,
+   "text-block",
+   "ad:more_templates"
+  ],
+  [
+   "【PPT模版】鼠标悬停开灯效果.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "【PPT模版】鼠标悬停开灯效果.pptx",
+   10,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "三维旋转图片轮播.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "三维旋转图片轮播.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "三维旋转图片轮播.pptx",
+   3,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "三维旋转图片轮播.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "三维旋转图片轮播.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "产品需求文档.pptx",
+   1,
+   "split-right-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   2,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   3,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   4,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   5,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   6,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   8,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   9,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   10,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   11,
+   "text-block",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   12,
+   "stack-top-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   13,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   14,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   15,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   16,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   17,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   18,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   19,
+   "split-centre-image",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   20,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   21,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   22,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   23,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   24,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   25,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   26,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   27,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   28,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   29,
+   "text-block",
+   "ad:share_channel,text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   30,
+   "stack-top-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   31,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   32,
+   "split-centre-image",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   33,
+   "text-block",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   34,
+   "pic-inset",
+   "text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   35,
+   "text-block",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "产品需求文档.pptx",
+   36,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "产品需求文档.pptx",
+   37,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "产品需求文档.pptx",
+   38,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "产品需求文档.pptx",
+   39,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "产品需求文档.pptx",
+   40,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "产品需求文档.pptx",
+   41,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "产品需求文档.pptx",
+   42,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   2,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意动态时间轴.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意目录页.pptx",
+   20,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "创意目录页.pptx",
+   22,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "创意目录页.pptx",
+   23,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意目录页.pptx",
+   24,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意目录页.pptx",
+   25,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意目录页.pptx",
+   27,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "创意目录页.pptx",
+   29,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "制作动态排名图（内含制作工具和视频教程）.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "制作动态排名图（内含制作工具和视频教程）.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "制作动态排名图（内含制作工具和视频教程）.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "制作动态排名图（内含制作工具和视频教程）.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "制作动态排名图（内含制作工具和视频教程）.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "制作动态排名图（内含制作工具和视频教程）.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "动态占比可视化分析.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "动态占比可视化分析.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "动态占比可视化分析.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "动态占比可视化分析.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "动态占比可视化分析.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "动态占比可视化分析.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "地图缩放定位.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "地图缩放定位.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "地图缩放定位.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "地图缩放定位.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "地图缩放定位.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "地图缩放定位.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "地图缩放定位.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "地图缩放定位.pptx",
+   15,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "多人动态介绍.pptx",
+   7,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "多人动态介绍.pptx",
+   9,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "多人动态介绍.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "多人动态介绍.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "多人动态介绍.pptx",
+   14,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "打开卷轴动态效果.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "打开卷轴动态效果.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "打开卷轴动态效果.pptx",
+   5,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "打开卷轴动态效果.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "打开卷轴动态效果.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "打开卷轴动态效果.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "新旧对比.pptx",
+   4,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "新旧对比.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "新旧对比.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "新旧对比.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "新旧对比.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "新旧对比.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   5,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   6,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感动态过渡页.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   6,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   8,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   9,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   10,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   11,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   12,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技感图片轮播展示.pptx",
+   13,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技风时间轴.pptx",
+   1,
+   "full-bleed",
+   "dense_text_wall"
+  ],
+  [
+   "科技风时间轴.pptx",
+   2,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "科技风时间轴.pptx",
+   3,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技风时间轴.pptx",
+   4,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技风时间轴.pptx",
+   7,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "科技风时间轴.pptx",
+   8,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   1,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   3,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   4,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   5,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   6,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   7,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   8,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   9,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   10,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   11,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   12,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   13,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   14,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   15,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   16,
+   "photo-wall",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   17,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   19,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   20,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   21,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   22,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   23,
+   "full-bleed",
+   "dense_text_wall,text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   25,
+   "full-bleed",
+   "text_on_bright_bg"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   27,
+   "pure-visual",
+   "empty_page"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   28,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   29,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   31,
+   "split-centre-image",
+   "ad:share_channel"
+  ],
+  [
+   "转正升职竞聘述职PPT模版.pptx",
+   32,
+   "split-centre-image",
+   "ad:share_channel"
+  ]
+ ]
+}

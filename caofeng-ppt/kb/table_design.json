@@ -1,0 +1,394 @@
+{
+ "n_table_pages": 22,
+ "n_decks_with_tables": 4,
+ "share_of_good_exemplars_pct": null,
+ "header_fill_rate": 0.045,
+ "header_bold_rate": 0.318,
+ "row_banding_rate": 0.045,
+ "numeric_column_rate": 0.045,
+ "hero_number_outside_table_rate": 0.0,
+ "source_note_rate": 0.0,
+ "header_pt_median": 20.0,
+ "body_pt_median": 16.0,
+ "rows_median": 5.0,
+ "cols_median": 6.0,
+ "row_h_emu_median": 1009477.0,
+ "bold_cell_share": 0.4796,
+ "right_align_cells_per_page": 0.0,
+ "center_align_cells_per_page": 23.27,
+ "examples": [
+  {
+   "rows": 5,
+   "cols": 7,
+   "header_fills": [],
+   "header_sizes": [],
+   "header_bold": true,
+   "body_sizes": [],
+   "body_fill_top": [
+    [
+     "578138",
+     12
+    ]
+   ],
+   "body_cells": 28,
+   "bold_cells": 0,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 0,
+   "row_h_median": 1371600,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT7×5神奇表格.pptx",
+   "slide": 1
+  },
+  {
+   "rows": 5,
+   "cols": 7,
+   "header_fills": [],
+   "header_sizes": [],
+   "header_bold": true,
+   "body_sizes": [],
+   "body_fill_top": [
+    [
+     "F1BC14",
+     12
+    ]
+   ],
+   "body_cells": 28,
+   "bold_cells": 0,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 0,
+   "row_h_median": 1371600,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT7×5神奇表格.pptx",
+   "slide": 2
+  },
+  {
+   "rows": 5,
+   "cols": 7,
+   "header_fills": [],
+   "header_sizes": [],
+   "header_bold": true,
+   "body_sizes": [],
+   "body_fill_top": [
+    [
+     "D68EA8",
+     12
+    ]
+   ],
+   "body_cells": 28,
+   "bold_cells": 0,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 0,
+   "row_h_median": 1371600,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT7×5神奇表格.pptx",
+   "slide": 3
+  },
+  {
+   "rows": 5,
+   "cols": 7,
+   "header_fills": [],
+   "header_sizes": [],
+   "header_bold": true,
+   "body_sizes": [],
+   "body_fill_top": [
+    [
+     "scheme:tx1",
+     11
+    ]
+   ],
+   "body_cells": 28,
+   "bold_cells": 0,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 0,
+   "row_h_median": 1371600,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT7×5神奇表格.pptx",
+   "slide": 4
+  },
+  {
+   "rows": 5,
+   "cols": 7,
+   "header_fills": [],
+   "header_sizes": [],
+   "header_bold": true,
+   "body_sizes": [],
+   "body_fill_top": [],
+   "body_cells": 28,
+   "bold_cells": 0,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 0,
+   "row_h_median": 1371600,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT7×5神奇表格.pptx",
+   "slide": 5
+  },
+  {
+   "rows": 24,
+   "cols": 7,
+   "header_fills": [
+    "scheme:tx1",
+    "scheme:tx1",
+    "scheme:tx1",
+    "scheme:tx1"
+   ],
+   "header_sizes": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "header_bold": true,
+   "body_sizes": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "body_fill_top": [
+    [
+     "003069",
+     84
+    ],
+    [
+     "scheme:tx1",
+     77
+    ]
+   ],
+   "body_cells": 161,
+   "bold_cells": 161,
+   "num_cols": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "align_right_cells": 0,
+   "align_ctr_cells": 161,
+   "row_h_median": 370840.0,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT动态表格.pptx",
+   "slide": 1
+  },
+  {
+   "rows": 1,
+   "cols": 7,
+   "header_fills": [],
+   "header_sizes": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "header_bold": true,
+   "body_sizes": [],
+   "body_fill_top": [],
+   "body_cells": 0,
+   "bold_cells": 0,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 0,
+   "row_h_median": 370840,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "PPT动态表格.pptx",
+   "slide": 1
+  },
+  {
+   "rows": 5,
+   "cols": 6,
+   "header_fills": [],
+   "header_sizes": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "header_bold": false,
+   "body_sizes": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "body_fill_top": [],
+   "body_cells": 24,
+   "bold_cells": 24,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 24,
+   "row_h_median": 1009477,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "【PPT模版】高颜值表格.pptx",
+   "slide": 2
+  },
+  {
+   "rows": 5,
+   "cols": 6,
+   "header_fills": [],
+   "header_sizes": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "header_bold": false,
+   "body_sizes": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "body_fill_top": [],
+   "body_cells": 24,
+   "bold_cells": 24,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 24,
+   "row_h_median": 1009477,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "【PPT模版】高颜值表格.pptx",
+   "slide": 3
+  },
+  {
+   "rows": 5,
+   "cols": 6,
+   "header_fills": [],
+   "header_sizes": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "header_bold": false,
+   "body_sizes": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "body_fill_top": [],
+   "body_cells": 24,
+   "bold_cells": 24,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 24,
+   "row_h_median": 1009477,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "【PPT模版】高颜值表格.pptx",
+   "slide": 4
+  },
+  {
+   "rows": 5,
+   "cols": 6,
+   "header_fills": [],
+   "header_sizes": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "header_bold": false,
+   "body_sizes": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "body_fill_top": [],
+   "body_cells": 24,
+   "bold_cells": 24,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 24,
+   "row_h_median": 1009477,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "【PPT模版】高颜值表格.pptx",
+   "slide": 5
+  },
+  {
+   "rows": 5,
+   "cols": 6,
+   "header_fills": [],
+   "header_sizes": [
+    24.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "header_bold": false,
+   "body_sizes": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "body_fill_top": [],
+   "body_cells": 24,
+   "bold_cells": 24,
+   "num_cols": [],
+   "align_right_cells": 0,
+   "align_ctr_cells": 24,
+   "row_h_median": 1009477,
+   "hero_numbers_outside": [],
+   "source_note": [],
+   "deck": "【PPT模版】高颜值表格.pptx",
+   "slide": 6
+  }
+ ],
+ "decks_with_tables_sample": [
+  "PPT7×5神奇表格.pptx",
+  "PPT动态表格.pptx",
+  "【PPT模版】高颜值表格.pptx",
+  "产品需求文档.pptx"
+ ]
+}

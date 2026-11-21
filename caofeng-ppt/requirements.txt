@@ -1,0 +1,15 @@
+# caofeng-ppt 3.17.0 — 运行依赖
+# 装配 + 闸门验收必需
+python-pptx>=0.6.21
+lxml>=4.9
+Pillow>=9.0
+python-docx>=0.8.11
+numpy>=1.21
+imageio-ffmpeg>=0.4.9
+# G28 平台角标检测 / 去水印链（dewatermark.py）：闸门自证与去水印时需要
+opencv-python-headless>=4.8
+pytesseract>=0.3.10   # 另需系统安装 tesseract-ocr（含 chi_sim/eng 语言包）
+# 真渲染验收（check --render 走 WPS 的 KWPP.Application）：仅 Windows 需要
+pywin32>=305 ; platform_system=="Windows"
+# 可选：只有重新转写的研习脚本 transcribe_videos.py 需要（语料 253 条去重视频 + 教程目录 24 条）
+# faster-whisper>=1.0
