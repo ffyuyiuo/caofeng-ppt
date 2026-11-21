@@ -366,9 +366,17 @@ def sample_video_marks(path, n=16):
     if not w or not dur:
         return 0
     step = max(1, int(round(dur * fps / max(n, 1))))
+    # ffmpeg 5+ 移除了 -vsync，改用 -fps_mode passthrough；旧版仍认 -vsync 0。
+    # 探测一次并缓存，保持"不复制帧"的抽帧语义跨版本一致。
+    global _FRAME_MODE
+    if '_FRAME_MODE' not in globals():
+        _probe = subprocess.run([ff, '-hide_banner', '-h', 'full'],
+                                capture_output=True, text=True, errors='replace')
+        _FRAME_MODE = (['-fps_mode', 'passthrough']
+                       if '-fps_mode' in (_probe.stdout or '') else ['-vsync', '0'])
     p_ = subprocess.Popen([ff, '-v', 'error', '-i', path, '-vf',
-                           "select='not(mod(n,%d))'" % step, '-vsync', '0',
-                           '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-'],
+                           "select='not(mod(n,%d))'" % step] + _FRAME_MODE +
+                          ['-f', 'rawvideo', '-pix_fmt', 'bgr24', '-'],
                           stdout=subprocess.PIPE)
     fb = w * h * 3
     centers = []
@@ -413,9 +421,17 @@ def sample_dark_corner(path, n=12, luma_max=12):
     if not w or not dur:
         return []
     step = max(1, int(round(dur * fps / max(n, 1))))
+    # ffmpeg 5+ 移除了 -vsync，改用 -fps_mode passthrough；旧版仍认 -vsync 0。
+    # 探测一次并缓存，保持"不复制帧"的抽帧语义跨版本一致。
+    global _FRAME_MODE
+    if '_FRAME_MODE' not in globals():
+        _probe = subprocess.run([ff, '-hide_banner', '-h', 'full'],
+                                capture_output=True, text=True, errors='replace')
+        _FRAME_MODE = (['-fps_mode', 'passthrough']
+                       if '-fps_mode' in (_probe.stdout or '') else ['-vsync', '0'])
     p_ = subprocess.Popen([ff, '-v', 'error', '-i', path, '-vf',
-                           "select='not(mod(n,%d))'" % step, '-vsync', '0',
-                           '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-'],
+                           "select='not(mod(n,%d))'" % step] + _FRAME_MODE +
+                          ['-f', 'rawvideo', '-pix_fmt', 'bgr24', '-'],
                           stdout=subprocess.PIPE)
     fb = w * h * 3
     x0, y0 = int(w * 0.70), int(h * 0.84)

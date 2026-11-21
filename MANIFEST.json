@@ -1,12 +1,12 @@
 {
   "package": "caofeng-ppt",
   "version": "3.17.0",
-  "built_at": "2026-11-21T16:46:52",
+  "built_at": "2026-11-21T18:01:37",
   "supersedes": "2.7.0（语料目录单点解析）→ 2.8.0（新增 G20 素材覆盖率闸）；最早是 1.0.0 WorkBuddy 版",
   "spec": "SPEC.md（29 道机器闸 / 反向自证跑 scripts/test_gates.py / 语料目录单点解析）",
   "totals": {
     "files": 387,
-    "bytes": 5064569
+    "bytes": 5065022
   },
   "agent_paths": {
     "workbuddy": "~/.workbuddy/skills/",
@@ -57,8 +57,8 @@
     },
     {
       "path": "caofeng-ppt/README.md",
-      "bytes": 10080,
-      "sha256": "a6752cc4cb1639da8bcc15f8462c634fa5a52ce6beff921d734055cf262abff4"
+      "bytes": 10069,
+      "sha256": "e969b419c9d553c23208c6928d4800c10400221c96dde018fb3ff2ed0b6996da"
     },
     {
       "path": "caofeng-ppt/SKILL.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "caofeng-ppt/kb/corpus_src.json",
-      "bytes": 58,
-      "sha256": "8711eae68ce8f1ea31e99f31781a916b3d20d83ab0e6e9aefaa541ebc4ddd119"
+      "bytes": 46,
+      "sha256": "746f7975c616037868d21f3e9e4c20b2ed126b3f3c508506d5580549e87d046e"
     },
     {
       "path": "caofeng-ppt/kb/corpus_stats.json",
@@ -1552,8 +1552,8 @@
     },
     {
       "path": "caofeng-ppt/kb/tutorials.json",
-      "bytes": 39610,
-      "sha256": "607627ad164aa756457561419febbc51ba90333bf608ecb07e8a9f624fd71d52"
+      "bytes": 38292,
+      "sha256": "be23efa3e77d68e8752232f3909ae5c5c513b2b18060aa2c5ae4c49372dc5a3d"
     },
     {
       "path": "caofeng-ppt/kb/video_index.json",
@@ -1742,8 +1742,8 @@
     },
     {
       "path": "caofeng-ppt/requirements.txt",
-      "bytes": 443,
-      "sha256": "9a07307cacd897526fdd4220c0b5c1a7989881f0250c07dc6b5f652f28541d39"
+      "bytes": 655,
+      "sha256": "cdc63db03d94e1f4eb87ef88238f05d48650d8993ea9605c3e9e81a2b7f83a7c"
     },
     {
       "path": "caofeng-ppt/scripts/aggregate_ledger.py",
@@ -1772,8 +1772,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/corpus_path.py",
-      "bytes": 4112,
-      "sha256": "90d51501718aed1a600875a3d9efe1c5b2542ffdeebcb43aba8d336476df443f"
+      "bytes": 4415,
+      "sha256": "ac92598e63c57384acbeda87f8db175e04099e9925eb0178083738ae54870a83"
     },
     {
       "path": "caofeng-ppt/scripts/corpus_tables.py",
@@ -1812,8 +1812,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/dewatermark.py",
-      "bytes": 30821,
-      "sha256": "0bd328f94599fbb5272ef3b9a1f4bf6f4c350b866ff428298b95ba580e2820d9"
+      "bytes": 31871,
+      "sha256": "346e64bc695b6818b0300d94c427c5d3535e5ed2f7ceb8012a8202453e180547"
     },
     {
       "path": "caofeng-ppt/scripts/display_refine.py",
@@ -1932,8 +1932,8 @@
     },
     {
       "path": "caofeng-ppt/skill.json",
-      "bytes": 14942,
-      "sha256": "ef429d5afce16c9348120cc45c282226f5f328410756ca46863c77ab06adb68f"
+      "bytes": 14959,
+      "sha256": "ee50217a9e2f671de56896426d3e11179697aef508fc48899d327969e9925e52"
     },
     {
       "path": "install.py",
@@ -1942,8 +1942,8 @@
     },
     {
       "path": "requirements.txt",
-      "bytes": 443,
-      "sha256": "9a07307cacd897526fdd4220c0b5c1a7989881f0250c07dc6b5f652f28541d39"
+      "bytes": 655,
+      "sha256": "cdc63db03d94e1f4eb87ef88238f05d48650d8993ea9605c3e9e81a2b7f83a7c"
     },
     {
       "path": "verify_install.py",
