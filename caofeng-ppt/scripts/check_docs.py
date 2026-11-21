@@ -5,6 +5,9 @@ while the code had 15, and SPEC §8 pointed at a `verify_e2e.py` that never exis
 disagree with code are worse than no docs, so the check is scripted.
 
 Run: python check_docs.py    (exit 1 on any mismatch)
+
+作者定的口径：阈值、闸数、卡片数、分层数、基线中位这类数字只能在代码里有一个定义点，
+文档必须逐处与它对齐；手抄数字造成两份尺子，视为比没有文档更糟。
 """
 import os, io, re, sys, json, glob
 

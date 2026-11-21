@@ -3,6 +3,10 @@
 The card has to be enough on its own -- an earlier version only pasted prompts and used a
 relative path with a `video.png.mp4` filename bug, so the user still had to go read another file
 to know which mode/aspect/duration to pick in the web UI.
+
+作者定的流程：出图出视频在网页版人工投放，不由代码调用按量计费的出图 API；
+卡片必须自带点击级步骤、绝对路径与回收文件名，且 G26 要核对用户回执，
+没有回执不许装配成片。
 """
 import os, io, json
 import delivery_gate as DG

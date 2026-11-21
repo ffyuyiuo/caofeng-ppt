@@ -7,6 +7,9 @@ The three presets are transcriptions of what the decks actually ask for:
 Section order is the nine-label image form and the six-part video form measured in
 kb/prompt_stats.json. Drafts are a starting point: the agent must replace the subject
 slots with concrete things from the document before shipping.
+
+作者定的取舍：提示词按语料实测语法生成（不是通用模板文案），且只落提示词包、
+由人在网页版投放；槽位必须替换成文档里的具体事物，画不出的主体引擎会提示改写。
 """
 import os, io, json, re
 

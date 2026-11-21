@@ -1,12 +1,12 @@
 {
   "package": "caofeng-ppt",
   "version": "3.17.0",
-  "built_at": "2026-11-21T19:04:20",
+  "built_at": "2026-11-21T19:24:31",
   "supersedes": "2.7.0（语料目录单点解析）→ 2.8.0（新增 G20 素材覆盖率闸）；最早是 1.0.0 WorkBuddy 版",
   "spec": "SPEC.md（29 道机器闸 / 反向自证跑 scripts/test_gates.py / 语料目录单点解析）",
   "totals": {
     "files": 71,
-    "bytes": 3985660
+    "bytes": 3990927
   },
   "agent_paths": {
     "workbuddy": "~/.workbuddy/skills/",
@@ -27,8 +27,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1353,
-      "sha256": "7b4d6e6b9c648b6e866ca49df8b28f5265465c851418f20dd5037e05efd34f23"
+      "bytes": 4009,
+      "sha256": "110ca8805652734753f2a38af36620c9464650b0cf2a8c14200f17b83f25e167"
     },
     {
       "path": "INSTALL.md",
@@ -227,13 +227,13 @@
     },
     {
       "path": "caofeng-ppt/scripts/caofeng.py",
-      "bytes": 545546,
-      "sha256": "a212258ea017a14538d803244c0939a1157648878fb70e3b20c94cbfdf9c4d0c"
+      "bytes": 546091,
+      "sha256": "53061974c3a49773984fb2c3223bf8710bb9a74b10e8ed418607bcb7fe379fe8"
     },
     {
       "path": "caofeng-ppt/scripts/check_docs.py",
-      "bytes": 51930,
-      "sha256": "1c62faa98c9f31891a1d09b46b7ddbeb25fdf7e8adad5f6b33a1aff9187c683c"
+      "bytes": 52158,
+      "sha256": "ada9a3cbf77be26f052114e16c189307e9172a15f8d8f8ede441d9d73c97cf98"
     },
     {
       "path": "caofeng-ppt/scripts/corpus_path.py",
@@ -242,8 +242,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/corpus_tables.py",
-      "bytes": 28178,
-      "sha256": "9ff6d4c440c03d1a16d1c3ad99209f9abaaaab7365a9e673699b9dfdfa6229dc"
+      "bytes": 28412,
+      "sha256": "8805187635db101db678f15e686b4b81ccd944948c91f93960075285cf27004d"
     },
     {
       "path": "caofeng-ppt/scripts/data_layout.py",
@@ -257,8 +257,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/deck_parity.py",
-      "bytes": 13338,
-      "sha256": "d708e07a252318701a8f7ca11e5291a10185e20db9331b434ce44826554c345e"
+      "bytes": 13660,
+      "sha256": "244885442c34b8c3b03a058b937b672f52baa6d017a93e982314c16a6bfd2624"
     },
     {
       "path": "caofeng-ppt/scripts/deck_render.py",
@@ -267,8 +267,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/delivery.py",
-      "bytes": 8932,
-      "sha256": "1966421a25cbbe165eed6d5b41c5e8c3a04712d8a218cda33651fa7b98b69f6e"
+      "bytes": 9179,
+      "sha256": "27093eb42674ac0d6342cf45f3924faff4c4ac824a64a4c166a951bbf222acba"
     },
     {
       "path": "caofeng-ppt/scripts/delivery_gate.py",
@@ -277,8 +277,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/dewatermark.py",
-      "bytes": 31871,
-      "sha256": "346e64bc695b6818b0300d94c427c5d3535e5ed2f7ceb8012a8202453e180547"
+      "bytes": 32157,
+      "sha256": "108bab10f3d759a430cbf7e984dc217e20ffad6b6bc69aac401de844ba085f77"
     },
     {
       "path": "caofeng-ppt/scripts/display_refine.py",
@@ -312,8 +312,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/safety.py",
-      "bytes": 9505,
-      "sha256": "fc3f1382c874b12855b8758cf6fe3e3371f55aa5cf6dd554acf266fa031ea91d"
+      "bytes": 9751,
+      "sha256": "c3539b8d506a16351a4946c03583ee0abb7e881779ccf20aa99d205be7b1ddb4"
     },
     {
       "path": "caofeng-ppt/scripts/study_data_design.py",
@@ -322,8 +322,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/styles.py",
-      "bytes": 35738,
-      "sha256": "6e89cde60217f5fdb0c6ca1ac824a1eb16b17f650ec5f4cff455a8e5860ffe79"
+      "bytes": 35972,
+      "sha256": "b20000438a79008cee64df30b8e0a5bb3231f34f8e966a4c6faed05dff3c0e2b"
     },
     {
       "path": "caofeng-ppt/scripts/test_divider_art.py",
@@ -332,8 +332,8 @@
     },
     {
       "path": "caofeng-ppt/scripts/test_gates.py",
-      "bytes": 356683,
-      "sha256": "58070b640c8f452d38d0aa5d8ea32eca3450c4d0c006e97c575e96739f94b017"
+      "bytes": 356952,
+      "sha256": "96f973d1c16aa86af6292c9a291b9c95923d4e34a9001b71c67cf977030e5367"
     },
     {
       "path": "caofeng-ppt/scripts/test_safety.py",

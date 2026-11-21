@@ -1,6 +1,25 @@
 # Contributing
 
-## Development setup
+## 项目定位：贡献是在既定判据下改进
+
+caofeng-ppt 由仓库作者提出需求并主导设计。要解决的问题不是"套模板出片"，而是让一份已有
+Word 文档变成**可编辑、带真实动态背景、且质量可被机器判定**的 PPT。需求边界、判据口径和
+验收方式由作者逐条确定，再落到 `caofeng.py` 与各道闸里：`SPEC.md` 是这些决策的契约文本，
+`test_gates.py` 是它们的可执行证明。
+
+因此，贡献的落点不是"再加一种看起来更好的效果"，而是在下列既定前提下让成片更稳、
+判据更准、边界更清楚。这些前提源于作者对交付质量的要求，不是从外部模板继承的做法；
+改变它们等于改变项目要解决的问题，需要先在 issue 里说明理由：
+
+- **成片必须可编辑**：AI 画面内不许出字，文字一律由 PPT 文本层叠加。
+- **判据量成品而非计划**：`check` 必须重渲染；闸门放过空产物视为事故。
+- **同级打分同口径**：量成品与挖掘语料共用 `deck_measure` 的同一实现，基线只取好示范页，
+  坏样本不进基线——不让"打分"变成第二套主观尺子。
+- **不消耗模型积分出片**：出图出视频走豆包 / 即梦网页版人工投放，投放卡自带点击级步骤，
+  G26 核对用户回执后才装配。
+- **体裁中立**：路演 / 汇报 / 培训 / 制度 / 台账共用一套判据，不为单一册式调松尺子。
+
+## 开发环境搭建
 
 ```bash
 python -m venv .venv
@@ -8,28 +27,45 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Before opening a pull request
+## 在发起拉取请求之前
 
-This project keeps documentation, code constants and the distilled knowledge
-base in strict agreement. A dedicated gate enforces it:
+作者把"文档、代码常量、提炼后的知识库严格一致"设为准入条件，由专用检查强制执行：
 
 ```bash
-python caofeng-ppt/scripts/check_docs.py          # doc/code number reconciliation
-python caofeng-ppt/scripts/test_gates.py          # 167 reverse-self-test assertions
-python verify_install.py --skip-e2e               # structural + dependency checks
+python caofeng-ppt/scripts/check_docs.py          # 文档↔代码数字对账
+python caofeng-ppt/scripts/test_gates.py          # 167 项闸门反向自证
+python verify_install.py --skip-e2e               # 结构 / 依赖检查
 ```
 
-All three must exit 0. When you change a numeric threshold, update its single
-source of truth in `caofeng.py` (`TH`) and mirror it in `SPEC.md` §7.1 — never
-introduce a second definition point. When you change engine behavior, add a
-reverse-self-test in `test_gates.py` that proves the gate actually bites.
+三项都必须返回 0。这套验收体系的量化规模是：**29 道机器闸**（`SPEC.md` §7 定义）、
+**167 项反向自证断言**（逐道证明闸门咬得住坏输入）、`verify_install.py` 的结构与端到端出片自检。
+自检脚本自身崩溃（退出码 3）与闸门拒绝交付（退出码 1）是两类不同事故，
+不拿"没跑成"冒充"跑过了"。
 
-## Conventions
+## 工程口径：单一定义点与反向自证
 
-- Keep English technical terms (KPI, SOP, LTV, OOXML, preset, gate IDs) untranslated.
-- Do not add absolute local paths; use `--work`, `CAOFENG_WORK` or other env vars.
-- Do not commit generated work products (`materials/`, `gen/`, `out/`, `report/`).
-- Do not reintroduce third-party download links, access codes or promotional
-  narration into `kb/`.
+这是作者确定的两条工程纪律，贡献必须遵守：
 
-See `SECURITY.md` for the legal scope of the bundled knowledge base.
+- 数值阈值只有一个可信来源——`caofeng.py` 的 `TH`；改阈值时同步到 `SPEC.md` §7.1，
+  绝不引入第二个定义点。手抄数字造成两份尺子，比没有文档更糟。
+- 改引擎行为必须在 `test_gates.py` 补一条反向自证：注入坏输入必须被拦、撤销后必须放行。
+  只写"文档承诺"不算证明，闸门是哑的按不合格处理。
+
+## 规范
+
+- 请保留英文技术术语（KPI、SOP、LTV、OOXML、preset、gate IDs）原样，不进行翻译。
+- 请勿添加绝对本地路径；请使用 `--work`、`CAOFENG_WORK` 或其他环境变量。
+- 请勿提交生成的工作产物（`materials/`、`gen/`、`out/`、`report/`）。
+- 请勿将第三方下载链接、访问码或宣传解说重新引入 `kb/`。
+
+## 判据从何而来
+
+作者设计的判据用一批样片校准：171 个模板 / 2224 页 OOXML / 49 段实测提示词，
+按 9 条「坏示范规则」分成 835 页好示范与 1389 页坏示范（54 套好示范册 / 117 套 junk 册）。
+这些数字只说明判据的校准来源，不是仓库的内容清单；公开版只分发抽象参数与结论，
+原始逐字稿、研习脚本与样片不在仓库内，各自著作权归原权利人所有。
+
+当前仓库的 25 个脚本、29 道闸、167 项自证均由 `check_docs.py` 与 `test_gates.py` 实测对账，
+不是文档里手抄的数字。
+
+详见 `SECURITY.md` 了解捆绑知识库的法律范围。

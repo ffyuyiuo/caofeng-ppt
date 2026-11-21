@@ -4,6 +4,10 @@ A gate that can only say "pass" is decoration. For every measurable gate we buil
 bad fixture and require the gate to reject it, plus a good fixture it must accept.
 Run: python test_gates.py
 Exit 0 only if every gate bites.
+
+作者定的验收原则：文档里承诺的每道闸都必须有对应的反向用例证明它咬得住坏输入，
+"全绿但闸是哑的"按不合格处理；自检脚本自身崩溃与闸门拦截分属不同退出码，
+不拿"没跑成"冒充"跑过了"。
 """
 import os, io, sys, re, json, shutil, subprocess
 import glob

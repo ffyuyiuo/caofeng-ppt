@@ -5,6 +5,9 @@ reconciled cell-by-cell against kb/color_system.json, kb/layout_archetypes.json 
 kb/animation_mechanics.json by check_docs.py. Nothing in this file is a design preference:
 'evidence' is a measurement, and 'note' marks the places where the engine deliberately does
 something the corpus itself never did (so the docs cannot pass it off as inherited practice).
+
+作者定的取舍：只沉淀好示范页的参数与分布，广告页/文字墙/字压亮底/模板编号主视觉
+这类非模版元素一律不学；度量口径保持与语料挖掘一致，便于成品同级打分复用。
 """
 
 # ---------------------------------------------------------------- 配色 -----------------------

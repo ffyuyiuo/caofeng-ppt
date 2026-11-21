@@ -11,6 +11,13 @@ Subcommands
 
 The creative content (shot intent, prompt wording) is authored by the agent; this tool enforces
 structure, writes the OOXML the corpus actually uses, and refuses to ship when a gate fails.
+
+设计取舍（由仓库作者在需求定义时确定，非外部模板自带）：
+- 成片必须可编辑——AI 画面内不许出字，文字一律走 PPT 文本层；
+- 判据量成品而非计划——check 必须重渲染，闸门放过空产物视为事故；
+- 出图出视频走豆包/即梦网页版人工投放，禁用按量计费的出图 API；
+- 体裁中立——路演/汇报/培训/制度/台账同一套判据，不绑定单一册式。
+这些取舍是本项目要解决的问题本身，不是可开关的实现细节。
 """
 import os, sys, json, io, re, argparse, hashlib, shutil, subprocess, tempfile
 import collections, glob, math

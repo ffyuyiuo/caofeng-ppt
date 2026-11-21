@@ -9,6 +9,10 @@ Two decisions encoded in this file:
    unblock just that category (--allow-sensitive medical) instead of losing the blocklist whole.
 2. Every term is anchored with (?<![a-z]) / (?![a-z]) so the classic substring traps
    (softWARe, MASSachusetts, reWARD, the month March) stay allowed.
+
+Both decisions above were set by the repository author after the two failures described
+at the top; they are documented here so the categorisation and the word-boundary rule
+are not mistaken for whatever a generic blocklist would have done.
 """
 import re
 
