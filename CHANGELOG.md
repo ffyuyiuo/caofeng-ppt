@@ -26,4 +26,19 @@ distribution package, the following changes were applied:
 - Regenerated `MANIFEST.json` and `sha256sums.txt` to match the sanitized tree.
 - Removed distribution-only archives and legacy version artifacts.
 
-Functional behavior, version number and all 29 gates are unchanged.
+## Corpus-layer removal (public release)
+
+To avoid redistributing third-party derived content, the public build drops the
+raw corpus layer that is not needed for slide generation:
+
+- Removed 276 per-video ASR transcripts (`kb/transcripts/`) and 26 per-frame
+  analysis notes (`kb/video_logic/`), plus their indexes (`video_index.json`,
+  `video_logic.json`).
+- Removed 12 study-only scripts with no runtime dependency; the self-checks that
+  named them were retuned to the retained render/gate path.
+- Kept every distilled parameter the engine and gates consume (color system,
+  layout archetypes, animation mechanics, thresholds, parity baseline), plus the
+  study conclusions in `kb/*_study.md`.
+
+Net effect: 389 → 73 tracked files. Slide generation, the 29 gates and their
+reverse self-tests remain unchanged.

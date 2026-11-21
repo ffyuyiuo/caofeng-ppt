@@ -31,7 +31,7 @@ preset 表驱动的入场/出场/强调/点击暂停）→ 过 **29 道机器闸
 
 ## 仓库结构
 
-- `caofeng-ppt/` — 标准 skill 目录：`SKILL.md` 入口 + `SPEC.md` 契约 + 37 个脚本 + 7 份技法文档 + `kb/` 实测数据
+- `caofeng-ppt/` — 标准 skill 目录：`SKILL.md` 入口 + `SPEC.md` 契约 + 25 个脚本 + 7 份技法文档 + `kb/` 实测数据（第三方逐字稿与研习脚本未分发）
 - `install.py` / `verify_install.py` — 一键安装与安装后自检（含端到端出片 + 闸门必须咬住空产物）
 - `INSTALL.md` / `MANIFEST.json` / `sha256sums.txt` — 安装说明、清单、校验和
 - `LICENSE`（MIT）/ `SECURITY.md` / `CHANGELOG.md` / `CONTRIBUTING.md` — 授权、合规与协作说明

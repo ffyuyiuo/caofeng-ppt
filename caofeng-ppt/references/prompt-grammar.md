@@ -33,7 +33,7 @@
 画面参数：16:9，短边不低于 2160，无文字，无 Logo，无水印
 ```
 
-槽位实测覆盖率（**图片块 n=19**，逐条来自 `kb/prompt_stats.json` 的 `slot_coverage_by_kind.image.slots`；这张表由 `scripts/_regen_slot_tables.py` 从统计文件直接生成，改语料后重跑即可，不靠手抄）：
+槽位实测覆盖率（**图片块 n=19**，逐条来自 `kb/prompt_stats.json` 的 `slot_coverage_by_kind.image.slots`；这张表由 `scripts/_regen_slot_tables` 从统计文件直接生成，改语料后重跑即可，不靠手抄）：
 
 | 槽位（检测器原名） | 命中 | 本技能要求 |
 |---|---|---|
@@ -87,7 +87,7 @@
 画面比例：16:9；视频时长：8 秒；画质：4K 超清，电影级渲染。
 ```
 
-槽位实测覆盖率（**视频块 n=21**，逐条来自 `kb/prompt_stats.json` 的 `slot_coverage_by_kind.video.slots`；这张表由 `scripts/_regen_slot_tables.py` 从统计文件直接生成，改语料后重跑即可，不靠手抄）：
+槽位实测覆盖率（**视频块 n=21**，逐条来自 `kb/prompt_stats.json` 的 `slot_coverage_by_kind.video.slots`；这张表由 `scripts/_regen_slot_tables` 从统计文件直接生成，改语料后重跑即可，不靠手抄）：
 
 | 槽位（检测器原名） | 命中 | 本技能要求 |
 |---|---|---|

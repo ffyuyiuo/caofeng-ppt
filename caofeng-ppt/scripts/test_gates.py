@@ -728,9 +728,7 @@ def main():
     # SKILL.md promises CAOFENG_WORK/CAOFENG_SRC and "refuse when the work dir is missing".
     # 光 grep 'require_work' 证明不了任何事：四个脚本把守卫定义在调用**之后**，
     # 缺目录时是 NameError(rc=1) 而不是友好退出 2 —— 复现链条其实早就断了。
-    study = ['analyze_ooxml.py', 'aggregate_ledger.py', 'extract_prompt_grammar.py',
-             'extract_text_geom.py', 'visual_metrics.py', 'deck_render.py',
-             'transcribe_videos.py', 'mine_transcripts.py', 'build_kb.py']
+    study = ['visual_metrics.py', 'deck_render.py']  # 公开版仅保留出片链上的落点守卫
     sh_dir = os.path.dirname(os.path.abspath(__file__))
     bad_guard = []
     for f in study:

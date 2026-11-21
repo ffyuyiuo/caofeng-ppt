@@ -221,6 +221,12 @@ def check_coverage_numbers():
             problems.append(u'文档写 %s=%d，coverage.json 实际 %d' % (key, got, want))
         else:
             notes.append(u'研读数字 %s=%d 与 coverage.json 一致' % (key, got))
+    # 公开版已移除第三方逐字稿（kb/transcripts/）与研习脚本，相关"稿库↔教程目录"
+    # 对账的对象不再分发；coverage.json 里的数字作为研习史实在文档里保留，但不再
+    # 要求稿库文件在场，否则公开包会因缺文件而误报。
+    if not os.path.isdir(os.path.join(SKILL, 'kb', 'transcripts')):
+        notes.append(u'公开版无 kb/transcripts/，教程逐条对账与稿库清单对账跳过（研习期专属）')
+        return problems, notes
     # 教程目录（用户另投喂、要求逐条同颗粒度研习的那批）逐条对账，不拿任何汇总数当结论。
     try:
         import corpus_path as CP

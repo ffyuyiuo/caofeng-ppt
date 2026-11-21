@@ -20,7 +20,7 @@
     ]
   },
   "optional_packages": [
-    "faster-whisper>=1.0 (transcribe_videos.py only)"
+    "faster-whisper>=1.0 (transcribe_videos only)"
   ],
   "work_dir": {
     "arg": "--work DIR",
@@ -50,9 +50,9 @@
     "Codex CLI"
   ],
   "contents": {
-    "scripts": 37,
+    "scripts": 25,
     "references": 7,
-    "kb": 326,
+    "kb": 22,
     "gates": 29,
     "selftests": 167,
     "install_checks": 15,

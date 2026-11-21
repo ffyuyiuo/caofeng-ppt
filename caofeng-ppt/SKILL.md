@@ -36,7 +36,7 @@ argument-hint: <要变成 PPT 的 .docx 路径，可附一句风格方向>
 而且片面、形不成完整的设计与制作逻辑。正确做法四维同时：
 
 1. **听**：faster-whisper 逐句带时间戳稿（`kb/transcripts/`）；
-2. **看**：按每句时间中点抽帧（`study_video_logic.py`），放大 2× 重 OCR，音画对齐成
+2. **看**：按每句时间中点抽帧（`study_video_logic`），放大 2× 重 OCR，音画对齐成
    `kb/video_logic.json` + 逐视频 `kb/video_logic/<id>.md`；
 3. **对照操作**：从对齐链里提取 点了哪个键 / 改了哪些参数（透明度/字号/磅/秒/间隙宽度/三维旋转）/
    哪些排版被否（"不行/太挤/删掉/去除标题图例网格线"）；
@@ -392,20 +392,14 @@ refine/ack 的命令行、把 fetch 的 --min-edge 写回 1080、字号阶梯少
 `caofeng_work`——这些脚本会写几百 MB 到几 GB，落点必须由你已经知道它存在。
 出片链（`plan/fetch/scaffold/pack/build/check/shots`）完全不读语料目录，知识已沉淀在 `kb/`。
 
+公开版只分发"出片与验收"所需的脚本；第三方逐字稿、逐帧研习笔记及其研习脚本未包含。
+`kb/` 中沉淀的实测参数（色板、版式、动画、阈值、基线）已足够出片，不必重跑研习。
+
 ```bash
 S=~/.qoder-cn/skills/caofeng-PPT/scripts
-python $S/analyze_ooxml.py            # 171 模板 → ooxml_ledger.json
-python $S/study_style_anim.py         # 二遍扫库 → color_system / layout_archetypes / animation_mechanics
-python $S/grade_exemplars.py          # 2224 页逐页分好示范/坏示范 → exemplar_grades.json + exemplar_study.md
-python $S/aggregate_ledger.py         # → technique_report.md + corpus_stats.json（字号与文本密度的单一来源）
-python $S/extract_prompt_grammar.py   # 49 段提示词 → prompt_blocks.json
-python $S/transcribe_videos.py 0 4    # 253 条去重视频（含语料根目录 3 个独立文件）→ 逐字稿（分片）
-python $S/mine_transcripts.py         # → transcript_study.md
-python $S/deck_render.py              # 2224 页 PNG（WPS，带崩溃自愈）
-python $S/extract_text_geom.py        # 9098 个文本框几何
-python $S/visual_metrics.py           # 逐页视觉度量 → visual_study.md
-python $S/build_kb.py                 # 汇总进 kb/
-python $S/regen_slot_tables.py        # 模板库变动后：把 prompt-grammar.md 两张槽位表按 prompt_stats 重生成
+python $S/grade_exemplars.py          # 好示范/坏示范判据（出片闸 G19 同源）
+python $S/deck_render.py              # 成品渲染（WPS，带崩溃自愈）
+python $S/visual_metrics.py           # 逐页视觉度量
 python $S/make_gif.py --out DIR/gen/p002/anim.gif --kind arc --hue gold --frames 32 --size 800
                                       # 本机透明底循环动图（即梦不可用或必须不露框时走这条）
 python $S/test_gates.py               # 闸的反向自证

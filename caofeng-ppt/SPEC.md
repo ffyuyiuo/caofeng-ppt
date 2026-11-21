@@ -371,10 +371,10 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
 
 - **提示词块数有两个口径，尚未重跑对账**：`kb/prompt_blocks.json` 现存 **52 块**（§3 的均值 809/1011
   就是按这份算的：image 20 块、video 22 块），而 `kb/prompt_stats.json` 的 `n_blocks` 与
-  `kb/coverage.json` 的 `prompt_blocks` 都还是 **49**——这两份是早先 49 块时跑 `build_kb.py` 留下的，
+  `kb/coverage.json` 的 `prompt_blocks` 都还是 **49**——这两份是早先 49 块时跑 `build_kb` 留下的，
   后来往 `prompt_blocks.json` 追加了 3 块没重跑统计。所以 §3 槽位表的分数分母（22/20…）与
   coverage 的 49 现在不同源。影响面：只影响"研读覆盖面"这一类台账数字，不影响任何闸的判据
-  （G2 直接读 `promptpack/*.txt`，不读 prompt_stats）。补齐办法=重跑 `build_kb.py` 的提示词段并
+  （G2 直接读 `promptpack/*.txt`，不读 prompt_stats）。补齐办法=重跑 `build_kb` 的提示词段并
   同步 §3 表与 SKILL 的槽位分数，本轮未做（会连带改动多处已对账文档数字，风险大于收益）。
 - **「288 条教程视频」这个数在本仓库里找不到对应物**（用户需求的原始表述，必须交底而不是照着编数）：
   实测口径只有 `1035 条内嵌视频条目 →（按 CRC/内容去重）250 个不同内嵌视频`，
@@ -383,7 +383,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
   同名不同内容被模板反复复用）。288 与其中任何一个数都对不上
   （`CAOFENG_WORK/video_288_check.md` 留了逐条统计）。因此本 SPEC 与全部文档统一使用
   **253 个去重视频**作为研读基数；如果用户手里确有 288 条的另一批源文件，需要他给出路径再补研。
-- **这 3 个独立视频是后来才补上的**（第五轮复验时发现）：`transcribe_videos.py` 的 `registry()`
+- **这 3 个独立视频是后来才补上的**（第五轮复验时发现）：`transcribe_videos` 的 `registry()`
   原先只扫 pptx 里的 `ppt/media/mediaN.*`，根目录直接放着的教程视频压根不在池子里。
   现在 registry 同时枚举语料根目录的视频文件，用 `crc32+size` 当键，与内嵌的同内容自然去重，
   不会转写两遍。教训写进自检：**"全量"必须由枚举口径证明，不能由脚本名字证明**。
@@ -506,7 +506,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
      `ack --ready/--no-video/--declined` 三种回执绑卡片 SHA1 与时间序，卡片一改旧回执即失效。
   ⑥ Unsplash 通道（§14）：有 `UNSPLASH_ACCESS_KEY` 才允许自动下载；没有就走卡片里的
      中文站检索 URL + `fetch --adopt` 登记来源与许可，裸文件不许进成品。
-  ⑦ 教程研习链（§15）：`study_tutorials.py` 出逐帧 OCR + 逐句 ASR + 提示词回收，
+  ⑦ 教程研习链（§15）：`study_tutorials` 出逐帧 OCR + 逐句 ASR + 提示词回收，
      聚合进 `kb/tutorials.json` / `kb/tutorial_study.md`，手法逐条对账"由谁管 / 未落地"。
   ⑧ 本轮修掉的"看起来绿、其实崩"缺陷 7 条（plan 重跑清空分镜、--verbatim 让 check KeyError、
      G25 用字符串正则量 bytes、_clip 裁出半截数字、裸年份当大数字、数据版式吞事实、
@@ -627,7 +627,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
   ⑪ 把这条界线推广到全部卡（当时 16 张，现 20 张）：**卡"由谁产出"现在是代码，不是文档措辞**。
      `caofeng.py` 的 `RECIPE_TOKENS` 列出 8 张引擎能产出的卡与各自要在成品 XML 里数到的 token
      （`p:video`/GIF/`p159:morph`/`a:gradFill`/≥100pt 的 `a:rPr sz`/动效节点/`p:checker`/`a:sp3d`），
-     G6 逐页核对；`kb/deck_tech.json` 每张卡带 `engine` 字段（`build_kb.py` 缺字段直接 `SystemExit`，
+     G6 逐页核对；`kb/deck_tech.json` 每张卡带 `engine` 字段（`build_kb` 缺字段直接 `SystemExit`，
      防止新卡又变成"只有卡名"）；`references/cinema-recipes.md` 开头新增"这 20 张卡谁来产出"表；
      `styles.py` 选卡改为按**这页真会产出的东西**（`asset_kind`/是否真有大数字/是否真给平滑）而不是按角色猜。
      **当场抓出假声明 12 页**：e5 与 e4c 各 5 页、e3 有 2 页在分镜里写着 `video-fullbleed`，
@@ -644,7 +644,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
           `cinema-recipes.md` 开头加"这 20 张卡谁来产出"表，逐卡小节也标明手工；
      ④ `sound-cue` 的 gate 写"G11 回收（音频文件必须真存在）"是假的——G11 只核 mp4 与 GIF → 改"无闸"；
      ⑤ 柔边/发光半径两处文档差 10 倍（6350–12700 vs 63500–127000）且都复现不出来
-        → `build_kb.py` 扫 171 模板算实测分布回填（glow 228600×37/38100×30/127000×18，
+        → `build_kb` 扫 171 模板算实测分布回填（glow 228600×37/38100×30/127000×18，
           softEdge 12700×482/76200×478）；
      ⑥ `prompt-grammar.md` 槽位表有**超过实测上限的数**：写"定格收束 6/22"，而全语料含"定格"的只有
         4 块、视频块内 3 块；"动效事件 22/22""禁项负面 20/22""运动约束 17/22" 三行没有检测器
@@ -668,12 +668,12 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
      删前把台账、提示词块与渲染清单备份到 `CAOFENG_WORK/_pre_dedupe_backup/`，
      并把 6 条指向被删文件的视频出处改挂到正本上（其中 3 条它还是"首见出处"），
      provenance 不许指向不存在的文件。
-     顺手把两处"手抄数字"改成单一来源：`aggregate_ledger.py` 现在写 `corpus_stats.json`，
-     `build_kb.py` 的 giant-numeral 卡从中读字号与文本密度（旧版手抄的 60pt 1137、每页中位 23 字
+     顺手把两处"手抄数字"改成单一来源：`aggregate_ledger` 现在写 `corpus_stats.json`，
+     `build_kb` 的 giant-numeral 卡从中读字号与文本密度（旧版手抄的 60pt 1137、每页中位 23 字
      重算后是 1136 / 23.5）；`prompt-grammar.md` 的两张槽位表改由
-     `scripts/regen_slot_tables.py` 从 `prompt_stats.json` 生成，重算基线后一条命令刷新。
+     `scripts/regen_slot_tables` 从 `prompt_stats.json` 生成，重算基线后一条命令刷新。
   ⑭ 需求 2 的"无遗漏"从今是闸，不是话：
-     ① **提示词页零遗漏**——`build_kb.py` 扫全部 171 模板，凡是提示词特征≥2 且正文>120 字的页
+     ① **提示词页零遗漏**——`build_kb` 扫全部 171 模板，凡是提示词特征≥2 且正文>120 字的页
         都必须在 `prompt_corpus.jsonl` 里，实测 **37/37**；这条写进 G9 的 `coverage_invariants`
         （旧的"`prompt_blocks` 必须等于 52"是假不变量：删掉重复模板后真值就是 49，
         那条闸反而变成"必须保留重复文件"）。
@@ -754,7 +754,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
   `presetClass entr 851 次`，却没有任何一个 `presetID`——也就是说 agent 学不到"打字机/逐行浮现/
   飞入/淡出"到底怎么写，而 §9 一直声称卡里写了 presetID。实测数据本来就在：
   `slides[].timing.combos` 的键就是 `presetClass:presetID:子类型`。现在
-  ① `build_kb.py` 把它聚合成 `stats.preset_ids / text_preset_ids / preset_id_pages / pages_with_animation`
+  ① `build_kb` 把它聚合成 `stats.preset_ids / text_preset_ids / preset_id_pages / pages_with_animation`
      （1222 页带动画，文字动效最高频 `entr:22` 242 次/100 页、`entr:10` 209 次/66 页、`entr:2` 120 次/72 页…）；
   ② 新增卡 11 `text-animation-presets`（`references/cinema-recipes.md` 同步），照抄 ID 即可复现，
      中文名仍不编造（官方对照表取不到，§9 交底）；
@@ -813,7 +813,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
      `降级交付_无视频背景` 的显式声明，不许静默当电影级交付；子进程统一带 `PYTHONIOENCODING=utf-8`
      （验收报告 G10 段那 12 个 U+FFFD 就是这么来的）。
   ⑩ `kb/` 的可复现性：`coverage.json` 里 `rendered_decks/rendered_slides/render_matches_ledger/
-     transcripts_stored/transcript_chars/asr_model` 过去是手工贴进去的，`build_kb.py` 根本不生成——
+     transcripts_stored/transcript_chars/asr_model` 过去是手工贴进去的，`build_kb` 根本不生成——
      重跑就会丢字段、G9 随之失效。现在全部由脚本从工作目录推导（`render_done.jsonl` 是**每模板一行
      带 slides 计数**，按行数渲染页数会得到 172，这个错在复现时被抓到并修掉），并把
      `technique_report.md` 等研习报告一并落进 `kb/`。
@@ -911,7 +911,7 @@ PNG 并拼成带页码标签的图供人眼复核；输出 `report/验收报告.
 - v2.6（2026-11-06）：**补齐"配色 / 图文重排 / 高级动画"三层，并把语料的错误示范隔离出去**。
   起因是用户两次点名：① "图文重排、元素高级动画、配色这些技巧全学进去了吗"；
   ② "语料里有些是错误示范，别把错误示范当学习方向"。这一轮的实测与整改：
-  ① 新增二遍扫库 `study_style_anim.py` + 单一实现 `deck_measure.py`，产出
+  ① 新增二遍扫库 `study_style_anim` + 单一实现 `deck_measure.py`，产出
      `color_system.json`（按角色分类的色值、渐变停点/角度、lumMod/lumOff/alpha 派生档、
      主题家族）、`layout_archetypes.json`（2224 页逐页版式原型 + 母版/版式占位符几何）、
      `animation_mechanics.json`（preset 三元组带 `animEffect/@filter`、`p:attrNameLst`、
@@ -1143,7 +1143,7 @@ build 在 `tech_recipe_final` 落账处改记这页实有的写法），5 页空
 
 ## 15. 教程手法 → 落地对账
 
-24 条教程视频逐帧 + 逐句研习（`study_tutorials.py`：cv2 场景切帧 + pytesseract chi_sim+eng +
+24 条教程视频逐帧 + 逐句研习（`study_tutorials`：cv2 场景切帧 + pytesseract chi_sim+eng +
 faster-whisper medium int8）得到的手法清单，每一条都必须说清"技能里由谁管"，未落地照实写未落地。
 明细与证据在 `kb/tutorial_study.md`（含每条手法的视频文件名、第几秒、原话片段）。
 

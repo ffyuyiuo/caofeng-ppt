@@ -94,9 +94,7 @@ kb/
   exemplar_study.md       分层结论：哪些语料做法被否决、哪些数字改成好示范口径
   prompt_corpus.jsonl     49 段真实提示词 + 槽位标注
   prompt_stats.json       槽位覆盖率统计
-  video_index.json        253 条去重教程视频索引（时长/分辨率/出处/逐字稿路径）
-  transcripts/*.txt       252 份讲解逐字稿（带时间戳；skill 自带这一份，不依赖 D 盘工作目录）
-  transcript_study.md     讲解语料挖掘结果（按主题分组原话 + 带数值指令）
+  transcript_study.md     讲解语料挖掘结论（按主题分组要点 + 带数值指令；逐字稿原文未在公开版分发）
   coverage.json           研读覆盖与缺口（可机器核对）
 scripts/
   caofeng.py              主引擎：plan/fetch/scaffold/pack/build/check/shots
@@ -107,7 +105,7 @@ scripts/
   make_gif.py             本机生成**透明底循环动图**（arc/sweep/bloom/spin × gold/ink/cyan），
                           给没有即梦账号或需要一定不露框的页兜底
 
-  build_kb.py             从研习产物重建 kb/
+  build_kb             从研习产物重建 kb/
   corpus_path.py          语料目录单点解析：CAOFENG_SRC → kb/corpus_src.json → 历史默认 →
                           自动定位（用户目录下探两层找 .pptx 最多且 ≥100 的目录）。
                           语料文件夹改名或挪盘后不用再改代码

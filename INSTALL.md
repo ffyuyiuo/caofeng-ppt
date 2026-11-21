@@ -26,7 +26,10 @@
 > 压缩分发包（`*.skill.zip`、`*-dist.zip`）由 release 流程从本仓库生成，不作为源码提交。
 > `VERIFICATION.json` 由 `verify_install.py` 在本地运行时写出，不参与版本控制。
 
-### 1.1 `caofeng-ppt/` 内容（377 个文件）
+### 1.1 `caofeng-ppt/` 内容（61 个文件）
+
+> 公开版仅分发"出片与验收"所需文件。第三方视频逐字稿、逐帧研习笔记及其研习脚本未包含；
+> `kb/` 中已沉淀的实测参数足以出片，不依赖原始语料。
 
 ```
 caofeng-ppt/
@@ -38,7 +41,7 @@ caofeng-ppt/
 │                            #   美学闸（§24）、提示词句子完整性（§25）
 ├── README.md                # 设计说明与实测来源
 ├── VERSION / skill.json / requirements.txt
-├── scripts/  (37 个 .py)
+├── scripts/  (25 个 .py)
 │   ├── caofeng.py           # 唯一运行入口，14 个子命令（见 §5）
 │   ├── styles.py            # 分镜→素材→提示词的版式与槽位装配
 │   ├── corpus_tables.py     # 引擎默认值真源：6 套实测色板、9 类版式原型、24 组动画 preset、坏示范规则
@@ -54,11 +57,8 @@ caofeng-ppt/
 │   ├── check_docs.py        # 文档↔代码↔kb 三方口径对账（闸数、阈值、卡片数、分层数字、基线中位）
 │   ├── test_gates.py        # 每道闸的反向自证（每道闸必须咬得住坏输入；项数见 §4C）
 │   ├── test_safety.py / verify_dual_viewer.py
-│   └── analyze_ooxml.py / aggregate_ledger.py / build_kb.py / study_style_anim.py /
-│       study_data_design.py / study_table_design.py / study_tutorials.py /
-│       extract_prompt_grammar.py / extract_text_geom.py / transcribe_videos.py /
-│       mine_transcripts.py / regen_slot_tables.py / deck_render.py / make_gif.py /
-│       montage.py / corpus_path.py        # 研习与出图脚本，换机器可选重跑
+│   └── deck_render.py / make_gif.py / montage.py / corpus_path.py
+│       study_data_design.py              # 数据页度量（出片闸 G16 同源）
 ├── references/  (7)
 │   ├── pipeline.md          # 子命令的数据契约与字段
 │   ├── cinema-recipes.md    # 技法卡（数值全部实测，含「谁来产出」）
@@ -73,9 +73,7 @@ caofeng-ppt/
     ├── parity_baseline.json（G22 同级基线：**只用全量好示范页**校准，非模版元素不学习沉淀）
     ├── deck_tech.json（技法卡 + 教程引用）  prompt_corpus.jsonl / prompt_blocks.json / prompt_stats.json
     ├── coverage.json  corpus_stats.json  technique_report.md  visual_study.md
-    ├── tutorials.json  tutorial_study.md  transcript_study.md  video_index.json  visual_metrics.jsonl
-    ├── video_logic/         （逐帧逐句提炼的教程动作逻辑）
-    └── transcripts/         （教程视频逐字稿）
+    └── tutorials.json  tutorial_study.md  transcript_study.md  visual_metrics.jsonl
 ```
 
 ---
@@ -88,7 +86,7 @@ caofeng-ppt/
 | 装配必需 | `python-pptx` `lxml` `Pillow` `python-docx` `numpy` | `build` 出 .pptx、`check` 量内嵌字节与像素 |
 | 造视频片段 | `imageio-ffmpeg` | 自带 ffmpeg 二进制，不需另装 |
 | 真渲染验收 | `pywin32` + **Windows + WPS Office** | 走 `KWPP.Application` COM。PowerPoint COM 打不开 WPS 生成的 pptx（0x80070570），KWPP 是唯一可用渲染通道 |
-| 可选（仅重跑研习） | `faster-whisper` | 只有 `transcribe_videos.py` 需要，正常出片用不到 |
+| 可选（仅重跑研习） | `faster-whisper` | 只有 `transcribe_videos` 需要，正常出片用不到 |
 | 安装命令 | `python -m pip install -r requirements.txt` | 在目标 agent 实际使用的解释器下执行 |
 | 网络 | 取图必需 | `fetch` 走 Wikimedia Commons 等公开通道；无网络时可跳过取图，但**不能**当作电影级交付 |
 | 图像/视频生成 | **只用网页版豆包 / 即梦（人工投放）** | 不用 ImageGen、不用任何 API Key：提示词整段可复制，投放后回答就绪才装配（G26） |
@@ -175,8 +173,8 @@ python verify_install.py --full-selftest                   # 再加跑全量闸�
 - **工作目录**：每个子命令都要 `--work DIR`，脚本自己 `abspath` 并在其下建
   `materials/ promptpack/ gen/ out/ report/`。换目录跑不会失效（相对路径写进 manifest 的老坑已修）。
 - **素材落点**：由调用方的 `--work` 决定，包内不写死任何项目路径；**不要**把素材放进 skill 目录。
-- **研习脚本的耦合**：`analyze_ooxml.py` `build_kb.py` `study_*.py` `grade_exemplars.py` `deck_render.py`
-  `extract_*.py` `mine_transcripts.py` `aggregate_ledger.py` `transcribe_videos.py` `regen_slot_tables.py`
+- **研习脚本的耦合**：`analyze_ooxml` `build_kb` `study_*.py` `grade_exemplars.py` `deck_render.py`
+  `extract_*.py` `mine_transcripts` `aggregate_ledger` `transcribe_videos` `regen_slot_tables`
   默认读 `CAOFENG_SRC`（原始模板库）与 `CAOFENG_WORK`，目录不存在直接**退出码 2**，不会凭空建盘。
   **这些脚本不是出片必需**——成果已沉淀在 `kb/`，换机器直接用。
 - **退出码三种**：1=闸拒绝；2=输入不对；3=脚本崩溃（写 `report/崩溃.md` 并声明本次结果不可信）。
